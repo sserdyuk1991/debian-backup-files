@@ -1,0 +1,4528 @@
+vim qtbase/mkspecs/linux-g++-64/qmake.conf 
+ls
+./configure -h
+commands 
+sudo find / -name 'mysql.h'
+sudo mv /usr/include/mysql/mysql.h /usr/include/mysql/mysql.h.bak
+cd Workspace/rootfs-var-som-am33/
+ls
+sudo find . -name 'mysql.h'
+apt
+apt-get
+sudo apt-get download libmysqlclient-dev 
+ls
+tar -tvf libmysqlclient-dev_5.5.53-0+deb8u1_amd64.deb 
+man tar
+man ar 
+man tar
+ls
+mv libmysqlclient-dev_5.5.53-0+deb8u1_amd64.deb ../
+ls
+cd ..
+ls
+mkdir test
+mv libmysqlclient-dev_5.5.53-0+deb8u1_amd64.deb test/
+cd test/
+ls
+ar vx libmysqlclient-dev_5.5.53-0+deb8u1_amd64.deb 
+ls
+ranger 
+tar -xf data.tar.xz 
+ls
+ranger 
+ls
+cd ..
+ls
+mkdir test2
+ls
+cd test2
+ls
+man ar
+ls
+cd Workspace/qt-builds/5.5.0/var-som-am33/
+ls
+cp ../x64/configure-qt.bash ./
+ls
+vim configure-qt.bash 
+ls
+./configure-qt.bash 
+cd ..
+ls
+cd x64/
+ls
+./configure-qt.bash 
+cd ../var-som-am33/
+./configure-qt.bash 
+vim ../x64/configure-qt.bash 
+pp
+./configure-qt.bash 
+cat configure-qt.bash 
+cd Workspace/
+cd qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/mkspecs/devices/linux-var-som-am33-g++/
+vim qmake.conf 
+cd ..
+cd qt-builds/5.5.0/var-som-am33/
+ls
+ls qtbase/
+vim ~/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/mkspecs/devices/linux-var-som-am33-g++/qmake.conf 
+ls
+cd ../x64/
+ls
+cat configure-qt.bash 
+sudo apt list libmysqlclient-dev
+sudo apt list libmysqlclient-dev -a
+sudo apt install libmysqlclient-dev
+sudo apt update
+sudo apt install libmysqlclient-dev
+cd ../var-som-am33/
+pd ~/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/
+ls
+./configure -h
+pp
+pd ~/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/
+ls
+cd qtbase/
+pp
+pd ~/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/
+ls
+pp
+vim configure-qt.bash 
+pp
+pd ~/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/
+vim qtbase/mkspecs/devices/linux-var-som-am33-g++/qplatformdefs.h 
+vim qtbase/mkspecs/linux-g++/qplatformdefs.h 
+apt list emacs
+sudo apt install emacs
+ifconfig 
+sudo openvpn Downloads/serhiy.ovpn 
+ls
+ifconfig 
+ls
+rm -r build-untitled-Desktop_Qt_5_*
+ls
+rm untitled/
+rm untitled/ -r
+ls
+cd Downloads/
+sudo openvpn serhiy.ovpn 
+sudo service networking status
+sudo service networking restart
+ifconfig n
+ifconfig s
+ifconfig
+sudo openvpn serhiy.ovpn 
+pingg
+sudo service networking restart
+pingg
+sudo openvpn serhiy.ovpn 
+vim serhiy.ovpn 
+sudo openvpn serhiy.ovpn 
+ifconfig 
+pingg
+ifconfig 
+pingg
+cd Downloads/
+ls
+feh how-to-emacs.png 
+feh main-qimg-2984aaf8d004f46dec2f636ff8ed05bc.png 
+ls
+rm how-to-emacs.png 
+mv main-qimg-2984aaf8d004f46dec2f636ff8ed05bc.png how-to-emacs.png
+ls
+cd Workspace/qt-builds/5.5.0/var-som-am33/
+./configure-qt.bash 
+vim configure-qt.bash 
+./configure-qt.bash
+vim configure-qt.bash 
+./configure-qt.bash
+vim configure-qt.bash 
+./configure-qt.bash
+vim ./configure-qt.bash
+ls
+cp configure-qt.bash configure-qt.bash.bak
+ls
+vim configure-qt.bash
+./configure-qt.bash
+cd ..
+cd x64/
+ls
+cp configure-qt.bash configure-qt.bash.bak
+ls
+ranger 
+vim configure-qt.bash
+./configure-qt.bash
+sudo find . -name 'mysql.h'
+sudo find / -name 'mysql.h'
+./configure-qt.bash
+ls
+mv configure-qt.bash.bak configure-qt.bash
+ls
+./configure-qt.bash 
+ls
+cd ../var-som-am33/
+ls
+./configure-qt.bash
+ls
+make
+vim ../x64/configure-qt.bash 
+vim configure-qt.bash
+./configure-qt.bash
+make
+vim configure-qt.bash
+make
+ls
+rm configure-qt.bash.bak 
+ls
+make clean
+ll
+ls
+make clean
+ls
+mv configure-qt.bash ../
+ls
+rm -r *
+sudo rm -r *
+ls
+la
+rm .qmake.super 
+ls
+mv ../configure-qt.bash ./
+vim configure-qt.bash 
+cp configure-qt.bash configure-qt.bash.bak
+vim configure-qt.bash
+ls
+./configure-qt.bash
+ls
+make
+vim configure-qt.bash
+ranger 
+ls
+ranger 
+pp
+ls
+make -j4
+make
+find . -name 'qminimalintegration.o'
+grep "accessibility" ./qtbase/src/plugins/platforms/minimal/.obj/qminimalintegration.o
+strings ./qtbase/src/plugins/platforms/minimal/.obj/qminimalintegration.o | grep access
+make
+grep -r 'libqminimal.so' .
+pd ./qtbase/src/plugins/platforms/minimal/Makefile
+pd ./qtbase/src/plugins/platforms/minimal/
+ls
+make
+find . -name 'qminimalintegration.o'
+strings qminimalintegration.o | grep createPlatformSessionManager
+strings .obj/qminimalintegration.o | grep createPlatformSessionManager
+grep -r "createPlatformSessionManager" ~/Workspace/
+make
+grep -r 'QPlatformIntegration::createPlatformSessionManager' ~/Workspace/
+find ~/Workspace/ -name 'qplatformintegration.o'
+ls
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+ls
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+vim Makefile 
+make
+ls
+cd Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/
+ls
+vim ~/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/mkspecs/devices/linux-var-som-am33-g++/qmake.conf 
+find . -iname 'QPlatformIntegration'
+find . -iname 'QPlatformIntegration*'
+find . -iname 'QPlatformIntegration.*'
+pp
+pd ~/Workspace/qt-builds/5.5.0/var-som-am33/
+ls
+find qtbase/ -name 'libqminimal.so'
+grep -r "libqminimal.so" qtbase/
+grep -r 'libqminimal.so' qtbase/
+grep -rn 'libqminimal.so' qtbase/
+vim qtbase/src/plugins/platforms/minimal/Makefile
+cd qtbase/src/plugins/platforms/minimal/Makefile
+cd qtbase/src/plugins/platforms/minimal/
+ls
+make
+la
+grep -rn 'qminimalintegration.o' .
+cat /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp | grep "
+cat /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp | grep "createPlatformSessionManager"
+cat /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp 
+vim /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
+cat /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp | grep "QPlatformIntegration"
+cat /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp | grep "QPlatformIntegration" -n
+vim /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
+ls
+make
+pp
+grep -r "QPlatformIntegration::accessibility" .
+find . -name 'qplatformintegration.cpp'
+grep -r 'qplatformintegration.cpp' .
+sudo grep -r 'qplatformintegration.cpp' /
+grep -r 'qplatformintegration.cpp' .
+vim ./qtbase/src/gui/kernel/kernel.pri
+cd ./qtbase/src/gui/kernel/
+ls
+grep -r 'kernel.pri' ~/Workspace/
+ls
+cd ..
+ls
+grep -r 'kernel.pri' .
+pp
+find ~/Workspace/ -name 'qminimalintegration.cpp'
+vim /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.cpp
+vim /home/serhiy/Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/src/plugins/platforms/minimal/qminimalintegration.h
+find ~/Workspace/ -name 'qplatformintegration.o'
+find ~/Workspace/ -name 'qplatformsessionmanager.o'
+ranger 
+la
+pp
+pd /home/serhiy/Workspace/qt-builds/5.5.0/var-som-am33/qtbase/src/gui/.obj/
+ls
+cd ..
+ls
+vim Makefile 
+grep -r 'QGuiApplicationPrivate' ~/Workspace
+grep -r 'QGuiApplicationPrivate::commitData()' ~/Workspace
+cd .
+cd ..
+find . -name 'qguiapplication.o'
+cd Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0
+ls
+./configure -h
+man dpkg
+apt-get download libxcb:armhf
+apt-get download libxcb:arm
+sudo dpkg -add-architecture arm
+history 
+man ar
+man grep
+cd Workspace/
+ls
+cd test2/
+s
+ls
+ls ../test
+apt 
+apt-get download libmysqlclient-dev
+ls
+apt-get download libmysqlclient-dev:arnhf
+apt-get download libmysqlclient-dev:armhf
+apt-get download libmysqlclient-dev
+ls
+apt-get download libmysqlclient-dev:i386
+ls
+dpkg
+dpkg --help
+man dpkg
+dpkg --print-architecture
+dpkg --print-foreign-architectures
+ls
+dpkg --add-architecture armhf
+sudo dpkg --add-architecture armhf
+dpkg --print-foreign-architectures
+apt download libmysqlclient-dev
+apt-get download libmysqlclient-dev
+ls
+apt-get download libmysqlclient-dev:i386
+apt-get download libmysqlclient-dev:armhf
+dpkg --print-foreign-architectures
+apt show libmysqlclient-dev:armhf
+apt show libmysqlclient-dev
+sudo apt update
+apt show libmysqlclient-dev:armhf
+apt-get download libmysqlclient-dev:armhf
+ls
+ar -x libmysqlclient-dev_5.5.53-0+deb8u1_armhf.deb 
+ls
+tar -xf data.tar.xz 
+ls
+tree usr/
+ls
+cp -r usr/ ~/Workspace/rootfs-var-som-am33/
+pd ~/Workspace/rootfs-var-som-am33/
+sudo find . -name 'mysql.h'
+ls
+pp
+ls
+rm -r *
+ls
+apt-get download libmysqlclient-dev:armhf
+ls
+cd ..
+ls
+cd test
+ls
+cd ..
+ls
+rm -r test
+sudo rm -r test
+ls
+mv test2/libmysqlclient-dev_5.5.53-0+deb8u1_armhf.deb ./
+rm -r test2
+ls
+ls qt-builds/
+ls
+mkdir dep-libs
+ls
+mv libmysqlclient-dev_5.5.53-0+deb8u1_armhf.deb dep-libs/
+ls
+cd dep-libs/
+ls
+apt list libxcb
+apt list libxkb
+apt list libxcb
+apt list libxcb-dev
+history 
+sudo dpkg --add-architecture arm
+apt-get download libxcb:qrm
+apt-get download libxcb:arm
+apt-get download libxcb:armhf
+sudo dpkg --add-architecture armssf
+sudo dpkg --print-foreign-architectures 
+sudo apt update
+apt-get libmysqlclient-dev_5.5.53-0+deb8u1_armhf.debdownload libxcb:armhf
+apt-get download libxcb:armhf
+apt-get download libxcb:arm
+sudo dpkg --remove-architecture armssf
+sudo dpkg --remove-architecture arm
+sudo apt update
+sudo dpkg --print-foreign-architectures 
+apt search libxcb
+apt-get download libxcb:arm
+apt-get download libxcb1
+ls
+mkdir libmysqlclient-dev
+ls
+mkdir libxcb1
+ls
+apt-get download libxcb1:armhf
+ls
+rm libxcb1_1.10-3+b1_amd64.deb 
+ls
+ar -h
+ls
+ar -x libmysqlclient-dev_5.5.53-0+deb8u1_armhf.deb -C libmysqlclient-dev
+mv libmysqlclient-dev_5.5.53-0+deb8u1_armhf.deb libmysqlclient-dev
+ls
+mv libxcb1_1.10-3+b1_armhf.deb libxcb1/
+ls
+cd libxcb1/
+ls
+ar -x libxcb1_1.10-3+b1_armhf.deb 
+tar -xf data.tar.xz 
+ls
+tree usr/
+ls
+sudo find / -name 'mysql.h*'
+sudo mv /usr/include/mysql/mysql.h.bak /usr/include/mysql/mysql.h
+apt list libxcb
+apt list libxcb1
+ls
+ranger 
+ls
+cd ..
+ls 
+rm -r libxcb1/
+ls
+mkdir armhf
+ls
+mv libmysqlclient-dev/ armhf/
+ls
+cd ..
+ls
+cd dep-libs/
+ls
+cd armhf/
+ls
+cd libmysqlclient-dev/
+ls
+cd ~/Workspace/
+cd qt-builds/5.5.0/var-som-am33/
+vim configure-qt.bash
+cd ..
+cd rootfs-var-som-am33/
+ls
+cd /usr/lib/
+ls
+cd ~/Workspace/rootfs-var-som-am33/usr/lib/
+ls
+cd ..
+cd qt-builds/5.5.0/var-som-am33/
+vim configure-qt.bash
+ls
+vim configure-qt.bash
+cp configure-qt.bash configure-qt.bash.bak.bak
+vim configure-qt.bash
+./configure-qt.bash
+vim configure-qt.bash
+mv configure-qt.bash.bak.bak configure-qt.bash
+ls
+cp configure-qt.bash configure-qt.bash.bak.bak
+vim configure-qt.bash
+./configure-qt.bash
+make
+ls
+cd Workspace/
+cd qt-sources/qt-everywhere-opensource-src-5.5.0
+cd qtbase/mkspecs/
+ls
+ranger 
+ls /opt/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/bin/
+ranger 
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/bin/
+ranger 
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/bin/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/bin/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/bin/
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/arm-linux-gnueabihf/bin/ -l
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/bin/ -l
+ranger 
+cd ..
+cd qt-builds/5.5.0/var-som-am33/
+vim configure-qt.bash
+ls
+rm *.bak.bak
+ls
+rm *.bak
+ls
+./configure-qt.bash 
+ls
+mv configure-qt.bash ../
+sudo rm -r *
+ls
+la
+rm .qmake.super 
+ls
+mv ../configure-qt.bash ./
+ls
+./configure-qt.bash 
+vim configure-qt.bash 
+ls
+./configure-qt.bash 
+make
+make -j4
+ls
+ranger 
+ls
+cd qtbase/plugins/
+cd sqldrivers/
+ls
+ldd libqsqlmysql.so 
+cd ..
+sudo make install
+ls /opt/Qt/5.5/var-som-am33/
+pd /opt/Qt/5.5/var-som-am33/
+ls
+qtcreator
+sudo openvpn Downloads/serhiy.ovpn 
+ifconfig 
+sudo openvpn Downloads/serhiy.ovpn 
+cd Dropbox/configuring/debian/after-install/auxiliary-scripts/
+ls
+cd ..
+ls
+vim configure.txt 
+ls /usr/lib/keepass2/
+ls /usr/lib/keepass2/plugins/
+sudo find / -name 'KeePassRPC.plgx'
+ll /home/serhiy/.mozilla/firefox/npm6t8vy.default/extensions/keefox@chris.tomlinson/deps/KeePassRPC.plgx
+ll /home/serhiy/.mozilla/firefox/npm6t8vy.default/extensions/keefox@chris.tomlinson/deps/KeePassRPC.plgx -h
+ll -h /usr/lib/keepass2/plugins/KeePassRPC.plgx
+file /usr/lib/keepass2/plugins/KeePassRPC.plgx
+meld -h
+meld /usr/lib/keepass2/plugins/KeePassRPC.plgx /home/serhiy/.mozilla/firefox/npm6t8vy.default/extensions/keefox@chris.tomlinson/deps/KeePassRPC.plgx
+sudo cp /home/serhiy/.mozilla/firefox/npm6t8vy.default/extensions/keefox@chris.tomlinson/deps/KeePassRPC.plgx /usr/lib/keepass2/plugins/
+ls /usr/lib/keepass2/
+ls
+ranger 
+sudo apt update
+ranger 
+apt list keepass2
+sudo apt install keepass2
+ls
+pp
+cd
+ls
+apt list reminna
+apt search reminna
+apt search xrdp
+apt list xrdp
+ifconfig 
+apt list freerdp
+apt list remmina
+apt list reminna
+apt list remmina
+apt list xrdp
+apt list xfreerdp
+apt list rdesktop
+apt list 2x
+apt list rdesktop
+apt list git
+apt list rdesktop
+sudo apt install rdesktop
+rdesktop
+man rdesktop
+apt 
+apt remove rdesktop
+sudo apt remove rdesktop
+apt list x11vnc
+sudo atp install x11vnc
+sudo apt install x11vnc
+vncviewer
+apt list vncviewer
+man rdesktop
+man x11vnc
+man x11nvc
+man x11vnc
+cd Workspace/
+ls
+cd qt-builds/5.5.0/x64/
+ls
+cp configure-qt.bash ~/Dropbox/workspace/x64-configure-qt.bash
+cd ..
+cd var-som-am33/
+cp configure-qt.bash ~/Dropbox/workspace/var-som-am33-configure-qt.bash
+cd /opt/
+cd Qt/
+ls
+cd 5.5/
+ls
+cd x64/
+ls
+cd ..
+ls
+tar -cf x64.tar x64/
+sudo tar -cf x64.tar x64/
+ls
+tar -tf
+tar -tf x64.tar 
+sudo mv x64.tar ~/Dropbox/workspace/
+cd Dropbox/workspace/
+cd gui-application/
+ls
+ls bin/
+cd bin/
+./gui-application 
+git branch
+ls
+cd ..
+ls
+vim README.md 
+qtcreator
+cd Dropbox/workspace/gui-application/
+ls
+cd bin/
+cd ..
+ls
+make clean
+make
+ls
+make
+vim Makefile 
+ls bin/
+cd bin/
+ls
+./gui_application 
+cd .
+cd ..
+ls
+git status
+git diff
+ls
+git add .
+git commit -m "Fixed Makefile target path"
+git push
+git branch -a
+git checkout dev
+git branch -a
+git merge feature_dynamic_structure_changing
+git log
+git branch -a
+git branch -d feature_dynamic_structure_changing
+git branch -a
+ls
+make clean
+ls bin/
+git push
+git log
+apt list apache
+apt list apache3
+apt list apache2
+apt search apache
+apt search apache | grep apache
+apt list apache2
+
+apt list ruby
+sudo apt install ruby
+ruby -v
+apt list ruby-full
+sudo apt install ruby-full
+ruby -h
+man ruby
+irb
+ls
+ls Workspace/
+ls Templates/
+ls Public/
+ranger 
+cd Workspace/
+ls
+mkdir ruby-tutorial
+cd ruby-tutorial
+ls
+vim test.rb
+ls
+ruby test.rb
+test.rb
+./test.rb
+sudo ./test.rb
+ls
+ll
+vim test.rb 
+ruby test.rb
+vim test.rb 
+sudo chmod +x test.rb
+./test.rb 
+vim ./test.rb
+./test.rb 
+vim ./test.rb
+whereis ruby
+vim test.rb 
+./test.rb
+vim test.rb 
+./test.rb
+vim test.rb 
+ls
+mysql -u root -p
+qtcreator
+cd Dropbox/workspace/gui-application/
+ls
+git status
+git diff
+ls
+apt search mysql | grep mysql
+sudo apt install mysql
+sudo apt list mysql-server
+sudo apt list mysql-client
+sudo apt list mysql-client -a
+sudo apt list mysql-server -a
+sudo apt instal mysql-server
+sudo apt install mysql-server
+mysql -u root -p
+sudo emacs
+man mysql
+man service
+man mysqlimport
+mysql
+services
+service
+service --status-all
+cd /etc/init
+ls
+cd ..
+cd init.d/
+ls
+vim README 
+service
+ls
+vim mysql 
+cd
+ls
+ranger 
+cd Downloads/
+ls
+vim -.sql 
+ls
+mv -.sql nams
+ls
+ranger 
+ls
+mv fff namsnet.sql
+ls
+vim namsnet.sql 
+ls
+man mysqlimport 
+which service
+vim /usr/sbin/service
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql status
+which mysql 
+which mysqld
+file /usr/bin/mysql
+ll /usr/bin/mysql
+ll /usr/sbin/mysqld
+sudo /usr/sbin/mysqld --skip-grant-tables &
+mysql 
+/etc/init.d/mysql status
+sudo /usr/sbin/mysqld --skip-grant-tables &
+/etc/init.d/mysql status
+mysql -u root
+ps aux | grep mysql
+sudo pkill mysqld
+ps aux | grep mysql
+sudo kill SIGKILL 3258
+sudo kill SIGKIL 3258
+sudo kill SIGTERM 3258
+sudo kill -9 3258
+sudo kill -9 3283
+ps aux | grep mysql
+sudo /usr/sbin/mysqld --skip-grant-tables &
+ps aux | grep mysql
+mysql -u root
+mysql
+mysql mysql
+sudo /etc/init.d/mysql restart
+ps aux | grep mysql
+sudo /etc/init.d/mysql stop
+ps aux | grep mysql
+sudo /etc/init.d/mysql start
+ps aux | grep mysql
+mysql
+mysql -u root
+mysql -e 'CREATE TABLE imptest(id INT, n VARCHAR(30))' test
+mysql -u root -e 'CREATE TABLE imptest(id INT, n VARCHAR(30))' test
+mysql -u root -e 'create database namsnet'
+mysql -u root -e 'show databases'
+mysql -u root -e 'create database test'
+mysql -u root -e 'CREATE TABLE imptest(id INT, n VARCHAR(30))' test
+ed
+mysql -u root -e 'drop database test'
+mysql -u root -e 'show databases'
+mysqlimport namsnet Downloads/namsnet.sql 
+mysqlimport -u root namsnet Downloads/namsnet.sql 
+mysqlimport -u root namsnet Downloads/namsnet.sql -f
+mysqlimport -u root --force namsnet Downloads/namsnet.sql
+mysql -u root namsnet < Downloads/namsnet.sql 
+mysql -u root -e 'show tables'
+mysql -u root -e 'use namsnet'
+mysql -u root -e 'show tables'
+mysql -u root namsnet -e 'show tables'
+mysql -u root namsnet -e 'create table environment(id int 0, testcol1 varchar(10) "Ok", testcol2 varchar(10) "Warn", testcol3 varchar(10) "Crit", primary key (id))'
+mysql -u root namsnet -e 'create table environment(id int, testcol1 varchar(10) "Ok", testcol2 varchar(10) "Warn", testcol3 varchar(10) "Crit", primary key (id))'
+mysql -u root namsnet -e 'create table environment(id int, testcol1 varchar(10), testcol2 varchar(10), testcol3 varchar(10), primary key (id))'
+mysql -u root namsnet -e 'select * from environment'
+mysql -u root namsnet -e 'insert into environment values (0,'Ok','Warn','Crit')'
+mysql -u root namsnet -e 'insert into environment values (0,"Ok",'Warn','Crit')'
+mysql -u root namsnet -e 'insert into environment values (0,"Ok","Warn","Crit")'
+mysql -u root namsnet -e 'select * from environment'
+man mysql
+cd Downloads/
+ls
+feh how-to-emacs.png 
+ls
+zathura gui.pdf 
+sudo apt install zathura
+zathura gui.pdf 
+apt search clang
+apt search clang-format
+sudo apt list clang-format
+sudo apt show clang-format
+sudo apt show clang-format-3.5
+sudo apt list clang-format-3.5
+sudo apt install clang-format-3.5
+which clang-format-3.5
+which clang-format
+which clang-format-3
+which clang-format-3.5
+qtcreator
+cd Dropbox/workspace/gui-application/
+git status
+git diff
+git checkout --
+git status
+git diff
+git-cola
+git diff
+git status
+git checkout -b feature-new-appearance
+cat .clang-format 
+git status
+git diff
+uname
+uname -a
+uname -h
+uname --help
+uname -n
+man jmtpfs
+man fusermount
+man cron
+man crontab
+cd .bin/backup-history.sh 
+cd .bin/
+ls
+vim backup-history.sh 
+lla
+vim backup-history.sh 
+ls
+vim backup-one.sh 
+ranger 
+vim backup-one.sh 
+cp /var/spool/cron/crontabs/serhiy ./
+sudo cp /var/spool/cron/crontabs/serhiy ./
+ls
+ll
+ls
+incrontab -l
+cd .bin/
+vim backup-one.sh 
+sudo ./backup-one.sh /var/spool/cron/crontabs/serhiy
+./backup-one.sh /var/spool/cron/crontabs/serhiy
+vim backup-one.sh 
+./backup-one.sh /var/spool/cron/crontabs/serhiy
+vim backup-one.sh 
+cd .bin/
+ls
+cp backup-one.sh backup-history.sh
+vim backup-history.sh
+ls
+vim backup-history.sh
+vim backup-one.sh 
+ls
+vim restore-metadata.sh 
+vim restore.sh 
+vim restore-metadata.sh 
+vim backup-metadata.sh 
+ranger 
+vim backup-one.sh 
+ranger 
+vim backup-one.sh 
+ls
+vim restore.sh 
+vim restore-metadata.sh 
+vim restore.sh 
+vim backup-one.sh 
+vim restore.sh 
+vim backup-one.sh 
+vim restore.sh 
+vim backup-one.sh 
+vim backup-metadata.sh 
+ls
+./backup-one.sh /etc/sudoers
+ls
+vim backup-metadata.sh 
+ls
+vim backup-history.sh 
+rm serhiy 
+sudo rm serhiy 
+incrontab -e
+cd Dropbox/metadata/
+ls
+ranger 
+ls
+ranger 
+ll
+cat serhiy 
+date
+date -h
+date --help
+time
+date -t
+date %T
+date "%T"
+date "+FORMAT: %T"
+date "+%T"
+date
+ls
+ranger 
+cat serhiy 
+sudo stat -c "%a %U %G %n" /var/spool/cron/crontabs/serhiy
+VAR=sudo stat -c "%a %U %G %n" /var/spool/cron/crontabs/serhiy
+VAR="sudo stat -c "%a %U %G %n" /var/spool/cron/crontabs/serhiy"
+VAR=`sudo stat -c "%a %U %G %n" /var/spool/cron/crontabs/serhiy`
+echo $VAR
+crontab -e
+cat serhiy 
+VAR=`sudo stat -c "%a %U %G %n" /var/spool/cron/crontabs/serhiy`
+echo $VAR > out
+cat out
+sudo stat -c "%a %U %G %n" /var/spool/cron/crontabs/serhiy > out
+cat out
+crontab -e
+cat serhiy 
+ranger 
+ls
+rm serhiy 
+crontab -e
+ls
+cat serhiy 
+crontab -e
+cat serhiy 
+crontab -e
+cat serhiy 
+cat sudoers 
+find Dropbox/backup/ -name 'sudo*'
+vim Dropbox/backup/etc/sudoers
+which stat
+sudo visudo
+which cp
+vim Dropbox/backup/etc/sudoers
+sudo visudo
+vim Dropbox/backup/etc/sudoers
+sudo visudo
+vim Dropbox/backup/etc/sudoers
+sudo visudo
+sudo vim /etc/sudoers
+sudoedit /etc/sudoers
+vim Dropbox/backup/etc/sudoers
+sudoedit /etc/sudoers
+sudo visudo
+incrontab -e
+ll /etc/sudoers
+incrontab -e
+crontab -e
+ls
+sudo apt install jmtpfs
+ls
+mkdir MTP
+mkdir USB
+ls
+jmtpfs MTP
+ls MTP
+ranger 
+fusermount -u MTP
+ranger 
+history 
+vim .bash_history 
+ranger 
+incrontab -l
+incrontab -e
+d .bin/
+cd .bin/
+ls
+vim backup-one.sh 
+pd /etc/
+ls
+ls cron*
+pp
+crontab -e
+cd
+ls
+cat out
+rm out 
+ls
+crontab -e
+cd Dropbox/backup/home/serhiy/
+ls
+la
+crontab -e
+la
+ll
+lla
+lla ~
+lla
+crontab -e
+lla
+vim .bash_history 
+uname -n
+crontab -e
+lla
+crontab -e
+lla
+crontab -e
+lla
+history 
+lla
+ls
+ranger 
+rm .bash_history
+rm .bash_history.bak 
+lla
+pd /etc/
+ls cron
+ls cron*
+ls crontab 
+vim crontab
+sudo find / -name 'crontab'
+cat 'crontab'
+cat /usr/bin/crontab
+1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c1;2c:q
+ls
+sudo find / -name 'crontab'
+file /usr/bin/crontab
+ll /usr/bin/crontab
+ll /etc/crontab 
+file /etc/crontab
+ls cron*
+sudo grep -r "backup-history.sh" /
+pp
+ls
+ranger 
+cd ..
+ranger 
+pd /tmp/
+ls
+cat backup-one.log 
+ls
+cat backup-one.log 
+pp
+ranger 
+cd .bin/
+cd home/serhiy/
+ls
+ls -l
+ls -la
+cd .bin/
+ranger 
+ls
+cat backup-one.sh 
+vim backup-one.sh
+cd ..
+ranger 
+pd /tmp/
+ll
+cat backup-one.log 
+pp
+cd .bin/
+ranger 
+pd /tmp/
+cat backup-one.log 
+pp
+ranger 
+cat /tmp/backup-one.log 
+ll /var/spool/cron/crontabs/serhiy
+ll /var/spool/incron/serhiy
+cat /tmp/backup-one.log 
+ranger 
+cd ..
+cd var/spool/cron/crontabs/
+ls
+ls -l
+cd ..
+ls -l
+cd crontabs/
+sudo cat serhiy 
+sudo rm serhiy
+ls
+crontab -e
+ls
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+ls
+cat serhiy 
+sudo cat serhiy 
+ll
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+ls
+cat serhiy 
+sudo cat serhiy 
+cat /tmp/backup-metadata.log 
+crontab -e
+cat /tmp/backup-metadata.log 
+crontab -e
+cat /tmp/backup-metadata.log 
+crontab -e
+cat /tmp/backup-metadata.log 
+crontab -e
+cat /tmp/backup-metadata.log 
+cat /tmp/backup-one.log 
+sudo cat serhiy 
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+sudo cat serhiy 
+crontab -e
+sudo cat serhiy 
+ll
+rm serhiy
+sudo rm serhiy
+ls
+ls /home/root
+su
+cat /tmp/backup-one.log 
+rm /tmp/backup-one.log
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+vim /tmp/backup-one.log
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+crontab -e
+cat /tmp/backup-one.log 
+cat /tmp/backup-metadata.log.log 
+cat /tmp/backup-metadata.log
+cat /tmp/backup-one.log 
+incrontab -l
+incrontab -e
+ranger 
+cd ..
+cd home/serhiy/.bin/
+ranger 
+cd /var/spool/cron/
+cd crontabs/
+su
+incrontab -e
+crontab -e
+ls 
+ls -l
+ps aux | grep incron
+su
+sudo service incron status
+sudo service incron restart
+ls
+stat -c %U crontabs/
+su
+crontab -e
+incrontab -l
+crontab -e
+ll
+su
+crontab -e
+su
+backup-one.sh ~/.bin/backup-history.sh 
+sudo journalctl -f
+crontab -e
+man stat
+man date
+man stat
+man sudo
+cd Dropbox/workspace/gui-application/
+git status
+git diff
+git add .
+git status
+git reset HEAD qml.qrc
+git status
+vim .gitignore 
+ls
+vim qml.qrc 
+vim .gitignore 
+git status
+git add .
+git commit -m "Refactored delegates"
+git status
+git branch
+git push origin feature-new-appearance
+qtcreator
+cd Dropbox/workspace/gui-application/
+ls
+mysql
+mysql -u root
+cd Downloads/
+ls
+zathura gui.pdf 
+sudo reboot
+qtcreator
+history 
+lla
+lla .history
+vim .bashrc 
+backup-history.sh 
+. .bashrc 
+backup-history.sh 
+cd Dropbox/backup/home/serhiy/
+cat .bash_history.debian-home.bak 
+backup-history.sh 
+lla ~/
+pd 
+pd ~
+vim .bin/backup-history.sh 
+backup-history.sh 
+vim .bin/backup-history.sh 
+backup-history.sh 
+history 
+pp
+vim .bashrc 
+. ~/.bashrc 
+ls
+backup-history.sh 
+htop 
+cd Dropbox/backup/
+cd ..
+ls
+cd backup/
+ls
+ranger 
+cd home/serhiy/
+lla
+history 
+lla
+ls
+cd .bin/
+cat backup-history.sh 
+cd ..
+ls
+lla
+la
+lla
+rm .bash_history.debian-home.bak 
+lla
+cat .bash_history.debian-home.bak
+lla
+vim .bash_history.debian-home.bak 
+tail -n 10 .bash_history.debian-home.bak 
+vim .bash_history.debian-home.bak
+tail -n 10 .bash_history.debian-home.bak 
+vim .bash_history.debian-home.bak
+man history
+man git merge
+man git branch
+cd Downloads/
+zathura gui.pdf 
+man git
+htop
+cd Dropbox/workspace/gui-application/
+git status
+git diff
+git status
+git add .
+git status
+git log
+git status
+git commit -m "Changed color scheme on navigation, added border"
+git push
+git branch
+gitg
+gitk
+git push --set-upstream origin feature-new-appearance
+git diff
+ls
+git checkout dev
+cd Dropbox/backup/home/serhiy/
+backup-history.sh 
+lla
+vim .bash_history.debian-home.bak 
+cd Dropbox/workspace/gui-application/
+cd Dropbox/backup/home/serhiy/
+crontab -l
+vim ~/.bashrc 
+lla
+tail -n 10 .bash_history.debian-home.bak 
+history 
+vim .bash_history.debian-home.bak
+git branch
+git merge feature-new-appearance
+git log
+git branch -d feature-new-appearance
+git branch -a
+git branch -rd origin/feature-new-appearance
+git branch -a
+git push
+git branch -a
+man git branch
+git checkout -b feature-models-refactoring
+cd ..
+ls
+rm -r build-*
+ls
+cd gui-application/
+ls bin/
+rm -r ../build-*
+git status
+git diff
+git status
+cd ..
+ls
+cp -r gui-application/ gui-application.bak
+ls
+cd gui-application
+git status
+git checkout --
+git status
+git reset HEAD
+git status
+cd Dropbox/backup/home/serhiy/
+history 
+vim .bash_history.debian-home.bak
+lla
+vim .bash_history.debian-home.bak
+sudo reboot
+cd Dropbox/backup/home/serhiy/
+cd ..
+cd var/spool/cron/crontabs/
+ll
+sudo chown serhiy:serhiy serhiy 
+ll
+cd Dropbox/workspace/
+ls
+rm -r build-gui-application-Desktop_Qt_5_5_0_GCC_64bit-Debug/
+qtcreator
+cd Downloads/
+ls
+which unzip
+apt show unzip
+apt list unzip
+apt list zip
+sudo apt install zip unzip
+ls
+unzip QMLSingleton_Sample1_1.zip 
+ls
+cd QMLSingleton_Sample1
+ls
+cat qml.qrc
+cd Dropbox/workspace/gui-application
+ls
+vim qml.qrc
+qtcrea
+cd /opt/Qt/
+ls
+cd 5.7/
+ls
+cd gcc_64/plugins/sqldrivers/
+ls
+ldd libqsqlmysql.so 
+cd Dropbox/workspace/gui-application/bin/configs/
+ls
+mv MainMenu.conf MainMenu.conf.bak
+mv MainMenu.conf.bak MainMenu.conf
+mv MainMenu.conf MainMenu.conf.bak
+mv MainMenu.conf.bak MainMenu.conf
+mv LobbyLevel2Menu.conf LobbyLevel2Menu.conf.bak
+mv LobbyLevel2Menu.conf.bak LobbyLevel2Menu.conf
+mv Drc2Level3Menu.conf Drc2Level3Menu.conf.bak
+mv Drc2Level3Menu.conf.bak Drc2Level3Menu.conf
+sudo apt install libmysqlclient-dev
+ls ~/Downloads/
+ls ~/Dropbox/
+sudo dpkg -i ~/Dropbox/libmysqlclient16_5.1.58-1ubuntu5_amd64.deb 
+ldd libqsqlmysql.so 
+sudo find / -name 'libssl.so*'
+ll /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0
+file /usr/lib/x86_64-linux-gnu/libssl.so.1.0.0
+pd /usr/lib/x86_64-linux-gnu/
+sudo find . -name 'libssl.so*'
+sudo ln -s libssl.so.10 libssl.so.1.0.0 
+ll libssl.so*
+sudo ln -s libssl.so.1.0.0 libssl.so.10 
+sudo ln -s libcrypto.so.1.0.0 libcrypto.so.10 
+pp
+ldd libqsqlmysql.so 
+cd ..
+git diff
+qtcreator
+mysql -u root namsnet
+cd Dropbox/workspace/gui-application
+cd bin/configs/
+ls
+mv MainMenu.conf MainMenu.conf.bak
+cd /opt/Qt/5.5/x64/
+cd
+cd Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/qtxmlpatterns/
+grep -r "qPrintable" .
+grep -r "qUtf8Printable" .
+cd ..
+ls
+cd qtbase/
+ls
+grep -r "QString::toLocal8Bit()" .
+vim ./src/corelib/tools/qstring_compat.cpp
+vim ./src/corelib/tools/qstring.cpp
+qtcreator
+cd Dropbox/workspace/gui-application
+cd bin/configs/
+ls
+mv MainMenu.conf.bak MainMenu.conf
+vim MainMenu.conf 
+mv MainMenu.conf MainMenu.conf.bak
+cd Dropbox/workspace/gui-application
+ls
+mkdir qml
+mv Error.qml qml/
+ls
+vim qml.qrc 
+mv qml/Error.qml ./
+vim qml.qrc 
+ls
+rm -r qml/
+mkdir -p src/models
+mkdir -p src/exceptions
+mv ConfigError.* DatabaseError.* src/exceptions
+ls
+mv *Model* src/models
+ls
+ranger 
+mv main.cpp src/
+ls
+mv *.cpp src/
+mv *.hpp src/
+ls
+mv *.h src/
+ls
+ls /usr/src/
+ranger 
+ls
+mkdir include
+ls
+ls /usr/src/
+cd /usr/src/vboxhost-5.1.6/vboxdrv/
+ls
+cd Dropbox/
+ls
+tar -tvf wcm.tar.gz 
+ls
+man tar
+tar -xvf wcm.tar.gz -C ~/
+cd ~/
+ls
+cd wcm-development/
+ranger 
+ranger 
+ls
+cd include/
+ls
+cd exceptions/
+ls
+mv *.h *.hpp
+ls
+mv ConfigError.h ConfigError.hpp
+mv DatabaseError.h DatabaseError.hpp
+ls
+cd ..
+ls
+cd models/
+ls
+cd ..
+ls
+cd ..
+ls
+cd src
+ls
+mv GpioKeyboard.h GpioKeyboard.hpp
+mv GpioKeyboard.hpp ../include/
+ls
+mv Database.hpp ../include/
+ls
+cd ..
+ls
+ranger 
+cd src/models/
+ls
+rm *.hpp
+ls
+cd ..
+ls
+ranger 
+cd ..
+ls
+mkdir qml
+ls
+mv *.qml qml
+ls
+ranger 
+mv bin/configs ./
+ls
+ranger 
+ls
+mv qmldir qml
+ls
+vim qml.qrc 
+vim gui-application.pro 
+ls
+cd
+ls
+git clone https://github.com/torvalds/subsurface.git
+ls
+find subsurface/ -name '*.qrc'
+vim qml.qrc 
+mv qml.qrc qml/
+ls
+cd qml/
+ls
+cd ..
+ls
+cd qml/
+vim qml.qrc 
+ls
+mkdir errors
+mv Error.qml errors
+vim qml.qrc 
+mv errors/Error.qml ./
+rm -r errors/
+ls
+cd ..
+ls
+cd configs/
+ls
+mv MainMenu.conf.bak MainMenu.conf
+ls
+ranger 
+ps aux | grep slack
+sudo pkill slack
+ps aux | grep slack
+sudo kill 1362
+sudo kill 1397
+ps aux | grep slack
+cd Dropbox/workspace/gui-application
+ls
+git status
+git diff
+git-cola
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql status
+vim configs/MainMenu.conf 
+qtcreator
+cd Dropbox/workspace/gui-application
+git log
+git diff
+git status
+git diff
+git status
+git diff src/models/MainMenuModel.cpp 
+git stash
+git pull
+git log
+git status
+cd Dropbox/work
+cd ..
+cd workspace/
+ls
+git clone https://SerhiySerdyuk@bitbucket.org/sirinsoftware/pidfile-library.git
+ls
+cd pidfile-library/
+ls
+ranger 
+vim pidfile.hpp 
+vim pidfile.cpp 
+ls
+vim Makefile 
+ls
+ls
+vim pidfile.cpp 
+vim pidfile.hpp 
+ls
+make
+ls
+vim pidfile.hpp
+make clean
+make
+ls
+ді
+ls
+git status
+git checkout --
+git status
+git reset HEAD
+git status
+make clean
+ls
+git status
+git-cola
+git status
+git checkout dev
+l
+ls
+make
+cd bin/
+ls
+rm gui-application 
+rm -r ../../build-gui-application-Desktop_Qt_5_5_0_GCC_64bit-Debug/
+ls
+rm -r ../../build-gui-application-Desktop_Qt_5_5_0_GCC_64bit-Debug/
+ls
+rm gui-application 
+ls
+s
+ls
+ps aux | grep gui
+sudo find / -name 'gui-application'
+ls
+ranger 
+sudo find / -name 'gui-application.pid'
+ls /var/run/
+sudo find / -name 'gui-application.pid'
+vim pidfile.cpp 
+ls
+cd
+cd Dropbox/workspace/
+ls
+rm -r gui-application-test/
+ls
+cd /tmp/
+git clone https://SerhiySerdyuk@bitbucket.org/sirinsoftware/gui-application.git
+ls
+cd gui-application/
+ls
+git checkout dev
+ls
+qmake
+cd ..
+ls
+git clone https://bitbucket.org/sirinsoftware/pidfile-library
+ls
+cd gui-application/
+ls
+qmake
+ls
+make
+cd ..
+ls
+cd pidfile-library/
+git checkout dev
+cd ..
+ls
+cd gui-application/
+ls
+make
+cd ../pidfile-library/
+make
+cd ../gui-application/
+make
+ls
+cd bin/
+ls
+./gui-application 
+sudo find / -name 'gui-application.pid'
+ді
+ls
+ls /
+ls /run/
+ll /var/run
+sudo ./gui-application 
+cd Dropbox/workspace/gui-application/
+ls
+ді
+ls
+cd bin/
+sudo find / -name 'gui-application.pid'
+sudo ./gui-application 
+sudo ./gui-application &
+ls
+sudo find / -name 'gui-application.pid'
+sudo ./gui-application &
+sudo ./gui-application&
+sudo ./gui-application &
+sudo find / -name 'gui-application.pid'
+git status
+git diff
+git status
+cd ..
+git status
+git add gui-application.pro
+git add src/main.cpp 
+git-cola
+git log
+git status
+git push
+git branch -a
+git branch -d feature-pid-file
+git branch -dr feature-pid-file
+git branch -d /origin/feature-pid-file
+git branch -rd /origin/feature-pid-file
+git branch -d remotes/origin/feature-pid-file
+git branch -rd remotes/origin/feature-pid-file
+git branch -a
+git branch -r
+git branch -rd origin/feature-pid-file
+git branch -a
+git status
+git stash pop
+git-cola
+man git branch
+cd Dropbox/workspace/gui-application/
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql start
+cd /opt/Qt/5.5/
+ls
+cd x64/
+ls
+du -h lib
+du -h ../var-som-am33/lib
+sudo reboot
+qtcreator
+cd Dropbox/workspace/gui-application/
+sudo service mysql status
+sudo service mysql stop
+cd configs/
+ls
+mv MainMenu.conf MainMenu.conf.bak
+mv MainMenu.conf.bak MainMenu.conf
+ls
+sudo service mysql start
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+vim MainMenu.conf 
+cd ..
+cd bin
+ls
+rm *.exe
+ls
+sudo service mysql status
+sudo service mysql start
+./gui-application 
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql status
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+cd Dropbox/workspace/gui-application/
+git-cola
+git stash
+git push
+git stash pop
+cd Downloads/
+ls
+git-cola
+git status
+git stash
+git push
+zathura gui.pdf 
+cd Dropbox/workspace/gui-application/
+zathura gui.pdf 
+ranger 
+git status
+git stash pop
+qtcreator
+zathura Downloads/gui.pdf
+lspci
+lspci -v | grep VGA
+lspci -v -s | grep VGA
+lspci -v | grep VGA -l
+lspci -v | grep VGA -s
+lspci -v | grep VGA
+lscpi -m
+lspci -m
+lspci
+lspci -m
+lspci -mm
+lspci -mm -v
+lspci -v
+lspci -vv
+lspci -vvv
+lspci -vv
+lspci -v
+lspci -vv
+lspci -v
+lshw
+lscpu
+lspci -v | grep VGA -A 12
+lspci -v | grep VGA -A 4
+man lspci
+man grep 
+lspci -v | grep VGA -A 9
+lspci -v | grep VGA -A 10
+lspci -v | grep VGA -A 9
+lsusb
+lsblk
+ls
+la
+tail .bash_history.debian-work.bak 
+vim .bash_history.debian-work.bak
+cd Dropbox/backup/home/serhiy/
+la
+vim .bash_history.debian-work.bak
+vim .bash_history.debian-home.bak
+cd
+cd Dropbox/workspace/gui-application/
+git-cola
+la
+vim .xinitrc 
+vim .Xresources 
+. .Xresources
+. ~/.bashrc 
+xrdb .Xresources
+ls
+lspci
+lsblk
+lspci -v
+lspci -v | grep VGA -A 9
+ls
+cd subsurface/
+ls
+cd
+ls
+man xrdb
+cd Dropbox/backup/home/serhiy/
+ls
+la
+ranger 
+less .Xresources 
+cd
+cd Dropbox/workspace/gui-application/
+ls
+git-cola
+ranger 
+git-cola
+cd Dropbox/workspace/gui-application/
+git-cola
+git stash
+git push
+git-cola
+git stash pop
+git-cola
+git stash
+git push
+git stash pop
+git-cola 
+ranger 
+qtcreator
+sudo reboot
+ls
+cd Dropbox/workspace/gui-application/
+ls
+cd Dropbox/workspace/gui-application/
+cd configs
+ls
+zathura Downloads/gui.pdf
+qtcreator
+zathura Downloads/gui.pdf
+ls
+history 
+la
+lsblk
+lspci
+lsmem
+lsusb
+lshw
+lspci
+lspci -v 
+lspci
+lspci -v | grep VGA
+lspci -v | grep VGA -A 12
+lspci
+lspci -v | grep audio -A 12
+lspci -v | grep -i audio -A 12
+lspci
+lspci -v | grep -A 10 -i network
+lspci -v
+vim .bash_history.debian-work.bak 
+sudo apt install firmware-iwlwifi
+lspci -v | grep -A 10 -i network
+ifconfig 
+ifconfig -a
+ifconfig 
+ifconfig -a
+modprobe -r iwlwifi
+sudo modprobe -r iwlwifi
+ifconfig 
+ifconfig -a
+sudo modprobe iwlwifi
+ifconfig -a
+ifconfig
+lspci -v | grep -A 10 -i network
+ls
+history 
+ifconfig
+ifconfig -a
+vim .bashrc 
+history 
+history
+vim .bash_history
+ifconfig wlan0
+ifconfig 
+ifconfig -a
+ifconfig wlan0 up
+sudo ifconfig wlan0 up
+lspci -v | grep -A 10 -i network
+ifonfig wlan0
+ifconfig wlan0
+ifconfig eth0
+ifconfig lo
+lspci -v | grep -A 10 -i vga
+1#
+git-cola 
+git push
+git pushp
+zathura Downloads/gui.pdf
+zathura Downloadsp
+zathura Downloads
+zathura Downloads/gui.pdf:p
+gui.pdf
+gui
+man history
+.pdf
+sudo find / -name 'history.h'
+vim /home/serhiy/Workspace/rootfs-var-som-am33/usr/include/readline/history.h
+vim /bashrc
+vim .bashrc
+man bash
+help history
+tail .bash_history | tail -n 10
+history 
+tail .bash_history | tail -n 10
+history -a
+history
+history
+history
+history 
+tail .bash_history
+vim .bashrc 
+vim .bash_history
+vim .bashrc 
+history 
+. .bashrc
+history 
+tail .bash_history
+vim .bash_history
+history 
+vim .bash_history
+vim .bashrc 
+. .bashrc
+history 
+help history
+history 
+help history
+history 
+vim .bashrc 
+history 
+ls -la
+vim .bashrc 
+. .bashrc
+history 
+. .bahsr
+. .bashrc 
+history 
+ls
+ls -a
+ls la
+ls -la
+history
+ranger 
+ls
+history 
+history
+history 
+man history
+history 
+man bash
+history help
+help hist
+help history
+help 
+help h
+help historyy
+help histor
+help history
+history
+vim .bashrc
+. .bashrc 
+. .bashrc
+history
+history -h
+history
+history 
+history
+ls
+la
+history
+history
+ll
+history
+history 
+vim .bashrc 
+. .bashrc
+. .bashrc
+history 
+vim .bashrc 
+history 
+history 
+vim .bashrc 
+history 
+history 
+vim .bashrc 
+history 
+history 
+la
+ll
+history 
+history 
+history
+history 
+history
+history 
+vim .bashrc 
+sudo service networking status
+sudo service networking restart
+ifconfig 
+cat /etc/network/interfaces
+sudo service networking status
+ifconfig eth0 down
+sudo ifconfig eth0 down
+sudo ifconfig eth0 up
+ifconfig 
+ranger 
+man ifconfig 
+ifconfig 
+man modprobe
+man networking
+man network-manager
+sudo reboot
+sudoedit /etc/network/interfaces
+ifconfig 
+sudo service networking restart
+apt list hostapd
+apt list hostapd -a
+sudo ^list^install
+sudo ^list^install:p
+apt list hostapd
+apt install hostapd
+sudo apt install hostapd
+sudoedit /etc/default/hostapd 
+cd Dropbox/
+ls
+ranger 
+cd configuring/debian/configure-access-point/
+ls
+ranger 
+vim configure-access-point.txt 
+ranger 
+wpa_cli scan_result
+wpa_cli scan_results
+ps aux | grep wpa_supplicatn
+ps aux | grep wpa_supplicant
+ps aux | grep wpasupplicant
+apt list wpasupplicant
+apt list wpa_supplicant
+apt list wpasupplicant
+apt list wpasupplicant -a
+ps aux | grep wpasupplicant
+lspci
+lspci -v | grep Network
+lspci -v | grep Network -A 10
+sudoedit /etc/hostapd/hostapd.conf
+sudo service hostapd status
+/etc/init.d/hostapd status
+/etc/init.d/hostapd restart
+sudo /etc/init.d/hostapd restart
+ifconfig 
+ifconfig -a
+apt list bridge-utils
+sudo ^list^intall:p
+sudo ^list^intall^:p
+apt list bridge-utils
+sudo ^list^intall^:p
+apt list bridge-utils
+sudo apt intall bridge-utils
+sudo apt install bridge-utils
+sudoedit /etc/network/interfaces
+cp /etc/network/interfaces /etc/network/interfaces.bak
+sudo cp /etc/network/interfaces /etc/network/interfaces.bak
+man history
+man bridge-utils
+bridge-utils -h
+bridge-utils --help
+sudoedit /etc/network/interfaces
+/etc/init.d/networking restart
+sudo /etc/init.d/networking restart
+sudo /etc/init.d/hostapd restart
+ifconfig
+sudo /etc/init.d/networking restart
+sudo /etc/init.d/hostapd status
+sudo /etc/init.d/hostapd stop
+sudo /etc/init.d/networking restart
+tail -f /var/log/syslog
+ranger 
+tail -h
+tail --help
+sudo tail -f /var/log/syslog
+journalctl -f
+journalctl -f /var/log/syslog
+sudo journalctl -f /var/log/syslog
+sudo journalctl -f 
+journalctl -f 
+sudo service networking restart
+ifconfig 
+brctl show
+brctl showmacs br0
+sudoedit /etc/hostapd/hostapd.conf
+sudo service networking restart
+sudo /etc/init.d/hostapd restart
+man history
+sudo cp /etc/network/interfaces /etc/network/interfaces.bak.bak
+sudo cp /etc/network/interfaces.bak /etc/network/interfaces
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudo /etc/init.d/hostapd stop
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+ifconfig 
+sudo ifconfig br0 down
+sudo service networking restart
+sudo ifconfig eth0 down
+ifconfig 
+sudo service networking restart
+ifconfig 
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudo journalctl -f 
+sudo reboot
+sudoedit /etc/network/interfaces.bak.bak
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+cd /etc/network/interfaces
+cd /etc/network/
+ls
+ranger 
+sudoedit interfaces
+sudoedit interfaces.bak
+sud rm interfaces.bak
+sudo rm interfaces.bak
+ls
+sudoedit interfaces.bak.bak 
+sudo service networking restart
+sudo service hostapd restart
+sudoedit interfaces
+sudo cp interfaces interfaces.bak
+sudo cp interfaces.bak.bak interfaces
+sudoedit interfaces
+sudo service hostapd restart
+cd configuring/debian/configure-access-point/
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+iw list
+lsmod | grep ath
+iw list | grep "Supported interface modes" -A 8
+apt show bridge-utils
+apt show wireless-tools
+sudoedit interfaces
+ranger 
+vim interfaces.bak
+sudo cp interfaces.bak interfaces
+sudo service networking restart
+ifconfig 
+cat interfaces
+sudoedit 
+sudoedit interfaces
+ifconfig wlan0 0.0.0.0 up
+sudo ifconfig wlan0 0.0.0.0 up
+ifconfig 
+brctl addbr br0
+sudo brctl addbr br0
+sudo brctl addif br0 eth0
+sudo brctl addif br0 wlan0
+sudo service networking restart
+sudo brctl delif br0 eth0
+cat /etc/default/hostapd
+cat /etc/hostapd/hostapd.conf 
+sudoedit /etc/hostapd/hostapd.conf
+sudoedit interfaces
+sudoedit interfaces.bak
+sudoedit interfaces
+sudo service networking restart
+sudo /etc/init.d/hostapd restart
+ifconfig 
+sudo journalctl -f 
+ifconfig 
+sudoedit /etc/hostapd/hostapd.conf
+sudo /etc/init.d/hostapd restart
+sudoedit /etc/hostapd/hostapd.conf
+sudo service networking restart
+which networking-restart.sh
+which networking-restart.sh | vim -
+which networking-restart.sh | vim
+vim /home/serhiy/.bin/networking-restart.sh
+networking-restart.sh 
+wpa_cli
+wpa_cli scans
+sudoedit /etc/wpa_supplicant/wpa_supplicant.conf
+wpa_cli scan_result
+networking-restart.sh 
+wpa_cli scan_result
+networking-restart.sh 
+vim .bin/networking-restart.sh 
+networking-restart.sh 
+ifconfig 
+wpa_cli scan_result
+vim .bin/networking-restart.sh 
+networking-restart.sh 
+sudoedit /etc/wpa_supplicant/wpa_supplicant.conf
+networking-restart.sh 
+ifconfig 
+vim interfaces
+sudo vim interfaces
+ranger 
+ls
+ranger 
+ls
+apt list isc-dhcp-server
+man hist
+sudo ^list^install
+sudo ^list^install^:p
+apt list isc-dhcp-server
+sudo ^list^install^:p
+sudo ^install^install^:p
+apt list isc-dhcp-server
+apt install isc-dhcp-server
+sudo apt install isc-dhcp-server
+ranger 
+sudo cp /etc/dhcp/dhcpd.conf /etc/dhcp/dhcpd.conf.bak
+sudo cp dhcpd.conf $:h
+ls
+rm $:*
+ls
+sudo cp dhcpd.conf /etc/dhcp/
+vim softap-setup.sh 
+vim /etc/dhcp/dhcpd.conf
+vim softap-setup.sh 
+networking-restart.sh 
+sudoedit interfaces
+sudoedit /etc/hostapd/hostapd.conf
+man history
+cd /etc/network/interfaces
+cd /etc/network/
+sudoedit interfaces
+ls
+sudo su
+networking-restart.sh 
+ifconfig 
+sudo reboot
+ifconfig 
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+less softap-setup.sh 
+sudo cp /etc/default/ifplugd /etc/default/ifplugd.bak
+sudo cp ifplugd /etc/default/
+pd /etc/network
+ls
+sudo cat interfaces
+sudo cat interfaces.bak
+sudo cat interfaces.bak.bak
+sudo cp interfaces.bak.bak interfaces
+networking-restart.sh 
+ifconfig 
+ps aux | grep isc-dhcp-server
+ps aux | grep dhcpd
+sudo reboot
+ifconfig 
+sudo cp /etc/network/interfaces.bak /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+wpa_cli
+sudo wpa_cli
+sudo reboot
+iwlist
+iwlist wlan0
+iwlist wlan0 ap
+iwconfig
+ifconfig 
+ifconfig wlan0 up
+sudo ifconfig wlan0 up
+ifconfig 
+iwlist wlan0 scan
+apt list dnsmasq
+sudo apt install dnsmasq
+zcat /usr/share/doc/hostapd/examples/hostapd.conf.gz | sudo tee -a /etc/hostapd/hostapd.conf
+vim /etc/hostapd/hostapd.conf
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+iwconfig
+sudoedit /etc/dnsmasq.conf 
+sudoedit /etc/sysctl.conf 
+sudoedit /etc/rc.local 
+networking-restart.sh 
+ifconfig 
+sudoedit /etc/hostapd/hostapd.conf
+sudo reboot
+cd Dropbox/configuring/debian/after-install/auxiliary-scripts/
+ls
+cd ..
+ls
+cd ..
+ls
+cd configure-access-point/
+ls
+ifconfig 
+cd ..
+ls
+cd after-install/
+ls
+ranger 
+ls
+cd ..
+ls
+cd configure-access-point/
+ls
+vim configure-ap.bash
+ls
+mkdir configs
+cd configs
+cd ..
+ls
+mv configure-ap.bash configs
+cd configs
+ls
+less /etc/default/hostapd 
+cp /etc/default/hostapd ./
+ls
+cp /etc/hostapd/hostapd.conf ./
+ls
+vim hostapd.conf 
+ls
+cat /etc/network/interfaces
+sudoedit /etc/network/interfaces
+sudoedit /etc/hostapd/hostapd.conf 
+sudoedit /etc/network/interfaces
+cp /etc/network/interfaces ./
+ls
+sudoedit /etc/dnsmasq.conf 
+cp /etc/dnsmasq.conf ./
+ls
+sudoedit /etc/sysctl.conf 
+cp /etc/sysctl.conf
+cp /etc/sysctl.conf ./
+sudoedit /etc/rc.local 
+cp /etc/rc.local ./
+ls
+ll
+networking-restart.sh 
+which networking-restart.sh
+vim /home/serhiy/.bin/networking-restart.sh
+sudo service dnsmasq status
+vim /home/serhiy/.bin/networking-restart.sh
+networking-restart.sh 
+sudo reboot
+sudoedit /etc/network/interfaces
+sudoedit /etc/rc.local 
+ifconfig 
+networking-restart.sh 
+sudo reboot
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+sudoedit /etc/hostapd/hostapd.conf 
+networking-restart.sh 
+sudoedit /etc/hostapd/hostapd.conf 
+networking-restart.sh 
+sudoedit /etc/hostapd/hostapd.conf 
+networking-restart.sh 
+sudo reboot
+sudoedit /etc/hostapd/hostapd.conf 
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+cd configs/
+ls
+cp /etc/hostapd/hostapd.conf ./
+vim hostapd.conf 
+ls
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+networking-restart.sh 
+ifconfig 
+sudo service networking restart
+ifconfig 
+sudo reboot
+ifconfig 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+sudo reboot
+sudoedit /etc/network/interfaces
+networking-restart.sh 
+ifconfig 
+networking-restart.sh 
+ifconfig 
+sudo reboot
+ifconfig 
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo reboot
+sudoedit /etc/network/interfaces
+sudo reboot
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo reboot
+ifconfig 
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo reboot
+sudo service networking restart
+ifconfig 
+sudoedit /etc/network/interfaces
+sudo reboot
+ifconfig 
+networking-restart.sh 
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo reboot
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+ifconfig 
+ifconfig wlan0 down
+sudo ifconfig wlan0 down
+sudo ifconfig wlan0 up
+ifconfig 
+sudo service networking restart
+ifconfig 
+sudoedit /etc/network/interfaces
+sudo service networking restart
+sudoedit /etc/network/interfaces
+sudo service networking restart
+ifconfig 
+sudo service hostapd restart
+sudo service networking restart
+sudo reboot
+sudo service networking restart
+sudo reboot
+sudoedit /etc/network/interfaces
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+cd configs
+ls
+cp /etc/network/interfaces ./
+ls
+ranger 
+cd Dropbox/configuring/debian/configure-access-point/
+cd configs
+ls
+history 
+history | grep cp
+vim configure-ap.bash 
+ranger 
+ls
+sudo chmod +x *.bash
+ls
+cd ..
+ls
+ls /etc/network/
+cat /etc/network/interfaces
+sudoedit /etc/network/interfaces
+ranger 
+ls
+cp /etc/network/interfaces ./
+ls /etc/network/
+rm /etc/network/*.bak
+sudo rm /etc/network/*.bak
+ls /etc/network/
+sudo apt purge isc-dhcp-server
+ls /etc/dhcp
+sudo rm /etc/default/ifplugd 
+ls
+sudo reboot
+ifconfig 
+iwlist wlan0 scan
+sudo iwlist wlan0 scan
+sudo iwlist wlan0 scan | grep ESSID
+sudo service networking restart
+sudo iwlist wlan0 scan | grep ESSID
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+ranger 
+sudo reboot
+sudo service networking restart
+sudo reboot
+sudo service networking restart
+sudo reboot
+sudo service networking start
+sudo service networking restart
+sudo reboot
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+ranger 
+ls
+rm *
+ls
+cp configs/* ./
+ls
+rm -r configs/
+ls
+cd ..
+ls
+cd ..
+ls
+cd debian/
+ls
+cd configure-dhcp-server/
+ls
+vim dnsmasq.conf 
+cat /etc/network/interfaces
+sudoedit /etc/dnsmasq.conf 
+sudo reboot
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+cp /etc/dnsmasq.conf ./
+ls
+cd Dropbox/configuring/debian/configure-access-point/
+ls
+cd .
+cd ..
+ls
+cd configure-dhcp-server/
+ls
+ranger 
+ls
+ifconfig 
+cat /etc/network/interfaces
+cd ..
+ls
+rm -r configure-dhcp-server/
+ls
+ranger 
+cd
+vim .bin/networking-restart.sh 
+vim configure-ap.bash 
+ranger 
+cd ~/Dropbox/backup/.bin
+ranger 
+cd ~/Dropbox/backup/home/serhiy/.bin
+ls
+ranger 
+lspci -v | grep -i audio -A 10
+man awesome
+sudo reboot
+sudo find / -name 'rc.lua'
+ls .config/awesome/
+ll ®
+ls .config/awesome/ -l
+vim .config/awesome/
+vim .config/awesome/rc.lua 
+sudo reboot
+vim .config/awesome/rc.lua 
+sudo reboot
+pingg
+sudo service networking restart
+pingg
+ping 8.8.8.8
+ping google.com
+ifconfig 
+cat /etc/network/interfaces
+pingg
+sudo service networking restart
+ping 8.8.8.8
+ping google.com
+sudo reboot
+pingg
+ifconfig 
+sudo service networking restart
+sudo reboot
+vim .config/awesome/rc.lua 
+sudo reboot
+sudo find / -name 'rc.lua'
+sudo meld
+pingg
+xprop
+xprop firefox
+sudo reboot
+pingg
+vim .config/awesome/rc.lua 
+pingg
+xprop
+sudo reboot
+xprop
+firefox 
+xprop
+qtcreator
+pingg
+vim .config/awesome/rc.lua 
+sudo reboot
+xinput list
+apt list xinput
+sudo apt install xinput
+xinput list
+cd Dropbox/configuring/debian/configure-access-point/
+cd ..
+cd after-install/auxiliary-scripts/
+xinput --disable 15
+xinput --enable 15
+ifconfig
+sudo service networking restart
+acpi_listen
+showkey --scancodes
+showkey --keycodes
+xev
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+showkey --scancodes
+showkey --keycodes
+showkey --scancodes
+showkey --keycodes
+ifconfig 
+ifconfig 
+dumpkeys
+dumpkeys -l
+dumpkeys -l
+dumpkeys -l | grep touchpad
+dumpkeys -l | grep -i touchpad
+dumpkeys -l | grep -i x86
+dumpkeys -l | less
+xmodmap
+xmodmap -pke
+cd .bin/
+ls
+vim set-keyboards.sh 
+ranger 
+sudo reboot
+qtcreator
+htop
+sudo reboot
+showkey --scancodes
+history | less
+man history
+showkey --keycodes
+dumpkeys -l | less
+history | less
+dumpkeys -l | less
+history | less
+xmodmap -pke
+xmodmap -pke
+xmodmap -pke | less
+xprop
+xinput list
+history | grep cp
+history | less
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+history | less
+dumpkeys -l | less
+dumpkeys -l | less
+showkeys -h
+showkey -h
+showkey -a
+history | less
+sudo find / -name '*us.map.gz'
+cd /usr/local/share/kbd/keymaps
+mkdir -p /usr/local/share/kbd/keymaps
+sudo mkdir -p /usr/local/share/kbd/keymaps
+cd /usr/local/share/kbd/keymaps
+ls
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+vim personal.map
+sudo vim personal.map
+ls
+loadkeys
+loadkeys personal.map 
+cd /usr/local/share/
+ls
+cd kdb
+ls -l
+cd kdb
+ls
+ls -l
+ifconfig 
+sudo service networking restart
+ls
+cat personal.map 
+cd
+cd /usr/local/share/kbd/keymaps/
+ls
+loadkyes personal.map 
+loadkeys personal.map 
+cat ~/out
+sudoedit personal.map 
+sudo su
+cd kbd/keymaps/
+ls
+sudo vim personal.map 
+showkey -k
+loadkeys personal.map 
+sudo loadkeys personal.map 
+Helloecho Hello! > /home/serhiy/out
+echo Hello! > /home/serhiy/out
+cat ~/out
+xinput list
+Helloecho Hello! > /home/serhiy/out
+echo Hello! > /home/serhiy/out
+Hello
+showkey -k
+xinput list | grep -i touchpad
+xinput list | grep touchpad
+xinput list | grep -i touchpad
+xinput list | grep -i touchpad | cut -f4
+xinput list | grep -i touchpad | cut -d/ -f4
+xinput list | grep -i touchpad | cut -d/ -f1
+xinput list | grep -i touchpad | cut -d/ -f0
+xinput list | grep -i touchpad | cut -d/ -f1
+xinput list | grep -i touchpad | cut -d'' -f1
+xinput list | grep -i touchpad | cut -d' ' -f1
+xinput list | grep -i touchpad | cut -d'\t' -f1
+xinput list | grep -i touchpad | cut -d\t -f1
+xinput list | grep -i touchpad | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t -f3
+xinput list | grep -i touchpad | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d'' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d'' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d',.' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d',.f' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d'' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d"" f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d" " f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d\t f1
+xinput list | grep -i touchpad | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d\t -f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d\t -f3
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d\t f3
+xinput list | grep -i touchpad | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t f2
+xinput list | grep -i touchpad | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f3
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f4
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f5
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f6
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f7
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f8
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f9
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f9
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d'' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -f9
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d'' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d"" -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d" " -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d\t -f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d= -f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d= -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d= -f2 | cut -d\t -f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d= -f2 | cut -d\t -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d= -f2 | cut -d\t -f3
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d'\t' -f1
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | cut -d\t -f1
+man cut
+man awk
+ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+ifconfig eth0 | grep 'inet addr:' | cut -d: -f2 | awk '{print $1}'
+ifconfig eth0 | grep 'inet addr:' | cut -d: -f2
+xinput list | grep -i touchpad | cut -d\t -f2 | 
+xinput list | grep -i touchpad | cut -d\t -f2 
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 | 
+xinput list | grep -i touchpad | cut -d\t -f2 | cut -d' ' -f10 
+xinput list | grep -i touchpad | cut -d\t -f2 
+xinput list | grep -i touchpad 
+xinput list | grep -i touchpad | awk '{print $1}'
+xinput list | grep -i touchpad | awk '{print $5}'
+xinput list | grep -i touchpad | awk '{print $6}'
+xinput list | grep -i touchpad | awk '{print $7}'
+xinput list | grep -i touchpad | awk '{print $7}' | awk '{print $2}'
+xinput list | grep -i touchpad | awk '{print $7}' | awk '{print $1}'
+xinput list | grep -i touchpad | awk '{print $7}' | cut -d= -f2
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+showkey -k
+xinput list | grep -i touchpad | awk '{print $7}' | cut -d= -f2
+xinput get-prop 15 "Device Enabled"
+xinput get-button-map 15
+xinput
+xinput get-feedbacks "AlpsPS/2 ALPS DualPoint TouchPad"
+xinput query-state "AlpsPS/2 ALPS DualPoint TouchPad"
+xinput
+xinput -h
+xinput test "AlpsPS/2 ALPS DualPoint TouchPad"
+xinput -h
+xinput list-props 15
+xinput --disable 15
+xinput list-props 15
+xinput -h
+xinput list-props 15
+xinput list-props 15 | awk '{print $4}'
+xinput list-props 15
+xinput list-props 15 | grep 'Device Enabled'
+xinput list-props 15 | grep 'Device Enabled' | cut -d\t -f1
+xinput list-props 15 | grep 'Device Enabled' | cut -d\t -f2
+xinput list-props 15 | grep 'Device Enabled' | cut -d\t -f3
+xinput list-props 15 | grep 'Device Enabled' | cut -d' ' -f3
+xinput list-props 15 | grep 'Device Enabled' | cut -d' ' -f4
+xinput list-props 15 | grep 'Device Enabled' | cut -d' ' -f3
+xinput list-props 15 | grep 'Device Enabled' | cut -d' ' -f2
+xinput list-props 15 | grep 'Device Enabled' | cut -d' ' -f3
+xinput list-props 15 | grep 'Device Enabled' | cut -d' ' -f3 | awk '{print $2}'
+xinput -h
+xinput enable 15
+xinput list-props 15
+vim toggle-touchpad.bash
+ls
+sudo chmod +x toggle-touchpad.bash 
+ls
+./toggle-touchpad.bash 
+mv toggle-touchpad.bash .bin/
+cd .bin/
+ls
+sudo loadkeys personal.map 
+sudo vim personal.map
+sudo loadkeys personal.map 
+./toggle-touchpad.bash 
+xev | awk -F'[ )]+' '/^KeyPress/ { a[NR+2] } NR in a { printf "%-3s %s\n", $5, $8 }'
+vim personal.map 
+showkey -k
+cd
+backup-one.sh ~/.bin/toggle-touchpad.bash 
+cd Dropbox/backup/home/serhiy/.bin/
+ls
+vim toggle-touchpad.bash 
+cd ..
+cd metadata/
+ls
+incrontab -l
+incrontab -e
+ls
+sudoedit personal.map 
+showkey -k
+sudoedit personal.map 
+sudo loadkeys personal.map 
+echo ToggleTouchpad
+sudoedit personal.map 
+sudo loadkeys personal.map 
+sudoedit personal.map 
+sudo loadkeys personal.map 
+echo ToggleTouchpad
+history | grep xmodmap
+apt list xkeycaps
+apt install xkeycaps
+sudo apt install xkeycaps
+toggle-touchpad.bash 
+sudo reboot
+cd Dropbox/workspace/gui-application/
+git-cola
+find . -name 'sectionWidth'
+grep -r "sectionWidth" .
+zathura Downloads/gui.pdf:p
+git-cola
+zathura Downloads/gui.pdf
+qtcreator
+cd Dropbox/workspace/gui-application/
+git-cola
+git status
+git-cola
+git stash
+git push
+zathura Downloads/gui.pdf
+cd Dropbox/workspace/gui-application/
+git branch
+git status
+git checkout dev
+git branch
+git status
+git log
+gitk
+gitg
+gitgui
+git checkout master
+git log
+git checkout dev
+git log
+git merge master
+git log
+git status
+ls
+sudo service networking restart
+git checkout master
+git status
+git diff
+git branch
+git log
+git-cola
+git branch
+git checkout dev
+git status
+git push
+git status
+git checkout master
+git status
+git-cola
+git checkout master
+git status
+ls
+ranger 
+git-cola
+git stash
+git push
+git log
+git branch
+git status
+git checkout dev
+git log
+git merge master
+git log
+git status
+git push
+git stash pop
+git status
+qtcreator
+cd Dropbox/workspace/gui-application/
+ls
+git status
+git-cola
+ls
+cd qml/
+ls
+ll
+cd Dropbox/workspace/gui-application/
+git branch
+git log
+git-cola
+ranger 
+sudo service mysql status
+sudo service mysql stop
+ranger 
+cd configs
+ranger 
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+ranger 
+sudo service mysql stop
+ranger 
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+ranger 
+git-cola
+git log
+man git-commit
+git commit --amend
+git log
+git branch
+git status
+git stash
+git push
+git status
+git stash pop
+git-cola
+zathura Downloads/gui.pdf 
+ranger 
+sudo shutdown -h now
+qtcreator
+sudo shutdown -h now
+ls
+slslsls
+ls
+ll
+man awesome
+qtcreator
+which qtcreator
+echo $PATH
+vim .bashrc 
+echo $TERM
+echo $HOME
+echo $PATH
+ranger 
+cd Dropbox/backup/home/serhiy/
+lla
+cd .config/
+ls
+cd awesome/
+ls
+less rc.lua 
+incrontab -l
+echo $?
+cd Dropbox/backup/var/spool/incron/
+ls
+cat serhiy 
+sudo find / -name 'serhiy'
+ll /var/lib/sudo/lectured/serhiy
+sudo su
+cd Dropbox/metadata/
+cat serhiy
+cd ..
+ranger 
+ls
+cd tmp
+cd
+cd tmp
+ls
+ranger
+cd
+ranger 
+cd /
+lla
+cd lost+found/
+sudo su
+ls -a
+cd lost+found/
+sudo su
+c
+cd
+ls
+la
+sudo su
+cd Dropbox/backup/var/spool/incron/
+ls
+cat serhiy 
+cd tmp/backup/var/spool/incron/
+cat serhiy 
+ls
+vim serhiy 
+ls
+ll
+sudo cp serhiy /var/spool/incron/
+cd /var/spool/incron/
+ls
+sudo su
+incrontab -l
+ls ~/.bin/
+backup-all.sh 
+cat serhiy 
+sudo journalctl -f
+cd Dropbox/backup/home/serhiy/.config/awesome/
+vim rc.lua 
+man awesome
+awesome -k
+ls /tmp
+cat /tmp/
+cd /tmp/
+ls
+sl
+ls
+awesome -k > /tmp/awesome.log
+ls
+cat awesome.log 
+rm awesome.log
+ls
+cd Workspace/
+ls
+cd
+cd Dropbox/workspace/gui-application/
+ls
+git log
+git-cola
+cd src/models/
+vim Level3MenuModel.cpp_ 
+vim Level3MenuModel.cpp
+vim Level3MenuModel.cpp_ 
+cd ..
+ls
+vim fill-in-db.bash 
+ls
+ranger 
+cd configs
+cp DrcLevel3Menu.conf test.conf
+vim test.conf 
+ranger 
+git-cola
+cd ..
+ls
+cd ..
+cd work
+ls
+mysql -u root
+vim tasks_planning.txt
+cd Dropbox/workspace/gui-application/configs
+ls
+vim LobbyLevel2Menu.conf 
+cd Dropbox/work
+vim tasks_planning.txt
+cd Dropbox/workspace/gui-application/
+ls
+cd configs
+ls
+sudo find / -name 'mysql.cnf'
+sudo find / -name '*.cnf'
+sudoedit /etc/mysql/my.cnf 
+ps aux | grep mysql
+sudo service mysql restart
+ls /var/log/mysql/
+sudo ls /var/log/mysql/
+cat /var/log/mysql/mysqml.log
+sudo cat /var/log/mysql/mysqml.log
+sudo cat /var/log/mysql/mysql.log
+sudo tail -f /var/log/mysql/mysql.log
+ranger 
+ls
+cd ..
+ls
+cd ..
+ls
+rm -r build-gui-application-De*
+ls
+cd gui-application/
+ls
+mysql -u root
+sudo tail -f /var/log/mysql/mysql.log
+ls
+sudo tail -f /var/log/mysql/mysql.log
+ls -h /var/log/mysql/mysql.log
+sudo ls -h /var/log/mysql/mysql.log
+sudo ls -l /var/log/mysql/mysql.log
+sudo ls -l /var/log/mysql/mysql.log -h
+sudo tail -f /var/log/mysql/mysql.log
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+cd Dropbox/workspace/gui-application/
+ls
+vim fill-in-db.bash 
+cd configs
+ranger 
+git status
+cd ..
+git status
+git stash
+git status
+git push
+git stash pop
+cd Dropbox/
+cd workspace/gui-application
+ls
+git status
+git stash pop
+ranger 
+git status
+git stash pop
+ranger 
+git stash pop
+git stash
+git stash clear
+ranger 
+git stash clear
+git stash pop
+git log
+git push
+git branch
+git checkout dev
+git merge master
+git stash clear
+git stash clean
+git stash clear
+git push
+git checkout -b feature-too-long-text-fix
+git log
+man git merge
+git checkout dev
+git branch
+git merge feature-too-long-text-fix
+git stash show
+git checkout feature-too-long-text-fix
+git stash show
+git status
+git checkout master
+git merge dev
+git push --all
+git branch
+git checkout feature-too-long-text-fix
+git status
+htop
+ranger 
+htop
+htop
+cd Dropbox/workspace/
+ls
+man tar
+zip -r gui-application.zip gui-application
+ls
+tar -tvf gui-application.zip 
+man zip
+scrot -s
+sudo apt install scrot
+scrot -s
+св gui-application
+cd gui-application
+ls
+scrot -s
+ranger 
+cd Dropbox/workspace/
+ls
+cd QSlide-0.1/
+ls
+ranger 
+cd ../gui-application
+git branch
+git push
+git push --set-upstream origin feature-too-long-text-fix
+git status
+du -h ~
+df -h
+sudo reboot
+ls
+ls -l /
+ls
+sudoedit /etc/network/interfaces
+cd .bin/
+ls
+vim networking-restart.sh 
+ls /etc/wpa_supplicant/wpa_supplicant.conf 
+sudoedit /etc/wpa_supplicant/wpa_supplicant.conf
+man wpa_supplicatn
+cd /etc/wpa_supplicant/
+ls
+man wpa_supplicant
+ifconfig
+iwconfig 
+sudoedit wpa_supplicant.conf 
+ifconfig
+sudo service networking restart
+ifconfig 
+networking-restart.sh 
+ifconfig
+networking-restart.sh 
+ifconfig 
+iwconfig 
+pingg
+sudo dhclient wlan0
+ifconfig 
+sudo dhclient wlan0
+sudo reboot
+man wpa_supplicant.conf
+ifconfig 
+iwconfig 
+ifconfig 
+networking-restart.sh 
+ifconfig
+iwconfig 
+ifconfig 
+sudo service networking status
+sudo service networking stop
+ifconfig
+sudoedit /etc/network/interfaces
+ifconfig 
+sudo service networking start
+sudo service networking restart
+sudo service networking stop
+sudo reboot
+ifconfig 
+sudo service networking status
+ifconfig 
+iwconfig 
+sudo service networking stop
+ifconfig 
+cat /etc/network/interfaces
+sudoedit /etc/network/interfaces
+ifconfig 
+cd .bin/
+sudo service networking status
+sudo ifconfig wlan0 up
+ifconfig 
+sudo wpa_supplicant -B -Dnl80211 -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+sudo wpa_supplicant -B -Dwext -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+sudo wpa_supplicant -B -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+sudo pkill wpa_supplicant
+sudo wpa_supplicant -B -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+ifconfig 
+sudo dhclient wlan0
+ifconfig 
+iwconfig 
+pingg
+man wpa_supplicant
+ifconfig 
+iwconfig 
+vim networking-restart.sh 
+sudo reboot
+ifconfig 
+iwconfig 
+ifconfig 
+pidof wpa_supplicant
+pidoff wpa_supplicant
+pidof wpa_supplicant
+pidof dhclient
+sudo wpa_supplicant -B -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+ifconfig 
+sudo wpa_supplicant -B -iwlan0 -c/etc/wpa_supplicant/wpa_supplicant.conf
+sudo service networking status
+cd .bin/
+ls
+vim networking-restart.sh 
+ifconfig 
+./networking-restart.sh 
+sudo service networking start
+sudo service networking status
+pidof wpa_supplicant
+sudo kill 1983
+pidof dhclient
+sudo pkill dhclient
+pidof dhclient
+sudo pkill dhclient
+pidof dhclient
+vim networking-restart.sh 
+sudo reboot
+vim .bin/networking-restart.sh 
+.bin/networking-restart.sh
+vim .bin/networking-restart.sh 
+networking-restart.sh 
+ifconfig
+iwconfig 
+ifconfig 
+iwconfig 
+scrot -s
+sudo reboot
+vim .bin/networking-restart.sh 
+networking-restart.sh 
+vim .bin/networking-restart.sh 
+networking-restart.sh 
+sudo service networking stop
+$?
+sudo service networking stop
+echo $?
+networking-restart.sh 
+cd Dropbox/workspace/gui-application
+ls
+ranger 
+awesome --help
+awesome -v
+sudo reboot
+networking-restart.sh 
+sudo reboot
+networking-restart.sh 
+man awesome
+man awesomerc
+man awesome-client
+cd Downloads/
+ls
+mkdir awesome-4.0
+tar -xvf awesome-4.0.tar.xz -C awesome-4.0
+cd awesome-4.0
+ls
+mv awesome-4.0/ ../
+cd ..
+ls
+tar -tvf awesome-4.0.tar.xz 
+ls
+rm -r awesome-4.0.tar.xz 
+ls
+rm -r awesome-4.0
+tar -xvf awesome-4.0.tar.xz 
+ls
+cd awesome-4.0
+ls
+git status
+ls
+ranger 
+cd
+awesome -v
+sudo apt update
+sudoedit /etc/apt/sources.list
+dpkg -h
+dpkg --help
+sudo dpkg --print-architecture
+dpkg --print-foreign-architectures
+dpkg --remove-architecture armhf
+sudo dpkg --remove-architecture armhf
+dpkg --print-foreign-architectures
+apt list --upgradable
+sudo apt upgrade
+ls
+htop
+cd /usr/share/awesome/themes/
+ls
+ranger 
+ls
+ranger 
+ls
+awesome -k
+awesome -h
+awesome -k -c ~/.config/awesome/rc.lua
+awesome -c ~/.config/awesome/rc.lua -k
+cd .config/
+cd awesome/
+ls
+vim rc.lua 
+cd .config/awesome/
+ls
+vim rc.lua 
+sudo reboot
+networking-restart.sh 
+Xephyr :5 & sleep 1 ; DISPLAY=:5 awesome
+ls
+ranger 
+scrot -s
+ranger 
+ls
+feh 2017-01-02-125007_1364x747_scrot.png 
+scrot -s
+ls
+feh 2017-01-02-125131_702x357_scrot.png 
+gimp
+sudo apt install gimp
+gimp
+man gimp
+ls
+mkdir gimp-tutorials
+cd gimp-tutorials
+wget https://apod.nasa.gov/apod/image/1701/Comet45P_Hemmerich_2180.jpg
+ls
+ls /
+cd Dropbox/workspace/gui-application
+ls
+git push
+cd ..
+ls
+git clone https://github.com/sserdyuk1991/Chess.git
+ls
+cd Chess/
+ls
+cd .config/awesome/
+vim rc.lua 
+vim /var/log/syslog
+sudo vim /var/log/syslog
+cat /var/log/syslog | grep awesome
+sudo cat /var/log/syslog | grep awesome
+awesome -v
+upower -e
+sudo apt install upower
+upower -e
+man upower
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+ls /
+man rmdir
+mkdir test
+ls
+rmdir test
+ls
+rmdir test
+mkdir test
+rm -r test
+ls
+mkdir test
+ls
+rm test
+cd test
+touch file
+cd ..
+cp -r test test2
+rmdir test2
+rm -r test2
+man rm
+man rmdir
+ls
+rmdir test
+rm -r test
+ls
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+man upower
+awesome -v
+sudo reboot
+networking-restart.sh 
+ls
+ranger 
+cd Downloads/
+ls
+cd awesome-4.0
+ls
+rnag
+ranger 
+ls
+mkdir -p $HOME/.config/awesome4
+ls $HOME/.config/awesome4 -l
+ls $HOME/.config/
+ls $HOME/.config/awesome
+ls $HOME/.config/awesome4
+l
+ls
+mkdir build
+ls
+cd build
+cd ..
+ls
+less README.md 
+vim README.md 
+less README.md 
+vim README.md 
+ls
+rmdir build
+ls
+make
+sudo apt install cmake
+make -j4
+vim .build-debian-home-x86_64-linux-gnu-4.9.2/CMakeFiles/CMakeOutput.log
+vim README.md 
+cd Downloads/awesome-4.0
+make clean
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+ls
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+sudo apt install convert
+vim README.md 
+ls
+sudo apt search imagemagic
+sudo apt install imagemagic
+sudo apt show imagemagic
+sudo apt search imagemagic
+sudo apt search imagemagick
+sudo apt install imagemagick
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+cd Dropbox/configuring/debian/
+pd after-install/auxiliary-scripts/install-software
+ls
+vim install-awesome.sh 
+cp install-awesome.sh install-awesome-build-deps.bash
+man apt
+apt --help
+apt install --help
+vim install-awesome-build-deps.bash
+sudo apt install glib
+sudo apt install glib-2.0
+man glib
+man apt
+sudo apt -y install glib-2.0
+sudo apt -y install xcb
+ls
+sudo apt -y install gdk-pixbuf-2.0
+sudo apt -y install gdk-pixbuf
+sudo apt -y install build-deps
+sudo apt -y install build-dep
+sudo apt -y install gdk-pixbuf
+apt search gdk-pixbuf
+sudo apt install libgdk-pixbuf2.0-dev
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+apt search cairo
+sudo apt install cairo
+apt search cairo | grep cairo
+sudo apt install libcairo2-dev
+sudo apt remove  libgdk-pixbuf2.0-dev
+sudo apt remove libcairo2-dev
+sudo apt install libgdk-pixbuf2.0 -y
+sudo apt remove libgdk-pixbuf2.0
+history 
+sudo apt install libcairo2
+sudo apt install libcairo2-dev
+sudo apt install xcb
+sudo apt install libxcb
+sudo apt install libxcb-dev
+apt search xcb
+apt search xcb | grep cursor
+sudo apt install libxcb-cirsor-dev
+sudo apt install libxcb-cursor-dev
+apt search xcb | grep xtest
+sudo apt install libxcb-xtest0-dev
+apt search xcb | grep xinerama
+sudo apt install libxcb-xinerama0-dev
+apt search xcb | grep util
+sudo apt install libxcb-util0-dev
+apt search xcb | grep keysyms
+sudo apt install libxcb-keysyms1-dev
+apt search xcb | grep icccm
+sudo apt install libxcb-icccm4-dev
+apt search xcb | grep xkb
+sudo apt install libxcb-xkb-dev
+apt search xcb | grep xkbcommon
+apt search xkbcommon
+sudo apt install libxkbcommon-dev
+sudo apt install libxkbcommon-x11-dev
+apt search libstartup-notification
+sudo apt install libstartup-notification0-dev
+apt search libxdg-basedir
+sudo apt install libxdg-basedir-dev
+apt search xcb-xrm
+apt search xcb
+apt search xcb | grep xrm
+apt search xcb-util
+apt search xcb-util | grep xrm
+sudo apt install libxcb-xrm-dev
+sudo apt install xcb-util-xrm
+sudoedit /etc/apt/sources.list
+sudo apt update
+sudoedit /etc/apt/sources.list
+sudo apt update
+sudo apt install libxcb-xrm-dev
+vim CMakeFiles/CMakeError.log 
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+apt search lua
+apt search lua | grep installed
+apt search liblua | grep installed
+apt search 
+apt search liblua 
+sudo apt install liblua5.1-0-dev
+make -j4
+make
+ls
+vim Makefile 
+ranger 
+apt list lua
+apt list --installed
+apt list --installed | lua
+apt list --installed | grep lua
+apt list --installed | grep lgi
+apt search lua | grep lgi
+sudo apt install lua-lgi-dev
+make
+ls
+lla
+rm -r *
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+apt search dbus
+apt search dbus | grep dbus
+sudo apt install libdbus-1-dev
+sudo apt install busted
+apt search busted
+apt search luacheck
+make
+vim install-awesome-build-deps.bash
+ls
+cd Downloads/awesome-4.0
+cd build
+ls
+make
+cd Downloads/awesome-4.0/build
+ls
+cd Downloads/awesome-4.0
+ls
+cd build
+ls
+cd CMakeFiles/
+ls
+ls
+cd Downloads/awesome-4.0/build/CMakeFiles/
+ls
+cd generate_awesomerc.dir/
+ls
+ranger 
+vim build.make 
+lua /home/serhiy/Downloads/awesome-4.0/docs/05-awesomerc.md.lua /home/serhiy/Downloads/awesome-4.0/build/docs/05-awesomerc.md /home/serhiy/Downloads/awesome-4.0/awesomerc.lua /home/serhiy/Downloads/awesome-4.0/build/awesomerc.lua
+lua
+lua -v
+apt list --installed
+apt list --installed | grep lua
+apt search lua
+sudo apt install lua5.3
+make
+lua /home/serhiy/Downloads/awesome-4.0/docs/05-awesomerc.md.lua /home/serhiy/Downloads/awesome-4.0/build/docs/05-awesomerc.md /home/serhiy/Downloads/awesome-4.0/awesomerc.lua /home/serhiy/Downloads/awesome-4.0/build/awesomerc.lua
+lua
+sudo apt install lua5.2
+lua
+apt list --installed | lua
+apt list --installed | grep lua
+sudo apt remove lua5.3
+lua
+apt list --installed | grep lua
+cd Dropbox/configuring/debian/after-install/auxiliary-scripts/install-software
+ls
+apt search lua
+apt search liblua
+vim install-awesome-build-deps.bash 
+lua /home/serhiy/Downloads/awesome-4.0/docs/05-awesomerc.md.lua /home/serhiy/Downloads/awesome-4.0/build/docs/05-awesomerc.md /home/serhiy/Downloads/awesome-4.0/awesomerc.lua /home/serhiy/Downloads/awesome-4.0/build/awesomerc.lua
+ls
+file awesome
+ls
+vim Makefile2 
+vim Makefile 
+lla
+rm -r *
+ls
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+sl
+ls
+rm -r *
+apt search lua5
+apt search liblua5
+sudo apt remove lua5.2
+apt search lua5
+apt list --installed | grep lua
+sudo apt remove lua-lgi
+apt list --installed | grep lua
+sudo apt remove liblua5.1-0
+apt list --installed | grep lua
+ls
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+apt search liblua5
+sudo apt install liblua5.2-0
+apt list --installed | grep lua
+sudo reboot
+sudo apt install lua-lgi
+exec awesome
+cd .config/awesome
+ls
+vim rc.lua 
+awesome -v
+apt search awesome
+apt search awesome | less
+apt list --installed awesome
+apt list --installed awesome-extra
+apt search awesome | less
+vim ~/Dropbox/configuring/debian/after-install/auxiliary-scripts/install-software/install-awesome.sh 
+apt list --installed | grep xorg
+sudo apt install awesome
+exec awesome
+pingg
+iwconfig 
+ifconfig 
+networking-restart.sh 
+pingg
+ifconfig 
+iwconfig 
+cd Downloads/awesome-4.0/build
+ls
+apt list --installed | grep lua
+sudo apt remove lua-lgi
+apt list --installed | grep lua
+sudo apt remove liblua5.1-0
+apt list --installed | grep lua
+sudo apt remove liblua5.2-0
+apt list --installed | grep lua
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+apt search liblua5
+sudo apt install liblua5.2-dev
+apt list --installed | grep lua
+make
+sudo apt remove liblua5.2-dev
+apt list --installed | grep lua
+sudo apt remove liblua5.2-0
+sudo apt install liblua5.2-0
+apt list --installed | grep lua
+sudo apt remove liblua5.2-dev
+sudo apt remove liblua5.2-0
+apt list --installed | grep lua
+sudo apt install liblua5.2-dev
+rm -r *
+cmake -DCMAKE_INSTALL_PREFIX=$HOME/awesome4_test ..
+apt list --installed | grep lua
+sudo apt install lua5.2
+make
+apt search lua
+apt search lua | grep lgi
+sudo apt install lua-lgi
+ls
+make clean
+ls
+make
+make clean
+make -j4
+ls
+vim Dropbox/configuring/debian/after-install/auxiliary-scripts/install-software/install-awesome-build-deps.bash 
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+ls -l
+file awesome
+sudo reboot
+networking-restart.sh 
+cd Downloads/awesome-4.0/build
+ls
+vim awesomerc.lua 
+cp awesomerc.lua ~/.config/awesome4/rc.lua
+make install
+Xephyr :1 -screen 1280x800 &
+xephyr :1 -screen 1280x800 &
+jobs
+fg 4
+jobs
+apt search xephyr
+sudo apt install xserver-xephyr
+vim ~/Dropbox/configuring/debian/after-install/auxiliary-scripts/install-software/install-awesome.sh 
+xephyr :1 -screen 1280x800 &
+Xephyr :1 -screen 1280x800 &
+xephyr :1 -screen 1280x800 &
+Xephyr :1 -screen 1280x800 &
+Xephyr :1 -screen 1366x768 &
+jobs
+Xephyr :1 -screen 1366x768 &
+Xephyr :1 -screen 1280x800 &
+Xephyr :2 -screen 1280x800 &
+Xephyr :1 -screen 1366x768 &
+ls
+ranger awesome4_test/
+DISPLAY=:1 $HOME/awesome4_test/bin/awesome     -c $HOME/.config/awesome4/rc.lua     --search $HOME/awesome4_test/share/awesome/lib
+Xephyr :1 -screen 1366x768 &
+DISPLAY=:1 $HOME/awesome4_test/bin/awesome     -c $HOME/.config/awesome4/rc.lua     --search $HOME/awesome4_test/share/awesome/lib
+Xephyr :1 -screen 1366x768 &
+DISPLAY=:1 $HOME/awesome4_test/bin/awesome     -c $HOME/.config/awesome4/rc.lua     --search $HOME/awesome4_test/share/awesome/lib
+man xephyr
+Xephyr :1 -screen 1366x768 &
+DISPLAY=:1 $HOME/awesome4_test/bin/awesome -c $HOME/.config/awesome4/rc.lua --search $HOME/awesome4_test/share/awesome/lib
+vim .xinitrc 
+ifconfig
+sudo reboot
+networking-restart.sh 
+cp .config/awesome/rc.lua rc.lua.bak
+ls
+vim rc.lua.bak
+cd Downloads/awesome-4.0/build
+ls
+make clean
+ls
+cmake clean
+ls
+rm -r *
+ls
+cmake ..
+make -j4
+cd Downloads/awesome-4.0
+ls
+make package
+man cmake
+man cpack
+ls
+dpkg -c awesome-4.0.0.0-Linux.deb 
+sudo dpkg -i awesome-4.0.0.0-Linux.deb
+vim README.md 
+vim .xinitrc 
+sudo reboot
+exit
+vim .xinitrc 
+exit
+apt list --installed | awesome
+apt list --installed | grep awesome
+man dpkg
+dpkg --help
+sudo dpkg -r awesome-4.0.0.0-Linux.deb
+sudo dpkg -r awesome-4.0.0.0-Linux
+sudo dpkg -r awesome-4.0.0.0
+sudo dpkg -r awesome
+apt list --installed | grep awesome
+sudo apt remove awesome-extra
+apt list --installed | grep awesome
+exit
+cd Downloads/awesome-4.0
+ls
+cd build
+ls
+apt list --installed | grep awesome
+apt search liblua5
+sudo apt autoremove
+sudo apt-get autoremove
+vim .xinitrc
+vim ~/.xinitrc
+ls
+sudo dpkg -r awesome-4.0.0.0-Linux.deb 
+networking-restart.sh 
+sudo apt-get remove awesome
+sudo apt-get purge awesome
+ls ~/.config/awesome
+ls ~/.config/awesome4/
+exit
+exit
+sudo reboot
+exit
+vim .xinitrc 
+exit
+vim .xinitrc 
+exit
+exit
+vim .xinitrc 
+exit
+exec awesome
+cd Downloads/
+cd awesome-4.0
+cd build
+ls
+sudo dpkg -i awesome-4.0.0.0-Linux.deb 
+exec awesome
+exit
+vim .xinitrc 
+startx
+exit
+sudo find / -name 'awesome'
+file /usr/bin/awesome
+dpkg -l
+dpkg -l --installed
+apt list --installed | grep awesome
+sudo dpkg -r awesome
+apt list --installed | grep awesome
+sudo find / -name 'awesome'
+cd Downloads/awesome-4.0
+cd build
+ls
+sudo dpkg -i awesome-4.0.0.0-Linux.deb 
+sudo find / -name 'awesome'
+startx
+cat .xinitrc
+sudo find / -name 'awesome'
+vim .xinitrc
+startx
+vim .xinitrc
+startx
+vim .xinitrc
+startx
+vim .xinitrc
+sudo find / -name 'awesome'
+sudo find / -name 'rc.lua'
+vim .xinitrc
+sudo find / -name 'rc.lua'
+vim .xinitrc
+startx
+vim .xinitrc
+sudo find / -name 'rc.lua'
+startx
+sudo find / -name 'rc.lua'
+cd Downloads/awesome-4.0
+ls
+cd build
+ls
+dpkg -c awesome-4.0.0.0-Linux.deb 
+dpkg -c awesome-4.0.0.0-Linux.deb | less
+dpkg -c awesome-4.0.0.0-Linux.deb | vim
+dpkg -c awesome-4.0.0.0-Linux.deb > file
+vim file
+ls
+sudo dpkg -r awesome
+make install
+sudo make install
+ls
+sudo find / -name 'rc.lua'
+startx
+sudo cp /usr/local/etc/xdg/awesome/rc.lua ~/.config/awesome/
+vim .xinitrc
+vim .xinitrc 
+sudo reboot
+startx
+exit
+vim .xinitrc
+ls .config/awesome/
+vim .config/awesome/rc.lua
+startx
+exit
+vim ~/Dropbox/configuring/debian/after-install/auxiliary-scripts/install-software/install-awesome.sh 
+exit
+sudo reboot
+startx
+exit
+networking-restart.sh 
+vim .xinitrc 
+exit
+sudo find / -name 'rc.lua'
+vim .config/awesome
+vim .config/awesome/rc.lua 
+sudo find / -name 'rc.lua'
+z
+vim .xinitrc 
+startx
+tail /var/log/Xorg.2.log 
+tail /var/log/Xorg.1.log 
+tail /var/log/Xorg.0.log 
+su
+exit
+vim .xinitrc 
+startx
+sudo reboot
+exit
+sudoedit /etc/network/interfaces
+sudo reboot
+sudoedit /etc/network/interfaces
+sudo reboot
+sudoedit /etc/network/interfaces
+sudo reboot
+sudoedit /etc/network/interfaces
+sudo reboot
+ifconfig
+sudoedit /etc/network/interfaces
+sudo reboot
+xauth list
+ls -la
+ls -la .*
+ls -la .x
+ls -la .x*
+ls -la .X*
+rm .Xauthority-*
+ls -la .X*
+sudo chown serhiy:serhiy .Xauthority 
+ls -la .X*
+ls -la 
+sudo shutdown now
+startx
+exit
+startx
+exit
+sudoedit /etc/X11/Xwrapper.config 
+exit
+cat /etc/X11/Xwrapper.config
+man Xwrapper
+man Xwrapper.conf
+sudo reboot
+exit
+startx
+sudo reboot
+startx
+sudo find / -name 'lightdm.conf'
+sudoedit /etc/network/interfaces
+ifconfig 
+networking-restart.sh 
+ifconfig 
+pingg
+ifconfig 
+sudoedit /etc/lightdm/lightdm.conf 
+cd /usr/share/
+ls
+cd xsessions/
+ls
+vim lightdm-xsession.desktop 
+sudo apt install awesome
+feh
+sudo apt install awesome
+ls
+vim awesome.desktop 
+sudo cp awesome.desktop awesome.desktop.bak
+exit
+cd /usr/share/
+cd xsessions/
+ls
+sudo apt remove awesome
+ls
+cd /usr/share/xsessions/
+ls
+mv awesome.desktop.bak awesome.desktop
+sudo mv awesome.desktop.bak awesome.desktop
+ls
+vim awesome.desktop 
+vim lightdm-xsession.desktop 
+vim awesome.desktop 
+vim lightdm-xsession.desktop 
+startx
+exit
+sudo reboot
+startx
+exit
+ifconfig 
+networking-restart.sh 
+sudoedit /usr/share/xsessions/awesome.desktop 
+exit
+startx
+sudo reboot
+networking-restart.sh 
+sudoedit /usr/share/xsessions/awesome.desktop 
+vim .xinitrc 
+vim .config/awesome/rc.lua 
+startx
+exit
+networking-restart.sh 
+pingg
+sudoedit /etc/lightdm/lightdm.conf 
+sudoedit /usr/share/xsessions/awesome.desktop 
+vim .xinitrc 
+startx
+exit
+tail /var/log/lightdm/lightdm.log
+sudo tail /var/log/lightdm/lightdm.log
+tail ~/.xsession-errors
+startx
+exit
+sudo tail /var/log/lightdm/lightdm.log
+sudo cat /var/log/lightdm/lightdm.log | less
+networking-restart.sh 
+pingg
+ifconfig 
+cd /usr/share/xsessions/
+ls
+sudo mv lightdm-xsession.desktop lightdm-xsession.desktop.bak
+vim lightdm-xsession.desktop.bak
+ls
+startx
+exit
+cd /usr/share/xsessions/
+sudoedit awesome.desktop 
+startx
+exit
+cd /usr/share/xsessions/
+ls
+sudoedit awesome.desktop 
+startx
+exit
+sudo reboot
+ifconfig 
+pingg
+networking-restart.sh 
+pingg
+cd /usr/share/xsessions/
+ls
+cd /usr/share/xsessions/
+ls
+sudo mv lightdm-xsession.desktop.bak lightdm-xsession.desktop
+cd /usr/share/xsessions/
+ls
+vim lightdm-xsession.desktop 
+vim awesome.desktop 
+sudo vim awesome.desktop 
+ls
+mv ~/.config/awesome/rc.lua ~/.config/awesome/rc.lua.bak
+mv ~/.config/awesome/rc.lua.bak ~/.config/awesome/rc.lua
+ls
+ls awesome4_test/
+rm -r awesome4_test/
+ls
+vim .xinitrc 
+rm -r .config/awesome4/
+pingg
+sudo reboot
+networking-restart.sh 
+set-keyboards.sh 
+dropbox.py start
+cd Dropbox/
+ls
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+touch /tmp/file
+cd /tmp/
+ls
+mkdir test-repo
+cd test-repo
+git init
+git branch
+touch file
+ls
+git branch
+git-cola
+git branch
+git push
+git remote -v
+git remote test https://github.com/sserdyuk1991
+git remote add test https://github.com/sserdyuk1991
+git remote show
+git remote -v
+git push
+git push test
+git push --set-upstream test master
+cd ..
+ls
+cd test-repo/
+cd
+git clone https://github.com/sserdyuk1991/debian-configuration-scripts.git
+ls
+cd debian-configuration-scripts/
+ls
+ranger 
+ls
+cd configuring/
+ls
+cd debian/
+ls
+cp -r * ~/debian-configuration-scripts/
+ranger 
+ls
+ranger 
+ls
+cd after-install/
+ls
+ranger 
+cd ..
+ls
+find . -name '*.sh'
+ls
+cd after-install/
+ls
+rename 
+cd ..
+find . -name '*.sh'
+find . -name '*.sh'-exec rename 's/\.sh$/.bash/' '{}' \;
+find . -name '*.sh' -exec bash -c 'mv "$1" "${1%.sh}".bash' - '{}' \;
+ls
+find . -name '*.sh'
+ranger 
+ls
+mv after-install/* ./
+ls
+cd after-install/
+ls
+cd ..
+ls
+rmdir after-install/
+ls
+vim prepare.bash 
+vim auxiliary-scripts/extract.bash 
+cd debian-configuration-scripts/
+ls
+vim configure.bash 
+ls
+cd auxiliary-scripts/
+ls
+vim extract.bash 
+ls
+rm extract.bash
+ls
+vim configure-sudo.bash 
+vim prepare.bash 
+ls
+rm prepare.bash 
+ls
+vim configure.bash 
+ls
+ranger 
+ranger 
+ls
+cd ..
+ls
+ls
+vim configure.bash 
+ls
+mv install-software software-installation-scripts
+ls
+vim install-
+vim install-software.bash 
+ls
+vim install-drivers.bash 
+vim configure.bash 
+vim README.md 
+ls
+touch script
+vim script
+ls
+mv script testscript.bash
+testscript.bash
+ll
+./testscript.bash
+sudo ./testscript.bash
+sudo chmod +x ./testscript.bash
+ls
+testscript.bash
+./testscript.bash
+vim configure-sudo.bash 
+man sudo
+man su
+vim README.md 
+ls
+vim README.md 
+ls
+ranger 
+cd Dropbox/backup/home/serhiy/.bin/
+ls
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+vim configure-sudo.bash 
+ls
+apt
+ranger 
+ls
+vim typescript 
+ls
+ranger 
+ls
+vim configure.bash 
+ls
+cd software-installation-scripts/
+ls
+vim install-qt.bash 
+ls
+sudo chmod -x install-qt.bash
+ls
+vim install-software.bash 
+ranger 
+ls
+cd /tmp/
+ls
+ls
+vim install-awesome-build-deps.bash 
+git clone https://github.com/awesomeWM/awesome.git
+cd software-installation-scripts/
+ls
+ranger 
+s
+ls
+mv install-awesome-build-deps.bash install-awesome.bash 
+ls
+ls
+cd awesome/
+ls
+vim LICENSE 
+cd Downloads/awesome-4.0
+ls
+vim /usr/share/xsessions/
+cd /usr/share/xsessions/
+ls
+vim awesome.desktop 
+vim awesome.desktop 
+vim awesome.desktop 
+ls
+vim install-awesome.bash
+ls
+mkdir build
+cd build
+ls
+cmake ..
+ls
+make -j4
+ls
+vim awesome.h 
+cd Downloads/awesome-4.0
+ls
+vim awesome-version-internal.h 
+ls
+vim README.md 
+vim awesome-version-internal.h 
+ls
+cd ..
+ranger 
+vim install-awesome.bash
+ls
+la
+ls
+cd tmp
+ls
+cd Downloads/
+ls
+cd ../Workspace/
+ls
+cd ../Dropbox/
+ls
+cd Chess/
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+qtcreator
+vim README.md 
+upower -i /org/freedesktop/UPower/devices/battery_BAT0
+ranger 
+script
+ls
+pingg
+ifconfig 
+networking-restart.sh 
+pingg
+ls
+rm -r subfurface
+rm -r subsurface
+rm -r subsurface -f
+ls
+mkdir Tutorials
+ranger 
+ls
+cd Pictures/
+ls
+mkdir screenshots
+ls
+cd ..
+ls
+cd debian-configuration-scripts/
+ls
+vim README.md 
+git-cola
+git clone https://github.com/sserdyuk1991/debian-backup-files.git
+ls
+cd debian-backup-files/
+ls
+la
+git-cola
+git branch
+echo "# debian-backup-files" >> README.md
+ls
+cd ..
+ls
+rm -r debian-backup-files/
+ls
+mkdir debian-backup-files/
+ls
+cd debian-backup-files/
+git init
+echo "# debian-backup-files" >> README.md
+vim README.md
+git add README.md 
+git status
+git commit -m "Initial commit"
+git remote add origin https://github.com/sserdyuk1991/debian-backup-files.git
+git push -u origin master
+cd Dropbox/workspace/
+ls
+cd gui-application
+ls
+cd Tutorials/
+ls
+cd gimp-tutorials/
+ls
+feh horseheadir_hubble_960.jpg 

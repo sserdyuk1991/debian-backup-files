@@ -1,0 +1,3023 @@
+ls
+ranger 
+cd qt-gpio-aggregator/
+ls
+git pull
+ls
+tree
+ls
+qmake 
+ls
+tree
+ls
+ranger 
+cd ../gui-application/
+cd gui-application.pro
+cd bin/
+ls
+./gui-application 
+file ./gui-application
+readelf ./gui-application
+readelf ./gui-application -a
+cd Workspace/
+ls
+rm -r rootfs-var-som-am33/
+sudo rm -r rootfs-var-som-am33/
+ls
+scp creator@192.168.88.40:~/nfs/nightly/rootfs.tar.gz ./
+ls
+tar -tvf rootfs.tar.gz 
+mkdir rootfs-var-som-am33
+ls
+tar -xf rootfs.tar.gz -C rootfs-var-som-am33/
+ls
+cd qt-builds/
+cd var
+cd 5.5.0/var-som-am33/configure-qt.bash 
+cd 5.5.0/var-som-am33/
+ls
+./configure-qt.bash 
+ls
+./configure-qt.bash 
+ls
+make -j2
+make
+pd ~/Workspace/rootfs-var-som-am33/
+make
+pp
+ls
+make
+ranger 
+ls
+sudo make install
+pp
+ls
+vim configure-qt.bash 
+ls
+cd Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0
+ls
+cd qtbase/mkspecs/devices/
+ls
+ranger 
+cp -r linux-rasp-pi-g++/ linux-var-som-am33
+cd linux-var-som-am33
+ls
+cd ..
+mv linux-var-som-am33 linux-var-som-am33-g++
+cd linux-var-som-am33-g++
+ls
+mv qmake.conf qmake.conf.bak
+ls ~/Downloads/
+mv ~/Downloads/qmake.conf ./
+ls
+pp
+cd ..
+ranger 
+ls
+ssh creator@192.168.88.40
+fdisk
+fdisk -l
+sudo fdisk -l
+ls /media/
+ls /mnt/
+ls /mnt/usb/
+sudo mount /dev/sdb2 /mnt/usb
+cd /mnt/usb
+ls
+sudo umount /mnt/usb
+ls
+cd Dropbox/workspace/gui-application/
+ls
+cd Dropbox/english/
+ls
+vim speech\ designs.txt 
+networking-restart.sh 
+cd Dropbox/workspace/gui-application/
+ls
+cd bin
+ls
+file gui-application 
+ls
+./gui-application 
+ls
+./gui-application 
+rm gui-application 
+ls
+./gui-application 
+ls
+rm gui-application 
+ls
+file gui-application 
+cd ..
+scp -r bin/ creator@192.168.88.40:~/
+sudo cp -r bin/ /mnt/usb/
+ді
+ls
+ranger 
+ls
+mv SubmenuModel.hpp_ ThirdMenuModel.hpp
+mv SubmenuModel.cpp_ ThirdMenuModel.cpp
+ls
+ді
+ды
+ls
+ls *.h*
+cd bin/
+ls
+rm gui-application 
+ls
+rm gui-application 
+ls
+rm gui-application 
+ls
+./gui-application
+ranger 
+ls
+rm gui-application 
+ls
+rm gui-application 
+ls
+./gui-application 
+ranger 
+./gui-application 
+ranger 
+ls
+rm gui-application 
+ls
+cd ..
+ls
+vim prepare.bash 
+ls
+vim prepare.bash 
+cd ..
+cd qt-gpio-aggregator/
+ls
+vim include/
+vim include/qtgpioaggregator.h 
+cd ../gui-application/
+ls
+rm moc_*.cpp
+./prepare.bash 
+ls
+vim Makefile 
+git-cola
+ls
+rm moc_*.cpp
+ls
+rm qrc_qml.cpp 
+ls
+ranger 
+git-cola
+ls
+git status
+git diff
+git add .
+git status
+git commit -m "Added third menu level"
+git status
+git log
+it-cola
+git-cola
+git status
+git checkout dev
+git branch -a
+git branch
+git merge feature_new_requirements_implementation
+git status
+git log
+git branch -d feature_new_requirements_implementation
+git branch
+git branch -a
+git push
+git checkout -b feature_interaction_with_database_revising
+git branch -a
+git stash
+git checkout dev
+cd bin/
+git branch -a
+git checkout feature_interaction_with_database_revising
+git stash pop
+git status
+git diff
+git status
+ls
+ranger 
+ls
+rm gui-application 
+qtcreator
+scrot
+scrot -s
+ls
+ranger 
+scrot -s
+ranger 
+cd Downloads/
+ls
+ranger 
+zathura 2016-04-11.CSU_GUI.ARCS.NYC.pdf 
+zathura gui.pdf 
+scrot -s
+ranger 
+networking-restart.sh 
+mysql -u root -p
+ls
+cd Downloads/
+ls
+cd Dropbox/workspace/gui-application/
+ls
+rnag
+ranger 
+ls
+cd bin
+ranger 
+ls
+./gui-application 
+ls
+git status
+git diff
+git status
+ls
+vim .gitignore 
+git status
+rm gui-application 
+git status
+git add .
+git status
+git add ..
+git status
+git diff
+cd ..
+git status
+git add .
+git commit -m "Implemented permanent status updating, revised db interaction flow"
+git log
+ls
+git branch
+git checkout dev
+git merge feature_interaction_with_database_revising
+git log
+git branch -d feature_interaction_with_database_revising
+git branch -a
+git push
+ls
+ls bin/
+ді
+ls
+cd bin/
+ls
+cd configs/
+ls
+vim LobbySubmenu.conf 
+ls
+cd ..
+ls
+./gui-application 
+vim configs/LobbySubmenu.conf 
+./gui-application 
+vim configs/LobbySubmenu.conf 
+./gui-application 
+ranger 
+git status
+git diff
+vim configs/LobbySubmenu.conf 
+./gui-application 
+git diff
+git status
+cd ..
+git status
+git add .
+git status
+git commit -m "Fixed improper behaviour on switching between menu levels"
+git status
+git push
+git status
+git diff
+git status
+git add .
+git commit -m "Refactored methods ordering"
+git push
+git status
+mysql -u root -p
+df -h
+mkdir ~/Android
+jmtpfs ~/Android
+fusermount -u ~/Android
+jmtpfs ~/Android
+ls ~/Android/
+ranger 
+ls
+ranger 
+ls
+cd Android/
+ls
+cd Internal\ storage/
+ls
+cd ..
+ranger 
+mkdir MTP
+ls
+ls /mnt/
+sudo mkdir /mnt/mtp
+history 
+fusermount -u ~/Android
+ranger 
+jmtpfs -l
+jmtpfs Android/
+ranger 
+fusermount -u ~/Android
+jmtpfs /mnt/mtp/
+sudo jmtpfs /mnt/mtp/
+pd /mnt/mtp/
+sudo pd /mnt/mtp/
+sudo ranger
+cd /mnt/mtp 
+sudo cd /mnt/mtp 
+sudo -u
+man sudo
+sudo -u
+su
+jmtpfs MTP/
+ranger 
+sudo rm -r /mnt/mtp/
+ls
+ls /mnt/usb/
+df -h
+fdisk 
+fdisk -l
+sudo fdisk -l
+ranger 
+mount /mnt/usb/ /dev/sdb1 
+sudo mount /mnt/usb/ /dev/sdb1 
+sudo mount /dev/sdb1 /mnt/usb/
+cd /mnt/usb/
+ls
+ls -l
+cd
+umount /mnt/usb/
+sudo umount /mnt/usb/
+umount /mnt/usb/
+ls //mnt/usb/
+ls /mnt/usb/
+ls /mnt/
+sudo rm -r /mnt/usb/
+ls /mnt/
+mkdir USB
+ls
+ls /media/
+ls
+mount /dev/sdb1 USB
+sudo mount /dev/sdb1 USB
+cd USB
+ls
+ls -l
+cd ..
+ranger 
+ls
+cp namsnet.sql USB/
+sudo umount USB/
+ranger 
+sudo mount /dev/sdb1 USB -o uid=serhiy gid=serhiy
+sudo mount /dev/sdb1 USB -o uid=serhiy -o gid=serhiy
+ls
+cd USB/
+ls
+ls -l
+ls
+cd ..
+ls
+rm -r Android/
+ls
+ls MTP
+ranger 
+cp Passwords.key MTP/Internal\ storage/Download/
+pd MTP/Internal\ storage/Download/
+ls
+cd
+pp
+fusermount -u MTP
+ranger 
+sudo umount USB/
+networking-restart.sh 
+cd Downloads/
+ls
+zathura gui.pdf 
+networking-restart.sh 
+ls
+cd ..
+cd Workspace/
+ls
+cd qt-builds/5.5.0/x64/
+ls
+vim configure-qt.bash 
+cd
+cd Downloads/
+zathura gui.pdf 
+cd
+cd Downloads/
+zathura gui.pdf 
+ls
+cd /opt/Qt/5.5/
+ls
+cd var-som-am33/
+ls
+ranger 
+ls
+cd ..
+ls
+tar -cf qt-for-arm.tar var-som-am33/
+sudo tar -cf qt-for-arm.tar var-som-am33/
+ls
+tar -tvf qt-for-arm.tar 
+ls
+pushd /usr/lib/mysql/
+ls
+cd ..
+cd include/mysql/
+ls
+pp
+ls
+cd
+ls
+sudo apt install jmtpfs
+install-software-list 
+man fusermount
+man mount
+networking-restart.sh 
+man jmtpfs
+cd Dropbox/workspace/gui-application/
+ls
+git status
+git diff
+git add .
+git status
+git commit -m "Added colors workaround"
+git push
+ді
+ls
+cd gui-application.pro
+cd bin/
+./gui-application 
+ls
+ranger 
+./gui-application 
+ranger 
+./gui-application 
+ranger 
+./gui-application 
+cd ..
+git status
+bin/gui-application 
+cd bin/
+./gui-application 
+ranger 
+./gui-application 
+cd ..
+git status
+git diff
+git add .
+git status
+git commit -m "Implemented status chain behavior"
+git push
+git diff
+git dif
+ls
+git status
+cd
+ls /dev/ttyUSB0 
+ssh creator@192.168.88.40
+screen /dev/ttyUSB0 115200
+sudo apt install screen
+screen /dev/ttyUSB0 115200
+sudo screen /dev/ttyUSB0 115200
+commands 
+apt list minicom
+sudo apt install minicom
+sudo minicom -s -D /dev/ttyUSB0
+sudo minicom -s -D /dev/ttyUSB0 115200
+sudo screen /dev/ttyUSB0 115200
+commands 
+ls
+ps aux | grep ttyUSB0
+sudp pkill SCREEN
+sudo pkill SCREEN
+ps aux | grep ttyUSB0
+sudo kill 11639 11655 12089 12104
+ps aux | grep ttyUSB0
+putty
+sudo putty
+sudo apt install putty
+sudo putty
+cd Workspace/
+ls
+cd
+cd Dropbox
+cd workspace/
+ls
+/opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gdb
+cd /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/bin
+ls
+ls ./arm-linux-gnueabihf-gdb 
+ls ./arm-linux-gnueabihf-gdb -l
+sudo chmod 777 ./arm-linux-gnueabihf-gdb
+ls ./arm-linux-gnueabihf-gdb -l
+sudo chown serhiy:serhiy ./arm-linux-gnueabihf-gdb
+ls ./arm-linux-gnueabihf-gdb -l
+ls
+ssh root@192.168.88.80:
+ssh root@192.168.88.80
+chdir
+cd
+cd /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/bin
+sudo chown root:root ./arm-linux-gnueabihf-gdb
+ll
+sudo chmod 755 ./arm-linux-gnueabihf-gdb
+ll
+cd
+ps aux | grep ttyUSB0
+cd Dropbox/workspace/gui-application/
+ls
+git pull
+man mysql
+man readelf
+man ln
+cd Dropbox/workspace/gui-application/
+ls
+git status
+git diff
+git status
+git add .
+git-cola
+ranger 
+git diff
+git-cola 
+git diff
+git add .
+git commit -m "Set all necessary colors"
+git log
+git push
+mysql -u root -p
+networking-restart.sh 
+ls /opt/gcc-linaro-4.9-2015.05-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gdb 
+apt list chdir
+which chdir
+whereis chdir
+man chdir
+ifconfig 
+sudo /etc/init.d/mysql stop
+sudo mysqld --skip-grant-tables &
+161202 15:09:54 [Note] mysqld (mysqld 5.5.52-0+deb8u1) starting as process 18653 ...
+mysql -u root mysql
+cd Downloads/
+ls
+zathura gui.pdf 
+sudo reboot
+xrandr --output eDP1 --brightness 0.4
+xrandr --output eDP1 --brightness 0.8
+xrandr --output eDP1 --brightness 1
+xrandr --output eDP1 --brightness 2
+xrandr --output eDP1 --brightness 3
+xrandr --output eDP1 --brightness 4
+xrandr --output eDP1 --brightness 1
+xrandr --output eDP1 --brightness 1.5
+xrandr --output eDP1 --brightness 1
+ls
+vim .bashrc 
+crontab -l
+xrandr --output eDP1 --brightness max
+xrandr --output eDP1 --brightness 11
+xrandr --output eDP1 --brightness 20
+xrandr --output eDP1 --brightness 1
+xrandr --output eDP1 --brightness 2
+xrandr --output eDP1 --brightness 1
+sudo apt install xbacklight
+xbacklight -set 50 
+xbacklight -set 100
+xbacklight -set 120
+xbacklight -set 50 
+xbacklight -inc 10 
+xbacklight -set 30 
+xbacklight -set 20
+xbacklight -set 10
+xbacklight -set 0
+xbacklight -set 10
+xbacklight -set 0
+xbacklight -set 10
+xbacklight -set 20
+xbacklight -set 30
+xbacklight -set 40
+xbacklight -set 50
+xrandr --verbose
+networking-restart.sh 
+sudo reboot
+qtcreator
+networking-restart.sh 
+sudo reboot
+networking-restart.sh 
+cd Dropbox/workspace/
+ls
+rm -r build-gui-application-Desktop_Qt_5_5_0_GCC_64bit-Debug/
+cd gui-application
+git status
+git diff
+git status
+git-cola
+git branch
+git push
+git push --set-upstream origin feature-models-refactoring
+git branch -a
+pit pull
+git pull
+git branch -a
+git checkout dev
+git branch
+git pull
+git log
+git branch
+git branch -d feature-models-refactoring
+git branch -rd origin/feature-models-refactoring
+git branch -a
+git branch -rd remotes/origin/feature-models-refactoring
+git branch -a
+git log
+git branch -a
+git diff
+git status
+git add .
+git status
+git commit -m "Total renaming"
+git push
+git status
+git diff
+git add .
+git diff
+git status
+git commit -m "Added comments"
+git push
+man git-blame
+git blame -L 1
+git blame -L 1,
+git blame -L 1,1
+git blame -L 1,1 main.cpp 
+git blame -L 1,10 main.cpp 
+git blame -L 100,100 MainMenuModel.cpp 
+git blame -L 64,64 MainMenuModel.cpp 
+man git
+git blame -L 31,31 GpioKeyboard.cpp 
+man git blame
+man git
+git blame -L 18,18 main.cpp 
+git blame
+man git blame
+git status
+git add .
+git commit -m "GpioKeyboard clang formatting"
+git status
+git blame -L 31,31 GpioKeyboard.cpp 
+git status
+git diff
+git add .
+git commit -m "Added handling of unknown status in database"
+git push
+mysql -u root
+sudo apt-get install --yes nvidia-current
+it status
+git status
+git diff
+git add .
+git commit -m "Implemented setting of database credentials from config file"
+git push
+ls
+networking-restart.sh 
+ping 192.168.88.82
+ifconfig 
+ssh 192.168.88.80
+ssh root@192.168.88.82
+ssh root@192.168.88.80
+mysql
+mysql -u root
+ssh 192.168.88.80
+ssh root@192.168.88.80
+vim fill-in-db.bash
+ls
+cd Dropbox/backup/home/serhiy/
+lla
+uname -a
+ls ~/.bin/
+backup-history.sh 
+lla
+crontab -l
+cat .bash_history.debian-work.bak | grep mysql
+cat .bash_history.debian-home.bak | grep mysql
+vim fill-in-db.bash
+ls
+vim fill-in-db.bash
+git diff
+man mysql
+cd bin/
+./gui-application 
+ls
+rm gui-application 
+cd Downloads/
+ls
+unzip QMLSingleton_Sample1_1.zip 
+sudo apt install unzip
+unzip QMLSingleton_Sample1_1.zip 
+ls
+install-software-list 
+zip QMLSingleton_Sample1 sample.zip
+man zip
+sudo apt install zip
+zip QMLSingleton_Sample1 sample.zip
+zip -r QMLSingleton_Sample1 sample.zip
+zip -r QMLSingleton_Sample1 QMLSingleton_Sample1.zip
+zip -r sample.zip QMLSingleton_Sample1
+ls
+install-software-list 
+cd QMLSingleton_Sample1
+ls
+ranger 
+cd ..
+ls
+cd conf
+cd bin/
+cd configs/
+vim MainMenu.conf 
+cd
+ssh root@192.168.88.82
+networking-restart.sh 
+ps aux | gre[ mysql
+ps aux | grep mysql
+networking-restart.sh 
+ls
+ls Workspace/
+ls Workspace/qt-sources/
+ls
+ls Downloads/
+cp Downloads/qt-everywhere-opensource-src-5.6.2.tar.xz Workspace/qt-sources/
+cd Workspace/qt-sources/
+ls
+cd ..
+ls
+cd qt-sources/
+ls
+tar -tvf qt-everywhere-opensource-src-5.6.2.tar.xz 
+ls
+tar -xf qt-everywhere-opensource-src-5.6.2.tar.xz
+ls
+cd Workspace/qt-builds/
+ls
+mkdir 5.6.2
+ls
+ls 5.5.0/
+cd 5.6.2
+mkdir var-som-am33
+ls
+cd ..
+ls
+cp 5.5.0/var-som-am33/configure-qt.bash 5.6.2/var-som-am33/
+pd 5.6.2/var-som-am33/
+ls
+ls /opt/
+wget -O /tmp/gcc-linaro.tar.xz --no-check-certificate https://releases.linaro.org/components/toolchain/binaries/latest-5/arm-linux-gnueabihf/gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabihf.tar.xz
+sudo tar -xf /tmp/gcc-linaro.tar.xz -C /opt
+pd /opt
+ls
+cd Qt/
+ls
+mkdir 5.6
+sudo mkdir 5.6
+ls
+ls 5.5
+ls
+sudo mkdir 5.6/var-som-am33
+vim configure-qt.bash 
+ls
+cd qt-everywhere-opensource-src-5.
+cd qt-everywhere-opensource-src-5.6.2
+ls
+cd qtbase/mkspecs/
+ls
+cd ..
+cd qt-everywhere-opensource-src-5.5.0
+ls
+cd qtbase/mkspecs/
+ls
+cd devices/
+ls
+cd linux-var-som-am33-g++/
+ls
+cd ..
+cd var-som-am33/
+pd ../../../qt-sources/qt-everywhere-opensource-src-5.5.0/qtbase/mkspecs/devices/linux-var-som-am33-g++/
+ls
+ranger 
+cd ..
+cd qt-everywhere-opensource-src-5.6.2/qtbase/mkspecs/devices/
+ranger 
+ls
+vim qmake.conf.bak 
+cp -r ../../../../qt-everywhere-opensource-src-5.5.0/qtbase/mkspecs/devices/linux-var-som-am33-g++/ ./
+ls
+pp
+ls
+vim configure-qt.bash 
+ls
+./configure-qt.bash 
+vim configure-qt.bash 
+cp configure-qt.bash configure-qt.bash.bak
+vim configure-qt.bash
+./configure-qt.bash
+vim configure-qt.bash
+./configure-qt.bash
+vim configure-qt.bash
+ls
+ls
+ls /tmp/
+ls /opt/
+./configure-qt.bash
+ls
+rm *.bak
+ls
+make
+cd Workspace/rootfs-var-som-am33/
+ls
+find . -name 'libQt*'
+vim configure-qt.bash 
+cd linux-var-som-am33-g++/
+vim qmake.conf
+cd /opt/
+ls
+cd gcc-linaro-5.3.1-2016.05-x86_64_arm-linux-gnueabihf/
+ls
+cd bin/
+ls
+ls
+vim Makefile 
+vim ../../5.5.0/var-som-am33/Makefile 
+ls
+cd qtbase/
+ls
+ranger 
+ls
+cd ..
+ls
+cp configure-qt.bash configure-qt.bash.bak
+ls
+vim configure-qt.bash
+networking-restart.sh 
+ls
+ranger 
+cd ..
+cd 5.5.0/
+cd var-som-am33/
+ranger 
+cd ..
+cd 5.6.2/var-som-am33/
+ls
+vim configure-qt.bash
+./configure-qt.bash
+make -j2
+ping 1952.168.88.80
+ping 1952.168.88.82
+ping 192.168.88.82
+ping 192.168.88.80
+ls
+make
+htop 
+ssh root@192.168.88.82
+vim MainMenu.conf 
+git diff
+vim MainMenu.conf 
+cd Dropbox/workspace/gui-application/bin/configs/
+ls
+vim MainMenu.conf 
+git diff
+git-cola 
+ls
+cd ..
+ls
+./gui-application 
+git push
+cd ..
+cd Dropbox/workspace/gui-application
+ls
+cd ..
+ls
+rm -r gui-application.bak/
+cp -r gui-application/ gui-application.bak
+ls
+cd gui-application
+cd ..
+cd gui-application.bak/
+ls
+git diff
+git reset HEAD
+git status
+cd ..
+ls
+mv gui-application.bak/ gui-application-test
+cd gui-application-test
+ls
+cd bin/configs/
+ls
+mysql -u root
+vim MainMenu.conf 
+ls
+git status
+git checkout --
+git status
+git-cola 
+git status
+vim MainMenu.conf 
+vm MainMenu.conf MainMenu.conf.bak
+ls ../../
+ls ../../../../
+ls ../../../../build-gui-application-Desktop_Qt_5_7_0_GCC_64bit-Debug/
+ls
+vim MainMenu.conf 
+mv MainMenu.conf MainMenu.conf.bak
+git-cola
+git push
+git status
+git diff
+git status
+cd ..
+ls
+cd Dropbox/workspace/gui-application-test/
+ls
+cd bin/configs/
+ls
+git log
+git status
+git diff 
+cd bin/configs/
+mv MainMenu.conf MainMenu.conf.bak
+mv MainMenu.conf.bak MainMenu.conf
+cd
+apt list valgrind
+sudo apt install valgrind
+apt list valgrind
+which valgrind
+cd ..
+ls
+valgrind --leak-check=full ./gui-application 
+./gui-application 
+valgrind --leak-check=full ./gui-application 
+cd ~/build-untitled-Desktop_Qt_5_7_0_GCC_64bit-Debug/
+ls
+./untitled 
+vim ~/.bashrc
+valgrind --leak-check=full ./untitled 
+vim test.c
+gcc test.c
+ls
+valgrind --leak-check=full ./a.out 
+vim test.c
+mv test.c test.cpp
+vim test.cpp
+g++ test.cpp
+ls
+./a.out 
+valgrind --leak-check=full ./a.out 
+vim test.cpp
+g++ test.cpp
+vim test.cpp
+g++ test.cpp
+valgrind --leak-check=full ./a.out 
+vim test.cpp 
+valgrind --leak-check=full ./a.out 
+g++ test.cpp
+valgrind --leak-check=full ./a.out 
+valgrind --leak-check=full ./a.out -v
+valgrind --leak-check=full ./a.out
+networking-restart.sh 
+git status
+git diff
+git-cola
+scrot -s
+feh 2016-12-08-170636_399x91_scrot.png 
+valgrind --leak-check=full ./gui-application 
+feh 2016-12-08-170636_399x91_scrot.png 
+man valgrind
+git diff
+git-cola
+journalctl 
+journalctl -f
+cd bin/
+ls
+./gui-application 
+cd Downloads/
+ls
+sudo journalctl -f
+ls /dev/tty
+ls /dev/tty*
+screen /dev/ttyUSB0
+screen /dev/ttyUSB0 112500
+screen /dev/ttyUSB0 115200
+alsactl
+sudo apt install alsa-utils
+alsactl
+man alsactl
+sudo screen /dev/ttyUSB0 115200
+vim configs/MainMenu.conf 
+qtcreator
+./gui-application 
+cd configs/
+vim MainMenu.conf 
+mv MainMenu.conf MainMenu.conf.bak
+mv MainMenu.conf.bak MainMenu.conf
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql status
+vim MainMenu.conf 
+mysql -u root namsnet
+cd ..
+gti diff
+git diff
+ranger 
+cd ..
+ls
+git status
+git-cola
+git status
+git add .
+git add configs/
+git add include/
+git add qml/
+git add src/
+git stats
+git status
+git reset HEAD fill-in-db.bash 
+git status
+git add qml/Style.qml 
+git status
+git commit -m "Added custom exception classes, changed project tree structure"
+git status
+git push
+git status
+git-cola 
+git log
+git stash
+git status
+git push
+git stash pop
+git status
+git stash
+git status
+git checkout -- src/main.cpp 
+git status
+git stash pop
+networking-restart.sh 
+git status
+git cola
+git stash
+git status
+git log
+git push
+git log
+git status
+git stash pop
+git status
+git diff
+git-cola 
+git status
+git add include/
+git add src/
+git status
+git diff
+git-cola 
+git status
+git diff
+git status
+git diff src/Database.cpp 
+git show src/Database.cpp 
+git diff src/Database.cpp HEAD
+git diff help
+git diff -h
+man git diff
+git diff HEAD
+git status
+git commit -m "Headers resolving"
+git status
+git log
+git ammend
+git-cola
+git status
+git-cola
+git stash
+git push
+git stash pop
+git log
+git status
+cd /opt/Qt/5.5/
+ls
+cd var-som-am33/
+ls
+cd ..
+ls
+cd Workspace/qt-builds/
+ls
+cd 5.5.0/var-som-am33/
+ls
+vim configure-qt.bash 
+ls
+sudo screen /dev/ttyUSB0 115200
+ps aux | grep -i screen
+sudo kill 24933 
+screen /dev/ttyUSB0 115200
+ranger 
+ssh root@192.168.88.82
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.82
+sudo screen /dev/ttyUSB0 115200
+ssh root@192.168.88.82
+ps aux | grep -i screen
+sudo kill 24957
+cd /opt/Qt/5.5/var-som-am33/
+sudo find . -name 'libQt5*'
+sudo find . -name 'libQt5*.so*'
+ll lib/libQt5Qml.so
+sudo find . -name 'libQt5*.so*'
+sudo find . -name 'libQt5*.so*' > ~/host
+cat ~/host
+ssh root@192.168.88.82
+vim ~/device
+networking-restart.sh 
+man find
+ls
+mv host libs_on_host_machine
+mv libs_on_host_machine qt_libs_on_host_machine
+mv device qt_libs_on_device
+ls
+vim qt_libs_on_host_machine 
+vim qt_libs_on_device 
+git diff
+git status
+git diff src/models/AbstractMenuModel.cpp 
+git status
+git diff src/main.cpp 
+ls
+cd ..
+ls
+rm -r build-gui-application-Device_Qt_5_5_0_var_som_am33-Debug/
+ls
+rm -r build-gui-application-Device_Qt_5_5_0_var_som_am33-Debug/
+ls
+sudo screen /dev/ttyUSB0 115200
+ps aux | grep -i screen
+sudo kill 25185 29309
+ps aux | grep -i screen
+vim configs/MainMenu.conf 
+cd gui-application
+ls
+git status
+git-cola
+git status
+git-cola
+git stash 
+git push
+git stash pop
+git-cola
+git stash 
+git push
+git stash pop
+git log
+cd ..
+ls
+rm -r gui-application-test/
+sudo rm -r gui-application-test/
+ls
+cp -r gui-application/ gui-application-test
+cd /opt/Qt/5.5/
+ls
+du -h var-som-am33/
+ls
+cd var-som-am33/
+ls
+du -h bin
+cd bin/
+ls
+cd ..
+ls
+du -h doc
+du -h include/
+ls
+du -h lib
+ls
+du -h plugins/
+du -h lib
+sudo find lib -name 'libQt5*'
+cd
+cd Workspace/qt-builds/5.5.0/var-som-am33/
+ls
+vim configure-qt.bash 
+ls
+du -h lib
+sudo screen /dev/ttyUSB0 115200
+ls
+ps aux | grep -i screen
+sudo pkill -i screen
+sudo pkill screen
+ps aux | grep -i screen
+ranger 
+cd gui-application/
+zathura gui.pdf 
+ssh creator@192.168.88.40
+xbacklight -set 50
+networking-restart.sh 
+sudo service mysql status
+cd Dropbox/workspace/gui-application
+ls
+cd configs/
+ls
+ranger 
+cd ..
+git pull
+git status
+git-cola
+git stash
+git pull
+cd Downloads/
+ls
+git status
+git-cola
+sudo service mysql stop
+sudo service mysql start
+git blame -L 31,31 GpioKeyboard.cpp 
+git blame -L 27,27 src/main.cpp
+git blame -L 51,51 src/main.cpp
+git blame -L 68,68 gui-application.pro
+networking-restart.sh 
+ls
+cd bin
+ls
+file gui-application
+fdisk
+fdisk -l
+sudo fdisk -l
+sudo mount /dev/sdb2 USB 
+ls USB
+cd USB/
+ls
+mkdir gui-application
+ls
+ll
+mkdir gui-application/
+mkdir gui-application-demo/
+sudo mkdir gui-application-demo/
+ls
+ls
+cd ..
+ls
+cp -r bin ~/USB/gui-application-demo/
+sudo cp -r bin ~/USB/gui-application-demo/
+sudo cp -r configs ~/USB/gui-application-demo/
+cd gui-application-demo/
+ls
+cd bin/
+ls
+file gui-application
+cd 
+sudo umount USB/
+ls
+vim fill-in-db.bash 
+sudo mount /dev/sdb2 USB 
+cd USB/
+ls
+cp fill-in-db.bash ~/USB/gui-application-demo/
+sudo cp fill-in-db.bash ~/USB/gui-application-demo/
+sudo umount USB/
+cd ..
+sudo umount USB/
+cd ..
+ld
+ls
+mkdir demo
+ls
+cd demo/
+ls
+git clone https://SerhiySerdyuk@bitbucket.org/sirinsoftware/gui-application.git
+ls
+cd gui-application/
+ls
+git branch
+git checkout dev
+ls
+git branch
+git branch -a
+git branch -d dev
+git branch
+cd ..
+cd gui-application/
+ls
+cd conf
+cd configs/
+ls
+sudo service mysql stop
+sudo service mysql start
+vim RauLevel3Menu.conf 
+ranger 
+ls
+sudo mount /dev/sdb2 USB 
+cd ..
+ls
+cd USB/gui-application-demo/
+ls
+rm -r bin
+sudo rm -r bin
+sudo rm -r configs/
+cd bin/
+ls
+rm gui-application\ \(debian-work\'s\ conflicted\ copy\ 2016-12-12\) 
+ls
+file gui-application 
+cd ..
+sudo cp -r bin/ ~/USB/gui-application-demo/
+sudo cp -r configs/ ~/USB/gui-application-demo/
+ls
+sudo umount USB/
+cd
+sudo umount USB/
+sudo mount /dev/sdb2 USB 
+sudo cp -r bin/ ~/USB/gui-application-demo/
+sudo umount USB/
+sudo mount /dev/sdb2 USB 
+ls
+cd USB/
+ls
+l
+ls
+sudo cp -r bin/ ~/USB/gui-application-demo/
+ls
+sync
+cd gui-application-demo/bin/
+ls
+ls -l
+cd
+sudo umount USB/
+zathura gui.pdf 
+cd Dropbox/workspace/
+ls
+rm -r demo
+sudo rm -r demo
+ls
+cd gui-application/
+ls
+git-cola
+cd configs/
+ranger 
+ls
+cd Dropbox/workspace/
+ls
+cd web-configurator/
+ls
+git status
+git diff
+git branch
+git stash
+git branch -a
+git pull
+git branch -a
+git pull origin/dev
+ls
+cd www/
+ls
+mkdir nand-flashing
+scp creator@192.168.88.40:/tmp/sirin-image-varsomam33.ubi ~/nand-flashing/
+cd nand-flashing/
+ls
+scp creator@192.168.88.40:/tmp/zImage-var-som-am33.dtb ~/nand-flashing/
+ls
+sudo fdisk -l
+cd ..
+ls
+mkdir sd-card
+sudo mount /dev/mmcblk0p2 sd-card/
+ls
+cd sd-card/
+ls
+cp ~/nand-flashing/* home/root/
+sudo cp ~/nand-flashing/* home/root/
+ls
+cd home/root/
+ls
+cd
+sudo umount sd-card/
+ls
+sudo fdisk -l
+sudo mount /dev/sdb1 USB
+ls
+cd USB
+ls
+mkdir nand-flashing
+sudo mkdir nand-flashing
+sudo cp ~/nand-flashing/* nand-flashing/
+cd nand-flashing/
+ls
+cd
+sudo umount USB
+ifconfig 
+ifconfig -a
+sudo ifconfig eth0 up
+scp creator@192.168.88.40:/tmp/sirin-rescue-image-varsomam33.ubi ~/nand-flashing/
+ifconfig 
+sudo vim /etc/network/interfaces
+ifconfig 
+sudo service networking stats
+sudo service networking status
+sudo service networking restart
+ifconfig 
+sudo ifconfig wlan0 down
+ifconfig 
+sudo mount /dev/sdb1 USB
+cd USB
+l
+ls
+sudo cp ~/nand-flashing/* nand-flashing/
+cd ..
+ls
+cd nand-flashing/
+ls
+rm *.ubi
+ls
+scp creator@192.168.88.40:/tmp/sirin-rescue-image-varsomam33.ubi ~/nand-flashing/
+md5sum sirin-rescue-image-varsomam33.ubi 
+scp creator@192.168.88.40:/tmp/sirin-image-var-som-am33.ubi ~/nand-flashing/
+scp creator@192.168.88.40:/tmp/sirin-image-varsomam33.ubi ~/nand-flashing/
+md5sum sirin-image-varsomam33.ubi 
+sudo mount /dev/sdb1 USB
+pd ~/USB/
+ls
+cd ..
+ls
+cd USB/
+cd ..
+dmesg 
+sudo fdisk -l
+sudo mount /dev/sdc1 USB
+ls
+cd USB
+ls
+cd nand-flashing/
+ls
+rm *.ubi
+sudo rm *.ubi
+cp ~/nand-flashing/*.ubi ./
+sudo cp ~/nand-flashing/*.ubi ./
+history 
+ls
+md5sum sirin-image-varsomam33.ubi 
+md5sum sirin-rescue-image-varsomam33.ubi 
+ls
+sync
+cd
+sudo umount USB
+ls
+ping 192.168.88.132
+pingg
+ifconfig 
+ping 8.8.8.8
+sudo ifconfig eth0 down
+ping 8.8.8.8
+ping 192.168.88.132
+cd ..
+ls
+cd web-configurator/
+ls
+cd www/
+ls
+git pull
+ls
+cd ..
+ls
+scp -r www/* root@192.168.88.132:/www/pages/
+arp
+man scp
+cd
+sudo screen /dev/ttyUSB0 115200
+ssh creator@192.168.88.40
+ifconfig 
+sudo ifconfig eth0 down
+ifconfig 
+networking-restart.sh 
+pingg
+arp
+ifconfig 
+networking-restart.sh 
+ifconfig 
+ssh root@192.168.88.132
+arp
+ssh root@192.168.88.132
+ping root@192.168.88.132
+arp
+ping 192.168.88.132
+ifconfig 
+ping 192.168.88.132
+arp
+ping 192.168.88.197
+ssh root@192.168.88.197
+arp
+sudo screen /dev/ttyUSB0 115200
+cd Dropbox/workspace/
+cd web-configurator/
+ls
+cd www/network_configurator/
+ls
+ranger 
+ls
+vim index.php 
+vim network_configurator.php 
+cp network_configurator.php network_info.php
+ls
+man ifconfig
+ifconfig netmask addr
+ifconfig localhost netmask addr
+ifconfig wlan0 netmask addr
+ifconfig wlan0 address
+ifconfig wlan0 addr
+ifconfig wlan0
+ifconfig wlan0 -h
+ifconfig wlan0 --help
+ifconfig --help
+ifconfig wlan0 
+ifconfig wlan0 netmask
+ifconfig wlan0 
+hostname -i
+ifconfig wlan0
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+ifconfig wlan0 | grep 'inet addr:'
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f1
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f3
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f4
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2
+man cut
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $2}'
+man awk
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+ifconfig wlan0 | grep 'inet addr:' 
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f1
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f3
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f2 | awk '{ print $1}'
+vim network_info.php 
+ls
+ssh root@192.168.88.132
+ls
+sudo screen /dev/ttyUSB0 115200
+vim index.php 
+ls
+vim cp index.php index.php.bak
+cp index.php index.php.bak
+vim index.php
+ls
+ssh root@192.168.88.132
+vim index.php
+sudo screen /dev/ttyUSB0 115200
+ls
+rm network_info.php 
+ls
+vim index.php
+vim network_configurator.php 
+ls
+cd Dropbox/workspace/web-configurator/www/
+ls
+cd network_configurator/
+ls
+ifconfig 
+ifconfig wlan0 | grep 'Mask:' 
+ifconfig wlan0 | grep 'Mask:' | cut -d: -f2
+ifconfig wlan0 | grep 'Mask:' | cut -d: -f3
+ifconfig wlan0 | grep 'Mask:' | cut -d: -f3 | awk '{ print $1}'
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f4 | awk '{ print $1}'
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f4 | 
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f4
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f3 | awk '{ print $1}'
+ifconfig 
+ifconfig -a
+ifconfig 
+cat /etc/network/interfaces
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f3 | awk '{ print $1}'
+ifconfig 
+ifconfig -a
+ifconfig
+ifconfig eth0
+ifconfig | grep eth0 -n
+ifconfig | grep lo0 -n
+ifconfig | grep lo -n
+ifconfig | grep lo | wc
+ifconfig | grep lo | wc -l
+ifconfig | grep eth0 | wc -l
+cat /etc/network/interfaces
+ifconfig | grep eth0 | wc -l
+ifconfig | grep eth0 | wc
+ifconfig | grep eth0 | wc -l
+ifconfig | grep lo | wc -l
+ifconfig | grep eth0 | wc -l
+cat /etc/network/interfaces
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f3 | awk '{ print $1}'
+ifconfig wlan0 | grep 'inet addr:' | cut -d: -f3
+ifconfig wlan0 | grep 'inet addr:' | cut -f3
+ifconfig wlan0 | grep 'inet addr:' | cut -d\t -f3
+ifconfig wlan0 | grep 'inet addr:' | awk '{print $1}'
+ifconfig wlan0 | grep 'inet addr:' | awk '{print $4}'
+cat /etc/network/interfaces
+cat /etc/network/interfaces | grep 'iface eth0'
+cat /etc/network/interfaces | grep 'iface eth0' | cut -f2
+cat /etc/network/interfaces | grep 'iface eth0' | awk '{print $1}'
+cat /etc/network/interfaces | grep 'iface eth0' | awk '{print $4}'
+ifconfig 
+route
+vim index.php
+ls
+scp index.php root@192.168.88.132:/www/pages/network_configurator/
+vim index.php
+dmesg
+sudo tail /var/log/syslog
+dmesg | grep 'Test Syslog'
+sudo tail /var/log/syslog
+ls
+scp ~/Dropbox/workspace/gui-application/bin/ root@192.168.88.132:~/gui-application/
+scp -r ~/Dropbox/workspace/gui-application/bin/ root@192.168.88.132:~/gui-application/
+scp -r ~/Dropbox/workspace/gui-application/configs root@192.168.88.132:~/gui-application/
+sudo screen /dev/ttyUSB0 115200
+killall screen
+sudo killall screen
+ps aux | grep screen
+ps aux | grep SCREEN
+ping 192.168.88.132
+ping 192.168.88.134
+ping 192.168.88.135
+pingg
+ping 192.168.88.135
+ls
+scp -r ~/Dropbox/workspace/gui-application/configs root@192.168.88.135:~/gui-application-demo/
+scp -r ~/Dropbox/workspace/gui-application/bin root@192.168.88.135:~/gui-application-demo/
+man syslog.h
+man syslog
+ssh root@192.168.88.132
+vim network_configurator.php 
+ls
+cd ..
+ls
+scp -r ./* root@192.168.88.135:/www/pages/
+sudo screen /dev/ttyUSB0 115200
+ps aux | grep SCREEN
+sudo killall screen
+ps aux | grep SCREEN
+ps aux | grep screen
+ls
+git status
+git stash pop
+git status
+cd network_configurator/
+vim index.php
+git-cola
+vim ../index.php 
+git-cola
+vim ../index.php 
+git-cola
+git status
+vim ../inf
+vim ../index.php 
+git diff ../index.php
+git-cola
+ls
+git status
+git push
+ls
+cd Dropbox
+ls
+cd work
+ls
+cd ..
+ls
+man install
+ls
+rm index.php.bak 
+rm network_configurator.php 
+ls
+git status
+git-cola
+git push
+git clone https://SerhiySerdyuk@bitbucket.org/sirinsoftware/meta-sirin.git
+ls
+ls
+cd ..
+ls
+cd meta-sirin/
+ls
+sudo screen /dev/ttyUSB0 115200
+sudo reboot
+qtcreator
+networking-restart.sh 
+lsblk 
+lsb_release -a
+lsb_release
+lsb_release -a
+lspci
+lsmem
+lsusb
+lsblk
+lshw
+hwinfo
+lspci -v | grep "VGA" -A 12
+lspci -v
+lspci -v | grep "VGA" -A 12
+xbacklight -set 50
+xbacklight -set 30
+xbacklight -set 100
+uname
+uname -a
+pushd /sys/class/backlight/intel_backlight/
+ls
+cat max_brightness 
+cat brightness 
+echo 200 > brightness 
+sudo echo 200 > brightness 
+xbacklight -set 100
+restore.sh 
+xrdb ~/.Xresources 
+sudo -s
+sudo reboot
+ls
+history 
+pushd /sys/class/backlight/intel_backlight/
+ls
+xbacklight -set 100
+networking-restart.sh 
+ifconfig
+cat /etc/network/interfaces
+pp
+cd Dropbox/workspace/gui-application/
+ls
+ranger 
+git-cola
+mkdir -p code/tmp
+cd code/tmp/
+ls
+git clone https://github.com/5digits/dactyl.git
+firefox --version
+cd dactyl/pentadactyl/
+ls
+make xpid
+make xpi
+cd ..
+git ll
+networking-restart.sh 
+htop
+pidof firefox
+pidof firefox | xargs kill -9
+firefox -P --no-remote
+vim pentadactyl.conf
+firefox -P test
+ls
+cd code/tmp/dactyl/
+ls
+vim pentadactyl.conf 
+vim .pentadactylrc
+vim .pentadactyl
+la
+cd .pentadactyl
+ls
+cd info/
+ranger 
+cd 
+vim .pentadactylrc 
+xbacklight 
+xbacklight 100
+xbacklight -set 100
+xbacklight -set 70
+xbacklight -set 50
+xbacklight -set 100
+cd Dropbox/workspace/gui-application/
+ls
+cd bin/
+./gui-application 
+./gui-application -d
+git-cola
+./gui-application 
+./gui-application --demo
+git-cola
+git log
+git stash
+git push
+git stash pop
+git-cola
+ls
+cd ..
+ls
+cp -r configs/ configs.bak
+ls
+cd configs
+ls
+ranger 
+ls
+mv LobbyLevel2Menu.conf RauLevel2Menu.conf 
+mv BasementLevel2Menu.conf DrcLevel2Menu.conf 
+vim RauLevel2Menu.conf 
+vim MainMenu.conf 
+cd Dropbox/workspace/gui-application/
+vim RauLevel2Menu.conf 
+cd ..
+cd bin/
+./gui-application -d
+ranger 
+ls
+ranger 
+ls
+ls
+cd ..
+ls
+cd configs
+ls
+vim MainMenu.conf 
+ls
+vim RauLevel2Menu.conf 
+ls
+cp RauLevel2Menu.conf DrcLevel2Menu.conf
+ls
+vim DrcLevel2Menu.conf
+ls
+cp RauLevel2Menu.conf AboutLevel2Menu.conf
+ls
+vim AboutLevel2Menu.conf
+ls
+rm Drc2*
+ls
+mv RauLevel3Menu.conf EquipHousingLevel3Menu.conf
+networking-restart.sh 
+vim EquipHousingLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf Ch11Level3Menu.conf
+cp EquipHousingLevel3Menu.conf Ch12Level3Menu.conf
+cp EquipHousingLevel3Menu.conf PowerLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf SwitchLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf AntennaLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf AboutRauLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf AboutDrcLevel3Menu.conf
+cd ..
+ls
+cd bin/
+./gui-application
+./gui-application -d
+history 
+cd ../configs
+cp AboutDrcLevel3Menu.conf EquipHousingLevel3Menu.conf 
+cp EquipHousingLevel3Menu.conf Ch11Level3Menu.conf
+cp EquipHousingLevel3Menu.conf Ch12Level3Menu.conf
+cp EquipHousingLevel3Menu.conf PowerLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf SwitchLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf AntennaLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf AboutRauLevel3Menu.conf
+cp EquipHousingLevel3Menu.conf AboutDrcLevel3Menu.conf
+cd ../bin/
+./gui-application -d
+cd ../configs
+ranger 
+cd configs
+vim update-configs.bash
+ls
+sudo chmod +x update-configs.bash 
+ls
+ranger 
+vim Ch11Level3Menu.conf 
+./update-configs.bash 
+ranger 
+ls
+vim EquipHousingLevel3Menu.conf 
+ls
+git clone ListView.view === ListView.view.nextMenuView ?
+ListView.view === ListView.view.nextMenuView ?
+git clone https://SerhiySerdyuk@bitbucket.org/sirinsoftware/ceu-sensors-handler.git
+ls
+cd ceu-sensors-handler/
+ls
+git checkout dev
+git branch -a
+git checkout -b dev
+git branch -d dev
+git checkout master
+git branch -d dev
+git branch
+git branch -a
+git checkout -b dev origin/dev
+git branch
+git branch -a
+ls
+ll
+qtcreator
+ranger 
+cd ..
+cd
+networking-restart.sh 
+ls
+cp Ch11Level3Menu.conf CsuALevel3Menu.conf 
+cp Ch12Level3Menu.conf CsuBLevel3Menu.conf 
+vim DrcLevel2Menu.conf 
+ls
+cp CsuALevel3Menu.conf CsuCLevel3Menu.conf 
+cp CsuBLevel3Menu.conf CsuALevel3Menu.conf 
+cp CsuCLevel3Menu.conf CsuBLevel3Menu.conf
+ls
+rm CsuCLevel3Menu.conf 
+ls
+ranger 
+cp AboutRauLevel3Menu.conf tmp
+cp CsuALevel3Menu.conf AboutRauLevel3Menu.conf 
+mv tmp CsuALevel3Menu.conf 
+cp AboutDrcLevel3Menu.conf tmp
+cp CsuBLevel3Menu.conf AboutDrcLevel3Menu.conf
+mv tmp CsuBLevel3Menu.conf
+ls
+git-cola
+s
+cd ..
+ls
+cp configs.ddd
+cp configs configs.fff
+cp -r configs configs.fff
+ls
+ranger 
+mv configs.bak configs
+ls
+ranger 
+ranger 
+ls
+cd Dropbox/workspace/gui-application/
+ls
+cd Dropbox/workspace/gui-application/
+history 
+ranger 
+ls
+cd ..
+ls
+cd gui-application/
+ls
+ranger 
+ls
+cd configs
+ls
+mv configs.bak/ ../
+ls
+cd ..
+ls
+mv configs ./configs-demo
+ls
+mv configs.bak configs
+ls
+ranger 
+ls
+rm -r configs.fff/
+ls
+ranger 
+ls
+cd bin/
+ls
+./gui-application
+./gui-application 
+zathura Downloads/gui.pdf 
+git status
+scrot -s
+ls
+ranger 
+git-cola
+cd configs
+ls
+vim Drc2Level3Menu.conf 
+ls
+git-cola
+git stash
+cd ..
+ls
+git push
+ls
+sudo screen /dev/ttyUSB0 115200
+networking-restart.sh 
+sudo reboot
+networking-restart.sh 
+qtcrew
+cd Dropbox/workspace/gui-application/
+ls
+git-cola
+git stash pop
+git-cola
+ls
+cd ..
+ls
+cd pidfile-library/
+ls
+make claen
+make clean
+ls
+file libpidfile.a 
+ll libpidfile.a
+tar -tvf libpidfile.a 
+ls
+file libpidfile.a 
+ls
+make clean
+ls
+make
+cd ../gui-application/
+ls
+scrot -s
+ls
+ranger 
+cd ../pidfile-library/
+ls
+make clean
+ls
+./make.sh 
+ls
+cd ../gui-application/
+cd ../pidfile-library/
+ls
+file libpidfile.a 
+cd ../gui-application/
+ls
+cd bin/
+ls
+cd Dropbox/workspace/pidfile-library/
+ls
+make clean
+ls
+make
+ranger 
+ls
+make clean
+./make.sh 
+file gui-application 
+cd ..
+ls
+cd bin/
+ls
+file gui-application 
+qtcreator
+ls
+ssh root@192.168.88.69
+sudo screen /dev/ttyUSB0 115200
+ps aux | grep -i screen
+sudo pkill -i screen
+ps aux | grep -i screen
+sudo kill 3639
+ls
+ps aux | grep -i screen
+ls
+cd ..
+ls
+git-cola
+git stash
+git pull
+make clean
+./make.sh 
+ls
+cd ..
+ls
+cd qt-gpio-aggregator/
+ls
+git pull
+ls
+ls
+cd ..
+ls
+rm -r build-gui-application-De*
+ls
+cd gui-application/
+ls
+rm gui-application.pro.user*
+ls
+cd Downloads/
+ls
+tar -xf update.tar.bz2 
+ls
+mkdir build
+ls
+lsblk
+sudo fdisk -l
+ls
+sudo mount /dev/sdb1 USB
+ls
+cd USB
+ls
+cp ~/Downloads/sirin-image-varsomam33.ubi ./
+sudo cp ~/Downloads/sirin-image-varsomam33.ubi ./
+ls
+cd ..
+sudo umount USB
+ls
+ssh root@192.168.88.81
+sudo mount /dev/sdb1 USB
+ls
+cd USB
+ls
+sudo fdisk -l
+cd ..
+sudo umount USB
+ls
+sudo mount /dev/sdb1 USB
+cd USB
+sudo 4fdisk -l
+sudo fdisk -l
+ls
+cd ..
+sudo umount USB
+sudo mount /dev/sdb2 USB
+cd USB
+ls
+sudo cp ~/Downloads/sirin-image-varsomam33.ubi ./
+ls
+cd ..
+sudo umount USB
+cd Downloads/
+ls
+md5 sirin-image-varsomam33.ubi 
+md5sum sirin-image-varsomam33.ubi 
+ls
+cd USB/
+ls
+cd ..
+sudo mount /dev/sdb2 USB
+cd USB
+ls
+md5sum sirin-image-varsomam33.ubi 
+cd ..
+sudo umount USB
+sudo screen /dev/ttyUSB0 115200
+ls
+ssh root@192.168.88.81
+sudo killall screen
+cd Downloads/
+ls
+mkdir cd build
+ls
+cd build
+ls
+cd ..
+ls
+mv update.tar.bz2 build
+cd build
+ls
+tar -xvf update.tar.bz2 
+scp zImage-var-som-am33.dtb root@192.168.88.81:/home/root
+scp sirin-image-varsomam33.ubi root@192.168.88.81:/home/root
+ssh root@192.168.88.81
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.8
+ssh root@192.168.88.81
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.81
+ls
+scp sirin-image-varsomam33.ubi root@192.168.88.81:/home/root
+ssh root@192.168.88.81
+ls
+ping 192.168.88.81
+ssh root@192.168.88.72
+ping 192.168.88.81
+ssh root@192.168.88.81
+ssh root@192.168.88.72
+sudo screen /dev/ttyUSB0 115200
+cd Dropbox/workspace/
+ls
+cd qt-gpio-aggregator/
+ls
+git pull
+sudo pkill firefox
+sudo screen /dev/ttyUSB0 115200
+sudo killall screen
+cd Dropbox/workspace/gui-application/
+ls
+ssh root@192.168.88.69
+sudo screen /dev/ttyUSB0 115200
+cd Dropbox/workspace/gui-application/
+ls
+mkdir gui-demo-build
+ls
+cp -r configs gui-demo-build/
+cp -r configs-demo gui-demo-build/
+cp -r bin gui-demo-build/
+cd bin/
+ls
+file gui-application 
+ls
+cd ..
+ls
+scp -r gui-demo-build/ root@192.168.5.22
+ssh root@192.168.5.22
+scp -r gui-demo-build/ root@192.168.5.22:~/
+ls
+scp -r gui-demo-build/ root@192.168.88.70:/home/root
+ssh root@192.168.88.70
+ssh creator@192.168.88.40
+cd Dropbox/workspace/gui-application/
+ls
+git branch
+git checkout master
+git merge dev
+git log
+git-cola
+gitk
+git-cola
+git log
+gitk
+git branch
+git checkout master
+git branch
+git merge dev
+gitk
+git status
+git push
+git branch
+git checkout dev
+git push
+ls
+rm -r gui-demo-build/
+rm -r root\@192.168.5.22/
+ls
+git-cola
+cd ..
+ls
+cd pidfile-library/
+ls
+./make.sh 
+make
+make clean
+make
+ls
+make clean
+./make.sh 
+ls
+cd ..
+ls
+cd gui-application/
+ls
+git branch
+git-cola
+git checkout master
+gi-cola
+git-cola
+cd ../pidfile-library/
+ls
+make clean
+ls
+cd ../gui-application/
+ls
+git-cola
+git stash
+git push
+ranger 
+ls
+cd ..
+ls
+cd qt-gpio-aggregator/
+ls
+cp qtgpioaggregator.hpp ../gui-application/
+cp qtgpioaggregator.cpp ../gui-application/
+cd ../gui-application/
+ls
+ranger 
+git pull --rebase
+git stash
+git pull --rebase
+git stash pop
+gitk
+git-cola
+git stash
+git push
+git-cola
+cd Dropbox/workspace/
+ls
+cd qt-gpio-aggregator/
+ls
+ranger 
+gitk
+cd Workspace/qt-sources/qt-everywhere-opensource-src-5.5.0/
+ls
+cd qtbase/mkspecs/devices/linux-var-som-am33-g++/
+ls
+cd ..
+ls
+rm -r build-gui-application-De*
+ls
+rm -r build-gui-application-De*
+ls
+rm -r build-gui-application-Device_Qt_5_5_0_var_som_am33-Release/
+ls
+cd gui-application/
+s
+ls
+git-cola
+git status
+git push
+git stash pop
+vim qmake.conf
+ssh root@192.168.88.70
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.70
+git-cola
+s
+ls
+cd bin/
+ls
+./gui-application -c qwerty
+./gui-application -c ../
+./gui-application -c=../
+./gui-application --config-path=../
+./gui-application --config-path="../"
+ssh root@192.168.88.70
+ls
+./gui-application -c djvnjkvn
+cd ..
+ls
+git-cola
+git stash
+git push
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.70
+git-cola
+git push
+git stash pop
+ssh root@192.168.88.70
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.70
+ssh root@192.168.88.70
+cd bin/
+./gui-application -d -c ../
+cd ..
+git status
+git-cola
+git branch
+git-cola
+gitk
+cp src/qtgpioaggregator.cpp ../qt-gpio-aggregator/
+cd ../qt-gpio-aggregator/
+git-cola
+git push
+cd ../gui-application/
+git branch
+git status
+git stash
+git push
+git checkout master
+git merge dev
+git push
+cd bin/
+ls
+./gui-application -d -c ../
+cd ..
+ls
+cd configs-demo/
+ls
+ranger 
+git-cola
+git push
+cd ..
+ls
+cd bin/
+file gui-application 
+git status
+git-cola
+vim .bin/networking-restart.sh 
+sudo service networking status
+cat /etc/network/interfaces
+ifconfig 
+sudo service networking restart
+cat /etc/network/interfaces
+sudoedit /etc/network/interfaces
+ifconfig -a
+sudoedit /etc/network/interfaces
+cat /etc/wpa_supplicant/wpa_supplicant.conf
+ifconfig 
+sudo ifconfig wlan0 up
+ifconfig 
+cat /etc/network/interfaces
+ifconfig 
+networking-restart.sh 
+dropbox.py start
+cd Dropbox/works
+cd Dropbox/workspace/gui-application/
+git status
+git stash pop
+git-cola
+git branch
+git checkout dev
+git merge master
+git log
+git branch
+git push
+git status
+ls
+vim configs/
+cd configs
+vim MainMenu.conf 
+mysql -u root
+networking-restart.sh 
+ssh root@192.168.88.72
+cd ..
+ls
+sudo service mysql status
+cd bin/
+ls
+./gui-application -c ../
+vim ../configs/MainMenu.conf 
+sudo service mysql stop
+./gui-application -c ../
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+cd
+cd Dropbox/workspace/gui-application/
+sudo service mysql status
+cd bin/
+sudo service mysql stop
+./gui-application -c ../
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+ssh root@192.168.88.72
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql status
+sudo service mysql start
+sudo service mysql status
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql status
+sudo service mysql start
+ranger 
+./gui-application -c ../
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql status
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+qtcreator
+ping 192.168.88.70
+gcc -v
+g++ -v
+gcc -v
+cd /tmp/
+ls
+git clone https://SerhiySerdyuk@bitbucket.org/sirinsoftware/mcu-flash-updater.git
+cd mcu-flash-updater/
+ls
+make
+ls
+./mcu_update 
+cd
+ls
+cd ..
+git-cola
+ssh root@192.168.88.94
+ls
+git log
+git branch
+git log
+git status
+git stash
+git push
+git checkout master
+git merge dev
+git push
+git stash pop
+git-cola
+cd configs
+vim MainMenu.conf 
+ranger 
+cd Downloads/
+ls
+ranger 
+ls
+ranger 
+ls
+rm *.tar.xz
+ls
+rm -r build-QMLSingleton_Sample1-Desktop_Qt_5_7_0_GCC_64bit-Debug/
+rm -r cd
+ls
+rm -r QMLSingleton_Sample1
+ls
+rm *.zip
+ls
+rm *.bin
+ls
+rm zImage*
+ls
+rm *.ubi
+ls
+rm *.xlsx
+ls
+zathura
+rm 2016-04-11.CSU_GUI.ARCS.NYC.pdf gui-1.pdf Serhiy\ Serdyuk.pdf Expert\ C\ Programming\ -\ Deep\ C\ Secrets.pdf 
+ls
+rm signature.asc 
+ls
+ranger 
+ls
+mkdir iso
+ls
+mv *.iso iso
+ls
+ls iso
+ls
+ll
+mkdir update
+mv update.tar.gz update
+ls
+cd update/
+ls
+history | grep tar
+ls
+mv update.tar.gz ../
+cd ..
+ls
+tar -xvf update.tar.gz -C update
+ls
+cd update
+ls
+cd
+ls
+sudo mount /dev/sdb2 USB
+sudo fdisk -l
+sudo fdisks -l
+sudo fdisk -l
+sudo mount /dev/sdb USB
+cd USB
+ls
+sudo mkdir builder2_update
+cd builder2_update
+ls
+sudo cp ~/Downloads/update/*.ubi ./
+ls
+sync
+md5sum sirin-image-varsomam33.ubi 
+md5sum ~/Downloads/update/sirin-image-varsomam33.ubi 
+ls
+sync
+cd
+sudo umount USB
+ls
+sudo screen /dev/ttyUSB0 115200
+cd Downloads/
+ls
+rm update.tar.gz 
+cd update/
+ls
+rm *
+ls
+cd ..
+ls
+tar -xvf update.tar.gz 
+ls
+rm sirin-image-varsomam33.ubi 
+rm *.bin
+ls
+tar -xvf update.tar.gz -C update/
+cd
+sudo mount /dev/sdb USB
+ls
+cd USB/
+ls
+mkdir builder3_update
+sudo mkdir builder3_update
+ls
+sudo cp ~/Downloads/update/sirin-image-varsomam33.ubi builder3_update/
+cd builder3_update/
+ls
+sync
+cd
+ls
+sudo umount USB
+ls
+sudo screen /dev/ttyUSB0 115200
+sudo pkill screen
+ls
+sudo screen /dev/ttyUSB0 115200
+networking-restart.sh 
+sudo pkill screen
+sudo pkill firefox 
+ls
+cd Dropbox/workspace/gui-application/
+git branch
+git log
+git checkout dev
+git log
+git merge master
+git log
+git branch
+git status
+git stash
+git status
+git push
+ls
+ssh root@192.168.88.70
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.70
+git branch
+git pull
+git branch
+git checkout master 
+git merge dev
+git push
+ls /etc/rcS.d/ -l
+systemd
+sudo systemd
+git log
+git branch
+gitk
+ranger 
+man runlevel
+man runlevels
+man runlevel
+git status
+git stash pop
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+ranger 
+ls
+ranger 
+ls
+ranger 
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+git branch
+git-cola
+git stash
+git push
+git stash pop
+git stash
+ping 192.168.88.70
+ls
+scp fill-in-db.bash root@192.168.88.70:~/
+ssh root@192.168.88.70
+sudo reboot
+sudo screen /dev/ttyUSB0 115200
+networking-restart.sh 
+ssh root@192.168.88.70
+qtcreator
+cd Dropbox/workspace/gui-application/
+ls
+git status
+git branch
+ls
+ping 192.168.88.70
+ls
+vim deploy.bash
+sudo chmod +x deploy.bash
+ls
+./deploy.bash 
+vim ./deploy.bash
+./deploy.bash 
+git-cola
+git push
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+ranger 
+cd configs
+ls
+ranger 
+mv Drc1Level3Menu.conf DrcLevel3Menu.conf 
+ranger 
+ls
+cd ..
+./deploy.bash 
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+sudo service mysql stop
+sudo service mysql start
+git-cola
+ranger 
+git-cola
+git push
+ls
+scp fill-in-db.bash root@192.168.88.94:~/
+./deploy.bash 192.168.88.94
+git-cola
+vim deploy.bash 
+ls
+git-cola
+./deploy.bash 
+git stash pop
+git-cola
+ifconfig 
+networking-restart.sh 
+ifconfig 
+ranger 
+git-cola
+git stash
+git pull
+ranger 
+cd configs
+ls
+mv bst11Level3Menu.conf BstLevel3Menu.conf 
+ls
+ranger 
+ls
+cd ..
+vim deploy.bash 
+./deploy.bash 
+git-cola
+git push
+git-cola
+ssh root@192.168.88.94
+vim deploy.bash 
+./deploy.bash 
+vim deploy.bash 
+./deploy.bash 
+ranger 
+./deploy.bash 
+ls
+vim deploy.bash 
+git-cola
+./deploy.bash 
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+git-cola
+./deploy.bash 
+git-cola
+ranger 
+git-cola
+git log
+git diff 1bb52753dfa4a551950798b81c01999f1dc6dfe0
+gitk
+git-cola
+git log
+git-cola
+git show 
+git-cola
+git pull
+ranger 
+git-cola
+ranger 
+git-cola
+git pull
+./deploy.bash 
+ranger 
+./deploy.bash 
+ssh root@192.168.88.94
+ranger 
+./deploy.bash 
+git-cola
+ranger 
+git-cola
+git log
+git stash
+git push
+git log
+git status
+git stash pop
+git-cola
+git diff
+man git-checkout
+git-cola
+git log
+git checkout 9fdef70524f5a364dc10cc93eaf30336b4c79607 configs/bst11Level3Menu.conf 
+ranger 
+git checkout 63d2b9d8abfa4b9a88672c235d0eb26b11d060ec configs/DrcLevel3Menu.conf 
+git-cola
+cd configs
+ls
+mv bst11Level3Menu.conf BstLevel3Menu.conf 
+git-cola
+ranger 
+git-cola
+s
+ls
+cd ..
+ls
+./deploy.bash 
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+ssh root@192.168.88.94
+cd Downloads/
+ls
+sudo dpkg -i google-talkplugin_current_amd64.deb 
+ifconfig 
+sudo ifconfig wlan0 down
+ifconfig 
+sudo service networking restart
+pingg
+ifconfig 
+sudo ifconfig wlan0 down
+ifconfig 
+sudo service networking restart
+cd
+git-cola
+ssh root@192.168.88.94
+cd .bin/
+ls
+cat toggle-touchpad.bash 
+./toggle-touchpad.bash 
+xinput list
+sudo apt install xinput
+./toggle-touchpad.bash 
+xinput list
+cat toggle-touchpad.bash 
+xinput list -v
+xinput list --verbose
+xinput --list
+man xinput
+xinput disable 13
+xinput enable 13
+ranger 
+cd Dropbox/backup/var/spool/incron/
+ls
+cat serhiy 
+restore.sh 
+cd Dropbox/work
+ls
+vim tasks_planning.txt 
+vim .bin/networking-restart.sh 
+sudoed /etc/network/interfaces
+sudoedit /etc/network/interfaces
+vim .bin/networking-restart.sh 
+sudo service networking restart
+networking-restart.sh 
+pingg
+networking-restart.sh 
+man tail
+man mysql
+man mysqld
+mysqld --help
+mysqld --verbose --help
+top
+sudo find / -name 'my.cnf'
+vim /etc/mysql/my.cnf 
+vim /etc/init.d/mysql 
+pstree
+ssh root@192.168.88.94
+ssh root@192.168.88.94
+�дщп
+cat /var/lib/mysql/debian-work.log
+sudo cat /var/lib/mysql/debian-work.log
+ps aux | grep mysql
+vim /etc/mysql/my.cnf 
+sudoedit /etc/mysql/my.cnf
+sudo service mysql restart
+ps aux | grep mysql
+sudoedit /etc/mysql/my.cnf
+sudo service mysql restart
+ps aux | grep mysql
+sudo service mysqld restart
+sudo service mysql restart
+sudoedit /etc/mysql/debian-start 
+sudoedit /etc/mysql/debian.cnf 
+sudo service mysql restart
+ps aux | grep mysql
+sudoedit /etc/mysql/my.cnf
+sudo cat /var/lib/mysql/debian-work.log
+sudoedit /etc/mysql/my.cnf
+sudo cat /var/log/mysql.log
+sudo cat /var/log/mysql/mysql.log
+sudo service mysql restart
+sudo cat /var/log/mysql/mysql.log
+ls /var/log/mysql/
+sudo ls /var/log/mysql/
+sudo ls /var/log/mysql/ -la
+sudo ls -la /var/log/mysql/
+sudo ls -la /var/log/
+sudo ls -la /var/log/mysql*
+sudo service mysql restart
+sudo ls -la /var/log/mysql*
+sudo cat /var/log/mysql/mysql.log
+sudo ls -la /var/log/mysql*
+vim /etc/mysql/my.cnf 
+sudo vim /etc/mysql/my.cnf 
+mysqld --version
+sudo cat /var/log/mysql/mysql.log
+sudo tail -f /var/log/mysql/mysql.log
+cd Dropbox/workspace/gui-application/
+cd configs
+ls
+cp DrcLevel3Menu.conf DrcLevel3Menu.conf.bak
+vim DrcLevel3Menu.conf
+ranger 
+mysql -u root 
+networking-restart.sh 
+pingg
+iwconfig
+ifconfig
+sudoedit /etc/network/interfaces
+ranger 
+cd ..
+git stash pop
+git status
+git stash
+git status
+cd Dropbox/workspace/gui-application/
+ls
+cd ..
+ls
+cp -r gui-application/ gui-application.bak
+ls
+cd gui-application
+ls
+git stash pop
+cd ..
+ls
+cd gui-application.bak/
+ls
+git status
+git stash
+git status
+git log
+git push
+cd ..
+ls
+rm -r gui-application
+sudo rm -r gui-application
+mv gui-application.bak/ gui-application
+cd gui-application
+ls
+git staus
+git status
+git stash pop
+git status
+git stash
+git status
+ssh root@192.168.88.94
+ssh-keygen -f "/home/serhiy/.ssh/known_hosts" -R 192.168.88.94
+vim deploy.bash 
+du -h
+ls
+./deploy.bash 
+ranger 
+sudo tail -f /var/log/mysql/mysql.log
+sudo vim /etc/mysql/my.cnf 
+./deploy.bash 
+git push
+ranger 
+git stash pop
+man sudo
+ranger 
+cd ..
+ls
+cp -r gui-application/ gui-application.test
+cd gui-application.test/
+ls
+git log
+cd ..
+cd gui-application
+ls
+./deploy.bash 
+ranger 
+./deploy.bash 
+scrot -s
+ls
+ranger 
+scrot -s
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+ranger 
+./deploy.bash 
+zathura Downloads/gui.pdf 
+ssh root@192.168.88.94
+ssh root@192.168.88.94
+scrot -s
+ls
+ranger 
+cd Downloads/
+ls
+tar -xvf 75303-QSlide-0.1.tar.gz -C qslide
+mkdir qslide
+tar -xvf 75303-QSlide-0.1.tar.gz -C qslide
+cd qslide
+ls
+cd QSlide-0.1/
+ls
+ranger 
+cd 
+git clone https://github.com/SergShtelmakh/Animated-Label-QML.git

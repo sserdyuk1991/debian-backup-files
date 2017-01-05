@@ -1,0 +1,73 @@
+! Cursor configuring
+xcursor.theme: Vanilla-DMZ
+xcursor.size: 24
+
+! urxvt fonts and color schema configuring
+urxvt.font: xft:DejaVu Sans Mono:pixelsize=13
+!urxvt.font: xft:Inconsolata:style=Semiboldpixelsize=18:antialias=true:hinting=slight
+!urxvt.font: xft:Inconsolata:style=Semibold:pixelsize=18:antialias=true
+!urxvt*boldFont: xft:Inconsolata:style=bold:pixelsize=18:antialias=true:hinting=slight
+urxvt.scrollBar: false
+urxvt.jumpScroll: true
+urxvt*shading: 50
+!urxvt*transparent: true
+!urxvt.background: black
+!urxvt.foreground: gray
+!urxvt.color0: black
+!urxvt.color1: red3
+!urxvt.color2: green3
+!urxvt.color3: yellow3
+!urxvt.color4: blue2
+!urxvt.color5: magenta3
+!urxvt.color6: cyan3
+!urxvt.color7: gray90
+!urxvt.color8: gray50
+!urxvt.color9: red
+!urxvt.color10: green
+!urxvt.color11: yellow
+!urxvt.color12: rgb:5c/5c/ff
+!urxvt.color13: magenta
+!urxvt.color14: cyan
+!urxvt.color15: white
+
+*.foreground:   #bccae2
+*.background:   #24262b
+*.cursorColor:  #bccae2
+*.color0:       #24262b
+*.color8:       #3a3d45
+*.color1:       #843c56
+*.color9:       #ab4e70
+*.color2:       #83a86f
+*.color10:      #a3d18a
+*.color3:       #a87458
+*.color11:      #d3926f
+*.color4:       #4a6aa3
+*.color12:      #6b8bc3
+*.color5:       #66518a
+*.color13:      #9375c7
+*.color6:       #4aa36a
+*.color14:      #5dcc85
+*.color7:       #bccae2
+*.color15:      #dce9ff
+
+! Perl extensions
+urxvt.perl-ext-common: keyboard-select,url-select,clipboard
+! keyboard-select configuring
+urxvt.keysym.M-Escape: perl:keyboard-select:activate
+urxvt.keysym.M-s: perl:keyboard-select:search
+! url-select configuring
+urxvt.keysym.M-u: perl:url-select:select_next
+urxvt.url-select.launcher: firefox
+urxvt.url-select.button: 1
+urxvt.url-select.underline: true
+urxvt.colorUL: #00e089
+! clipboard configuring
+!urxvt.keysym.C-c: perl:clipboard:copy
+urxvt.keysym.C-v: perl:clipboard:paste
+urxvt.keysym.C-M-v: perl:clipboard:paste_escaped
+urxvt.clipboard.autocopy: true
+!urxvt.clipboard.autocopy: true
+!urxvt.clipboard.autocopy: true
+!urxvt.clipboard.autocopy: true
+!urxvt.clipboard.autocopy: true
+!urxvt.clipboard.autocopy: true
