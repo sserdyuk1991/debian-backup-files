@@ -16,7 +16,7 @@ if [ ! -e "$TARGET" ]; then
 fi
 
 # Root directory for backups
-BACKUP_DIR="$HOME/Dropbox/backup"
+BACKUP_DIR="$HOME/debian-backup-files/backup-files"
 # Location of target file in system rootfs
 SOURCE_DIR="`dirname "$TARGET"`"
 # Directory where backup will be placed
