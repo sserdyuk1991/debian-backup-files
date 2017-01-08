@@ -42,8 +42,14 @@ beautiful.init(awful.util.get_themes_dir() .. "default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "urxvt"
-editor = os.getenv("EDITOR") or "nano"
-editor_cmd = terminal .. " -e " .. editor
+term_exec = terminal .. " -e "
+editor = os.getenv("EDITOR") or "vim"
+edit = term_exec .. editor .. " "
+
+-- Yet more variable definitions
+home = os.getenv("HOME")
+myscriptspath = home .. "/.bin/"
+exec_myscript = term_exec .. myscriptspath
 
 -- Default modkey.
 -- Usually, Mod4 is the key with a logo between Control and Alt.
@@ -67,9 +73,9 @@ awful.layout.layouts = {
     awful.layout.suit.max.fullscreen,
     awful.layout.suit.magnifier,
     awful.layout.suit.corner.nw,
-    -- awful.layout.suit.corner.ne,
-    -- awful.layout.suit.corner.sw,
-    -- awful.layout.suit.corner.se,
+    awful.layout.suit.corner.ne,
+    awful.layout.suit.corner.sw,
+    awful.layout.suit.corner.se,
 }
 -- }}}
 
@@ -91,15 +97,17 @@ end
 -- {{{ Menu
 -- Create a launcher widget and a main menu
 myawesomemenu = {
-   { "hotkeys", function() return false, hotkeys_popup.show_help end},
-   { "manual", terminal .. " -e man awesome" },
-   { "edit config", editor_cmd .. " " .. awesome.conffile },
+   { "hotkeys", function() return false, hotkeys_popup.show_help end },
+   { "manual", term_exec .. "man awesome" },
+   { "edit config", edit .. awesome.conffile },
    { "restart", awesome.restart },
    { "quit", function() awesome.quit() end}
 }
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
-                                    { "open terminal", terminal }
+                                    { "open terminal", terminal },
+                                    { "toggle touchpad", exec_myscript .. "toggle-touchpad.bash" },
+                                    { "run qtcreator", term_exec .. "/opt/Qt/Tools/QtCreator/bin/qtcreator" }
                                   }
                         })
 
@@ -433,9 +441,8 @@ awful.rules.rules = {
                      raise = true,
                      keys = clientkeys,
                      buttons = clientbuttons,
-                     screen = awful.screen.preferred,
-                     placement = awful.placement.no_overlap+awful.placement.no_offscreen
-     }
+                     screen = awful.screen.preferred, 
+                     placement = awful.placement.no_overlap+awful.placement.no_offscreen }
     },
 
     -- Floating clients.
@@ -453,8 +460,8 @@ awful.rules.rules = {
           "Wpa_gui",
           "pinentry",
           "veromix",
-          "xtightvncviewer"},
-
+          "xtightvncviewer"
+        },
         name = {
           "Event Tester",  -- xev.
         },
@@ -462,16 +469,19 @@ awful.rules.rules = {
           "AlarmWindow",  -- Thunderbird's calendar.
           "pop-up",       -- e.g. Google Chrome's (detached) Developer Tools.
         }
-      }, properties = { floating = true }},
+      }, 
+      properties = { floating = true }
+    },
 
     -- Add titlebars to normal clients and dialogs
-    { rule_any = {type = { "normal", "dialog" }
-      }, properties = { titlebars_enabled = true }
+    { rule_any = { type = { "normal", "dialog" } }, 
+      properties = { titlebars_enabled = true }
     },
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
-    -- { rule = { class = "Firefox" },
-    --   properties = { screen = 1, tag = "2" } },
+    { rule = { class = "Firefox" }, properties = { screen = 1, tag = "2" } },
+    { rule = { class = "Slack" }, properties = { screen = 1, tag = "4" } },
+    { rule = { class = "Skype" }, properties = { screen = 1, tag = "5" } }
 }
 -- }}}
 
@@ -543,3 +553,21 @@ end)
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
+
+-- Enable additional keyboards
+awful.util.spawn_with_shell("/home/serhiy/.bin/set-keyboards.bash")
+-- Handle issue with networking on work machine
+--awful.util.spawn_with_shell("/home/serhiy/.bin/networking-restart.sh")
+-- Turn on access point mode of wifi adapter on home machine
+--awful.util.spawn_with_shell("sudo service networking restart")
+-- Start Dropbox
+awful.util.spawn_with_shell("/home/serhiy/.bin/dropbox.py start")
+-- Restore all recently changed config files from another machine
+--awful.util.spawn_with_shell("/home/serhiy/.bin/restore.sh")
+-- Start Firefox
+awful.util.spawn_with_shell("firefox")
+-- Start Skype
+awful.util.spawn_with_shell("skype")
+-- Start Slack
+awful.util.spawn_with_shell("slack")
+--  
