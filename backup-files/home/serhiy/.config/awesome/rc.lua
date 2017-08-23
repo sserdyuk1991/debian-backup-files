@@ -106,7 +106,7 @@ myawesomemenu = {
 
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "open terminal", terminal },
-                                    { "toggle touchpad", exec_myscript .. "toggle-touchpad.bash" },
+                                    { "toggle touchpad", exec_myscript .. "toggle-touchpad.sh" },
                                     { "run qtcreator", term_exec .. "/opt/Qt/Tools/QtCreator/bin/qtcreator" }
                                   }
                         })
