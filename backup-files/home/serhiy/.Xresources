@@ -4,9 +4,6 @@ xcursor.size: 24
 
 ! urxvt fonts and color schema configuring
 urxvt.font: xft:DejaVu Sans Mono:pixelsize=13
-!urxvt.font: xft:Inconsolata:style=Semiboldpixelsize=18:antialias=true:hinting=slight
-!urxvt.font: xft:Inconsolata:style=Semibold:pixelsize=18:antialias=true
-!urxvt*boldFont: xft:Inconsolata:style=bold:pixelsize=18:antialias=true:hinting=slight
 urxvt.scrollBar: false
 urxvt.jumpScroll: true
 urxvt*shading: 50
@@ -50,24 +47,22 @@ urxvt*shading: 50
 *.color7:       #bccae2
 *.color15:      #dce9ff
 
-! Perl extensions
+! Extensions
 urxvt.perl-ext-common: keyboard-select,url-select,clipboard
+
 ! keyboard-select configuring
 urxvt.keysym.M-Escape: perl:keyboard-select:activate
 urxvt.keysym.M-s: perl:keyboard-select:search
+
 ! url-select configuring
 urxvt.keysym.M-u: perl:url-select:select_next
 urxvt.url-select.launcher: firefox
 urxvt.url-select.button: 1
 urxvt.url-select.underline: true
 urxvt.colorUL: #00e089
+
 ! clipboard configuring
 !urxvt.keysym.C-c: perl:clipboard:copy
 urxvt.keysym.C-v: perl:clipboard:paste
 urxvt.keysym.C-M-v: perl:clipboard:paste_escaped
 urxvt.clipboard.autocopy: true
-!urxvt.clipboard.autocopy: true
-!urxvt.clipboard.autocopy: true
-!urxvt.clipboard.autocopy: true
-!urxvt.clipboard.autocopy: true
-!urxvt.clipboard.autocopy: true

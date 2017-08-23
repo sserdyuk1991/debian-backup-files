@@ -108,6 +108,7 @@ mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesom
                                     { "open terminal", terminal },
                                     { "toggle touchpad", exec_myscript .. "toggle-touchpad.sh" },
                                     { "run qtcreator", term_exec .. "/opt/Qt/Tools/QtCreator/bin/qtcreator" }
+                                    { "lock screen", exec_myscript .. "lock.sh" }
                                   }
                         })
 
@@ -480,7 +481,6 @@ awful.rules.rules = {
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
     { rule = { class = "Firefox" }, properties = { screen = 1, tag = "2" } },
-    { rule = { class = "Slack" }, properties = { screen = 1, tag = "4" } },
     { rule = { class = "Skype" }, properties = { screen = 1, tag = "5" } }
 }
 -- }}}
@@ -554,20 +554,15 @@ client.connect_signal("focus", function(c) c.border_color = beautiful.border_foc
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
 
--- Enable additional keyboards
-awful.util.spawn_with_shell("/home/serhiy/.bin/set-keyboards.bash")
--- Handle issue with networking on work machine
---awful.util.spawn_with_shell("/home/serhiy/.bin/networking-restart.sh")
--- Turn on access point mode of wifi adapter on home machine
---awful.util.spawn_with_shell("sudo service networking restart")
+-- Set primary video output
+awful.util.spawn_with_shell("xrandr --output HDMI-1 --primary")
+-- Set keyboards layout
+awful.util.spawn_with_shell("$HOME/.bin/set-keyboards.bash")
 -- Start Dropbox
-awful.util.spawn_with_shell("/home/serhiy/.bin/dropbox.py start")
--- Restore all recently changed config files from another machine
---awful.util.spawn_with_shell("/home/serhiy/.bin/restore.sh")
+awful.util.spawn_with_shell("$HOME/.bin/dropbox.py start")
 -- Start Firefox
 awful.util.spawn_with_shell("firefox")
 -- Start Skype
 awful.util.spawn_with_shell("skype")
--- Start Slack
-awful.util.spawn_with_shell("slack")
---  
+-- Start xautolock
+awful.util.spawn_with_shell("xautolock -time 5 -locker lock.sh")

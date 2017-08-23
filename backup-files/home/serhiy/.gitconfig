@@ -1,8 +1,8 @@
 [user]
-	email = sserdyuk1991@gmail.com
-	name = Serhiy Serdyuk
+    email = sserdyuk1991@gmail.com
+    name = Serhiy Serdyuk
 [credential]
-	helper = store
+    helper = store
 [diff]
     tool = meld
 [difftool]
@@ -10,9 +10,8 @@
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
 [merge]
-	tool = meld
+    tool = meld
 [mergetool]
     prompt = false
 [mergetool "meld"]
     cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
-    #cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"

@@ -119,24 +119,27 @@ if [ -z "$DISPLAY" ] && [ $(tty) = /dev/tty1 ]; then
 fi
 
 # set PATH so it includes binaries with superuser previleges required
-PATH="/usr/local/sbin:/usr/sbin:/sbin:$PATH"
+PATH="$PATH:/usr/local/sbin:/usr/sbin:/sbin"
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.bin" ]; then
-    PATH="$HOME/.bin:$PATH"
+    PATH="$PATH:$HOME/.bin"
 fi
 
 # set PATH so it includes Qt's binaries if they exist
 QT_BIN_PATH=/opt/Qt/5.7/gcc_64/bin
 if [ -d "$QT_BIN_PATH" ]; then
-    PATH="$QT_BIN_PATH:$PATH"
+    PATH="$PATH:$QT_BIN_PATH"
 fi
 
 # set PATH so it includes QtCreator's binary if it exists
 QTCREATOR_BIN_PATH=/opt/Qt/Tools/QtCreator/bin
 if [ -d "$QTCREATOR_BIN_PATH" ]; then
-    PATH="$QTCREATOR_BIN_PATH:$PATH"
+    PATH="$PATH:$QTCREATOR_BIN_PATH"
 fi
+
+# add Qt libraries to LD_LIBRARY_PATH variable
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/opt/Qt/5.7/gcc_64/lib"
 
 # Flush commands to bash history immediately
 export PROMPT_COMMAND='history -a'
