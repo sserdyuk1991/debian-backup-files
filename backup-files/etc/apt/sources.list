@@ -1,15 +1,15 @@
-deb http://ftp.ua.debian.org/debian/ jessie main contrib non-free
-deb-src http://ftp.ua.debian.org/debian/ jessie main contrib non-free
+deb http://ftp.ua.debian.org/debian/ stretch main contrib non-free
+deb-src http://ftp.ua.debian.org/debian/ stretch main contrib non-free
 
-deb http://ftp.ua.debian.org/debian/ jessie-updates main contrib non-free
-deb-src http://ftp.ua.debian.org/debian/ jessie-updates main contrib non-free
+deb http://ftp.ua.debian.org/debian/ stretch-updates main contrib non-free
+deb-src http://ftp.ua.debian.org/debian/ stretch-updates main contrib non-free
 
-deb http://ftp.ua.debian.org/debian/  jessie-backports main contrib non-free
-deb-src http://ftp.ua.debian.org/debian/ jessie-backports main contrib non-free
+deb http://ftp.ua.debian.org/debian/  stretch-backports main contrib non-free
+deb-src http://ftp.ua.debian.org/debian/ stretch-backports main contrib non-free
 
-deb http://security.debian.org/ jessie/updates main contrib non-free
-deb-src http://security.debian.org/ jessie/updates main contrib non-free
+deb http://security.debian.org/ stretch/updates main contrib non-free
+deb-src http://security.debian.org/ stretch/updates main contrib non-free
 
-#deb http://www.deb-multimedia.org jessie main non-free
-deb http://download.virtualbox.org/virtualbox/debian jessie contrib non-free
-deb http://mozilla.debian.net/ jessie-backports firefox-release
+#deb http://www.deb-multimedia.org stretch main non-free
+#deb http://download.virtualbox.org/virtualbox/debian stretch contrib non-free
+#deb http://mozilla.debian.net/ stretch-backports firefox-release
