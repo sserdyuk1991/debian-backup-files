@@ -40,9 +40,9 @@ else
     mkdir -p "$DEST_DIR"
 
     if [ "$FILE_OWNER" == "root" ] || [ "$DIR_OWNER" == "root" ]; then
-        sudo cp -ur --preserve=timestamps "$TARGET" "$DEST_DIR"
+        sudo cp -r --preserve=timestamps "$TARGET" "$DEST_DIR"
     else
-        cp -ur --preserve=timestamps "$TARGET" "$DEST_DIR"
+        cp -r --preserve=timestamps "$TARGET" "$DEST_DIR"
     fi
 
     /home/serhiy/.bin/backup-metadata.sh "$TARGET" "$ACTION" "$METADATA_NAME"

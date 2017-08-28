@@ -2,17 +2,14 @@
 
 LOG="/tmp/restore.log"
 
-ACTION="UPDATE"
-ROOT="$HOME/Dropbox"
+SRC="$HOME"
 DST="/"
 
 OPTIND=1
 
-while getopts "nr:d:" opt; do
+while getopts "s:d:" opt; do
     case $opt in
-        n) ACTION="NEW"
-            ;;
-        r) ROOT=$OPTARG
+        s) SRC=$OPTARG
             ;;
         d) DST=$OPTARG
             ;;
@@ -21,29 +18,19 @@ done
 
 shift $((OPTIND-1))
 
-BACKUP_DIR="$ROOT/backup"
-METADATA_DIR="$ROOT/metadata"
+SRC="$SRC/debian-backup-files"
 
-echo "action: $ACTION" > "$LOG"
-echo "root: $ROOT" >> "$LOG"
+BACKUP_DIR="$SRC/backup-files"
+METADATA_DIR="$SRC/metadata"
+
+echo "source: $SRC" >> "$LOG"
 echo "destination: $DST" >> "$LOG"
 
-# Wait for dropbox running
-DROPBOX_STATE=`/home/serhiy/.bin/dropbox.py status`
-while [ "$DROPBOX_STATE" != "Up to date" ]; do
-    sleep 1
-    DROPBOX_STATE=`/home/serhiy/.bin/dropbox.py status`
-done
+# Restore backup files
+sudo cp -r --preserve=timestamps "$BACKUP_DIR/." "$DST"
 
-if [ "$ACTION" == "NEW" ]; then
-    sudo cp -r --preserve=timestamps "$BACKUP_DIR/." "$DST"
-else
-    sudo cp -ur --preserve=timestamps "$BACKUP_DIR/." "$DST"
-fi
-
-# Set ownership of some directories to user 'serhiy'
-sudo chown -R serhiy:serhiy ~/.config
-sudo chown -R serhiy:serhiy ~/.mozilla/firefox/npm6t8vy.default
+# Set ownership to current user for all $HOME content
+sudo chown -R $USER:$USER $HOME/{.[!.],}*
 
 # Restore metadata for all backup files
 for FILE in $METADATA_DIR/{.[!.],}*; do
