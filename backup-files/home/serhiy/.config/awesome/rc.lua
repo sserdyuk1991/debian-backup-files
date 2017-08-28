@@ -107,7 +107,7 @@ myawesomemenu = {
 mymainmenu = awful.menu({ items = { { "awesome", myawesomemenu, beautiful.awesome_icon },
                                     { "open terminal", terminal },
                                     { "toggle touchpad", exec_myscript .. "toggle-touchpad.sh" },
-                                    { "run qtcreator", term_exec .. "/opt/Qt/Tools/QtCreator/bin/qtcreator" }
+                                    { "run qtcreator", term_exec .. "/opt/Qt/Tools/QtCreator/bin/qtcreator" },
                                     { "lock screen", exec_myscript .. "lock.sh" }
                                   }
                         })
@@ -557,7 +557,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Set primary video output
 awful.util.spawn_with_shell("xrandr --output HDMI-1 --primary")
 -- Set keyboards layout
-awful.util.spawn_with_shell("$HOME/.bin/set-keyboards.bash")
+awful.util.spawn_with_shell("$HOME/.bin/set-keyboards.sh")
 -- Start Dropbox
 awful.util.spawn_with_shell("$HOME/.bin/dropbox.py start")
 -- Start Firefox
@@ -566,3 +566,5 @@ awful.util.spawn_with_shell("firefox")
 awful.util.spawn_with_shell("skype")
 -- Start xautolock
 awful.util.spawn_with_shell("xautolock -time 5 -locker lock.sh")
+-- Start NetworkManager systray applet
+awful.util.spawn_with_shell("nm-applet")
