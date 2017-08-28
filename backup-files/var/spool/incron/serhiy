@@ -1,5 +1,4 @@
 /var/spool/incron/serhiy IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
-/home/serhiy/.xinitrc IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.vimrc IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.bashrc IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.bash_aliases IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
