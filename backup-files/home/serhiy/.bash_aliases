@@ -36,5 +36,11 @@ alias questions='vim ~/Dropbox/work/work_questions.txt'
 alias findroot='sudo find / -name'
 alias findhere='find . -name'
 
-# Aliases for ranger
+# Alias for ranger
 alias rg='ranger'
+
+# Alias for calendar
+alias cal='ncal -b -M'
+
+# Alias for calculator
+alias bc='bc -q'
