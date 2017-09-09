@@ -27,7 +27,7 @@ echo "source: $SRC" >> "$LOG"
 echo "destination: $DST" >> "$LOG"
 
 # Restore backup files
-sudo cp -r --preserve=timestamps "$BACKUP_DIR/." "$DST"
+sudo cp -r "$BACKUP_DIR/." "$DST"
 
 # Set ownership to current user for all $HOME content
 sudo chown -R $USER:$USER $HOME/{.[!.],}*

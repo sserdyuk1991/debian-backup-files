@@ -1,4 +1,4 @@
 #!/bin/bash
 
 rm -r "$HOME/Dropbox.bak"
-cp -r --preserve=timestamps "$HOME/Dropbox" "$HOME/Dropbox.bak"
+cp -r "$HOME/Dropbox" "$HOME/Dropbox.bak"
