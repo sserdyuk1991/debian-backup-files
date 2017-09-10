@@ -7,6 +7,15 @@ set -e
 # Initialize log file
 init_log $0
 
+# Input errors checking
+if [[ $# -eq 0 ]]; then
+    log "There is should be at least one argument passed"
+    exit 1
+elif [[ -z "${1// }" ]]; then
+    log "There is should be nonempty backup target filename specified"
+    exit 1
+fi
+
 # Target to backup
 TARGET=$1
 # incron action
