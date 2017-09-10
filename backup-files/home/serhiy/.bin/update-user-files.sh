@@ -32,17 +32,17 @@ declare -a files=(".bin/set-keyboards.sh"
 # Update files in loop
 for file in "${files[@]}"
 do
-    TARGET_HOME=/home/$TARGET_USER
+    TARGET_HOME="/home/$TARGET_USER"
     TARGET_DIR=$TARGET_HOME/$(dirname $file)
     log "target dir: $TARGET_DIR"
     sudo mkdir -p $TARGET_DIR
 
     TARGET_FILE=$TARGET_HOME/$file
     log "target file: $TARGET_FILE"
-    SOURCE_FILE=$HOME/debian-backup-files/backup-files$HOME/$file
+    SOURCE_FILE="$HOME/debian-backup-files/backup-files$HOME/$file"
     log "source file: $SOURCE_FILE"
     sudo cp -r $SOURCE_FILE "$TARGET_FILE"
 
     METADATA_FILE=$(basename $file)
-    sudo $HOME/.bin/restore-metadata.sh $METADATA_FILE -u "$TARGET_USER" -t "$TARGET_FILE"
+    sudo $HOME/.bin/restore-metadata.sh "$METADATA_FILE" -u "$TARGET_USER" -t "$TARGET_FILE"
 done

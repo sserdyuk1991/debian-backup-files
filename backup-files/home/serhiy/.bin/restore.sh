@@ -7,8 +7,8 @@ set -e
 # Initialize log file
 init_log $0
 
-SRC="$HOME"
-DST="/"
+SRC=$HOME
+DST=/
 
 OPTIND=1
 
