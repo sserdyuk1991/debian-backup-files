@@ -33,6 +33,6 @@ sudo cp -r "$BACKUP_DIR/." "$DST"
 sudo chown -R $USER:$USER $HOME/{.[!.],}*
 
 # Restore metadata for all backup files
-for FILE in $METADATA_DIR/{.[!.],}*; do
-    sudo /home/serhiy/.bin/restore-metadata.sh "$FILE"
+for METADATA_FILE in $METADATA_DIR/{.[!.],}*; do
+    sudo $HOME/.bin/restore-metadata.sh $(basename "$METADATA_FILE")
 done
