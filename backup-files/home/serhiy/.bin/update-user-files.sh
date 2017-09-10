@@ -4,10 +4,8 @@
 
 set -e
 
-# Define the log file name
-LOG_FILE=/tmp/$(basename $0 .sh).log
-# Append current date and time to log file
-log "$0: $(date '+%d/%m/%Y %H:%M:%S')"
+# Initialize log file
+init_log $0
 
 # Input errors checking
 if [[ $# -gt 1 ]]; then

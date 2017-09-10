@@ -1,6 +1,11 @@
 #!/bin/bash
 
-LOG="/tmp/restore.log"
+. utils.sh      # Necessary for log function
+
+set -e
+
+# Initialize log file
+init_log $0
 
 SRC="$HOME"
 DST="/"
@@ -23,8 +28,8 @@ SRC="$SRC/debian-backup-files"
 BACKUP_DIR="$SRC/backup-files"
 METADATA_DIR="$SRC/metadata"
 
-echo "source: $SRC" >> "$LOG"
-echo "destination: $DST" >> "$LOG"
+log "source: $SRC"
+log "destination: $DST"
 
 # Restore backup files
 sudo cp -r "$BACKUP_DIR/." "$DST"

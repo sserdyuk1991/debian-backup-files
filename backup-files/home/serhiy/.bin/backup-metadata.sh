@@ -1,5 +1,12 @@
 #!/bin/bash
 
+. utils.sh      # Necessary for log function
+
+set -e
+
+# Initialize log file
+init_log $0
+
 # Target to metadata backup
 TARGET="$1"
 # incron action
@@ -18,10 +25,9 @@ else
     METADATA="$METADATA/`basename "$1"`"
 fi
 
-LOG="/tmp/backup-metadata.log"
-echo "source file/dir: $TARGET" > "$LOG"
-echo "event: $ACTION" >> "$LOG"
-echo "output file: $METADATA" >> "$LOG"
+log "source file/dir: $TARGET"
+log "event: $ACTION"
+log "output file: $METADATA"
 
 if [ "$ACTION" == "IN_DELETE" ] || [ "$ACTION" == "IN_DELETE,IN_ISDIR" ]; then
     rm "$METADATA"

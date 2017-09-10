@@ -1,8 +1,11 @@
 #!/bin/bash
 
-LOG="/tmp/backup-one.log"
-# Initialize log
-echo `date "+%T"` > $LOG
+. utils.sh      # Necessary for log function
+
+set -e
+
+# Initialize log file
+init_log $0
 
 # Target to backup
 TARGET="$1"
@@ -12,7 +15,7 @@ ACTION="$2"
 METADATA_NAME="$3"
 
 if [ ! -e "$TARGET" ]; then
-    echo "backup-one.sh: cannot backup '$TARGET': No such file or directory" >> "$LOG"
+    log "backup-one.sh: cannot backup '$TARGET': No such file or directory"
 fi
 
 # Root directory for backups
@@ -27,9 +30,9 @@ FILE_OWNER=`stat -c %U "$TARGET"`
 # Get the owner of the parent directory
 DIR_OWNER=`stat -c %U "$SOURCE_DIR"`
 
-echo "source file/dir: $TARGET" >> "$LOG"
-echo "event: $ACTION" >> "$LOG"
-echo "destination dir: $DEST_DIR" >> "$LOG"
+log "source file/dir: $TARGET"
+log "event: $ACTION"
+log "destination dir: $DEST_DIR"
 
 if [ "$ACTION" == "IN_DELETE" ] || [ "$ACTION" == "IN_DELETE,IN_ISDIR" ]; then
     rm -r "$BACKUP_DIR$TARGET"
