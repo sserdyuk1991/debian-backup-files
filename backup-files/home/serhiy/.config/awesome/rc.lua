@@ -568,3 +568,5 @@ awful.util.spawn_with_shell("skype")
 awful.util.spawn_with_shell("xautolock -time 5 -locker lock.sh")
 -- Start NetworkManager systray applet
 awful.util.spawn_with_shell("nm-applet")
+-- Start VNC server connected to current X session
+awful.util.spawn_with_shell("x0vncserver --SecurityTypes=None")
