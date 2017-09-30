@@ -481,7 +481,9 @@ awful.rules.rules = {
 
     -- Set Firefox to always map on the tag named "2" on screen 1.
     { rule = { class = "Firefox" }, properties = { screen = 1, tag = "2" } },
-    { rule = { class = "Skype" }, properties = { screen = 1, tag = "5" } }
+    { rule = { class = "skypeforlinux" }, properties = { screen = 1, tag = "5" } },
+    { rule = { class = "Slack" }, properties = { screen = 1, tag = "6" } },
+    { rule = { class = "Viber" }, properties = { screen = 1, tag = "7" } }
 }
 -- }}}
 
@@ -561,7 +563,11 @@ awful.util.spawn_with_shell("$HOME/.bin/set-keyboards.sh")
 -- Start Firefox
 awful.util.spawn_with_shell("firefox")
 -- Start Skype
-awful.util.spawn_with_shell("skype")
+awful.util.spawn_with_shell("skypeforlinux")
+-- Start Slack
+awful.util.spawn_with_shell("slack")
+-- Start Viber
+awful.util.spawn_with_shell("/opt/viber/Viber")
 -- Start xautolock
 awful.util.spawn_with_shell("xautolock -time 5 -locker lock.sh")
 -- Start NetworkManager systray applet
