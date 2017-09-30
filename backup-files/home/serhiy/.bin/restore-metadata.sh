@@ -10,15 +10,18 @@ set -e
 init_log "$0"
 
 # Input errors checking
-if [[ $# -eq 0 ]]; then
-    log "There is should be at least one argument passed"
+if [[ $# -lt 2 ]]; then
+    log "There are should be at least two arguments passed"
     exit 1
 elif [[ -z "${1// }" ]]; then
+    log "There is should be nonempty parent directory for backup repo specified"
+    exit 1
+elif [[ -z "${2// }" ]]; then
     log "There is should be nonempty metadata filename specified"
     exit 1
 fi
 
-METADATA_FILE="/home/serhiy/debian-backup-files/metadata/$1"
+METADATA_FILE="$1/debian-backup-files/metadata/$2"
 
 read -r PERMISSIONS OWNER GROUP TARGET_FILE <<< $(cat "$METADATA_FILE")
 
