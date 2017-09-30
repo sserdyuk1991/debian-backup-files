@@ -558,8 +558,6 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 awful.util.spawn_with_shell("xrandr --output HDMI-1 --primary")
 -- Set keyboards layout
 awful.util.spawn_with_shell("$HOME/.bin/set-keyboards.sh")
--- Start Dropbox
-awful.util.spawn_with_shell("$HOME/.bin/dropbox.py start")
 -- Start Firefox
 awful.util.spawn_with_shell("firefox")
 -- Start Skype
