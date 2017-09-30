@@ -23,18 +23,17 @@ done
 
 shift $((OPTIND-1))
 
-SRC="$SRC/../debian-backup-files"
+REPO_DIR="$SRC/debian-backup-files"
+BACKUP_FILES_DIR="$REPO_DIR/backup-files"
+METADATA_DIR="$REPO_DIR/metadata"
 
-BACKUP_DIR="$SRC/backup-files"
-METADATA_DIR="$SRC/metadata"
-
-log "source: $BACKUP_DIR"
+log "source: $BACKUP_FILES_DIR"
 log "destination: $DST"
 
 # Restore backup files
-sudo cp -r "$BACKUP_DIR/." "$DST"
+sudo cp -r "$BACKUP_FILES_DIR/." "$DST"
 
 # Restore metadata for all backup files
 for METADATA_FILE in $METADATA_DIR/{.[!.],}*; do
-    sudo $HOME/.bin/restore-metadata.sh "$SRC/.." "$(basename "$METADATA_FILE")"
+    sudo $HOME/.bin/restore-metadata.sh "$SRC" "$(basename "$METADATA_FILE")"
 done
