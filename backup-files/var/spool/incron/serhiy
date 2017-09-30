@@ -15,7 +15,6 @@
 /home/serhiy/.config/ranger/rc.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.mozilla/firefox/profiles.ini IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.mozilla/firefox/npm6t8vy.default/prefs.js IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
-/home/serhiy/dir_example IN_MODIFY,IN_ATTRIB,IN_CREATE,IN_DELETE /home/serhiy/.bin/backup-one.sh $@/$# $%
 /etc/incron.allow IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/apt/sources.list IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/lightdm/lightdm.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
