@@ -8,7 +8,6 @@
 /home/serhiy/.bin/backup-metadata.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.bin/restore-all.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.bin/restore-metadata.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
-/home/serhiy/.bin/backup-dropbox.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.bin/update-user-files.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.bin/utils.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.config/awesome/rc.lua IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
