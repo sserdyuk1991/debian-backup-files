@@ -30,8 +30,10 @@ fi
 
 # Root directory for backups
 BACKUP_DIR="$HOME/debian-backup-files/backup-files"
-# Location of target file in system rootfs
+# Location of target file in system's rootfs
 SOURCE_DIR=$(dirname "$TARGET")
+# Target filename
+TARGET_NAME=$(basename "$TARGET")
 # Directory where backup will be placed
 DEST_DIR=$BACKUP_DIR$SOURCE_DIR
 
@@ -40,9 +42,9 @@ FILE_OWNER=$(stat -c %U "$TARGET")
 # Get the owner of the parent directory
 DIR_OWNER=$(stat -c %U "$SOURCE_DIR")
 
-log "source file/dir: $TARGET"
+log "source file: $TARGET"
 log "event: $ACTION"
-log "destination dir: $DEST_DIR"
+log "destination file: $DEST_DIR/$TARGET_NAME"
 
 if [[ $ACTION == "IN_DELETE" || $ACTION == "IN_DELETE,IN_ISDIR" ]]; then
     rm -r "$BACKUP_DIR$TARGET"

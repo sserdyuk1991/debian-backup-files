@@ -34,9 +34,9 @@ else
     METADATA=$METADATA/$(basename "$TARGET")
 fi
 
-log "source file/dir: $TARGET"
+log "source file: $TARGET"
 log "event: $ACTION"
-log "output file: $METADATA"
+log "destination file: $METADATA"
 
 if [[ $ACTION == "IN_DELETE" || $ACTION == "IN_DELETE,IN_ISDIR" ]]; then
     rm "$METADATA"
