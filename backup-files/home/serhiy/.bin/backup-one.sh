@@ -5,7 +5,7 @@
 set -e
 
 # Initialize log file
-init_log $0
+init_log "$0"
 
 # Input errors checking
 if [[ $# -eq 0 ]]; then
@@ -29,13 +29,13 @@ if [[ ! -e $TARGET ]]; then
 fi
 
 # Root directory for backups
-BACKUP_DIR="$HOME/debian-backup-files/backup-files"
+BACKUP_DIR=$HOME/debian-backup-files/backup-files
 # Location of target file in system's rootfs
 SOURCE_DIR=$(dirname "$TARGET")
 # Target filename
 TARGET_NAME=$(basename "$TARGET")
 # Directory where backup will be placed
-DEST_DIR=$BACKUP_DIR$SOURCE_DIR
+DEST_DIR="$BACKUP_DIR$SOURCE_DIR"
 
 # Get the owner of the file 
 FILE_OWNER=$(stat -c %U "$TARGET")
@@ -48,9 +48,9 @@ log "destination file: $DEST_DIR/$TARGET_NAME"
 
 if [[ $ACTION == "IN_DELETE" || $ACTION == "IN_DELETE,IN_ISDIR" ]]; then
     rm -r "$BACKUP_DIR$TARGET"
-    /home/serhiy/.bin/backup-metadata.sh "$TARGET" "$ACTION" "$METADATA_NAME"
+    /home/serhiy/.bin/backup-metadata.sh "$TARGET" $ACTION "$METADATA_NAME"
 elif [[ $ACTION == "IN_ATTRIB" || $ACTION == "IN_ATTRIB,IN_ISDIR" ]]; then
-    /home/serhiy/.bin/backup-metadata.sh "$TARGET" "$ACTION" "$METADATA_NAME"
+    /home/serhiy/.bin/backup-metadata.sh "$TARGET" $ACTION "$METADATA_NAME"
 else
     mkdir -p "$DEST_DIR"
 
@@ -60,7 +60,7 @@ else
         cp -r "$TARGET" "$DEST_DIR"
     fi
 
-    /home/serhiy/.bin/backup-metadata.sh "$TARGET" "$ACTION" "$METADATA_NAME"
+    /home/serhiy/.bin/backup-metadata.sh "$TARGET" $ACTION "$METADATA_NAME"
     if [[ $ACTION == "IN_IGNORED" ]]; then
         sudo service incron restart
     fi

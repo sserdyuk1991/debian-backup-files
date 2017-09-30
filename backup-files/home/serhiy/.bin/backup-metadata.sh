@@ -5,7 +5,7 @@
 set -e
 
 # Initialize log file
-init_log $0
+init_log "$0"
 
 # Input errors checking
 if [[ $# -eq 0 ]]; then
@@ -24,14 +24,14 @@ ACTION=$2
 NAME=$3
 
 # Directory where backup will be placed
-DEST_DIR="$HOME/debian-backup-files/metadata"
+DEST_DIR=$HOME/debian-backup-files/metadata
 
 # Metadata of target file
 METADATA=$DEST_DIR
 if [[ -n $NAME ]]; then
-    METADATA=$METADATA/$NAME
+    METADATA="$METADATA/$NAME"
 else
-    METADATA=$METADATA/$(basename "$TARGET")
+    METADATA="$METADATA/$(basename "$TARGET")"
 fi
 
 log "source file: $TARGET"

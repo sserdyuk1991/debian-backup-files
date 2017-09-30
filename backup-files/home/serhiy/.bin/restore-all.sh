@@ -5,7 +5,7 @@
 set -e
 
 # Initialize log file
-init_log $0
+init_log "$0"
 
 SRC=$HOME
 DST=/

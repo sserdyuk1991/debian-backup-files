@@ -7,7 +7,7 @@ SRC_HOME=/home/serhiy
 set -e
 
 # Initialize log file
-init_log $0
+init_log "$0"
 
 # Input errors checking
 if [[ $# -eq 0 ]]; then
@@ -41,5 +41,5 @@ log "permissions: $PERMISSIONS"
 log "owner: $OWNER"
 log "group: $GROUP"
 
-sudo chmod "$PERMISSIONS" "$TARGET_FILE"
-sudo chown "$OWNER:$GROUP" "$TARGET_FILE"
+sudo chmod $PERMISSIONS "$TARGET_FILE"
+sudo chown $OWNER:$GROUP "$TARGET_FILE"
