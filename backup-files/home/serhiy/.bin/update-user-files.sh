@@ -39,10 +39,10 @@ do
 
     TARGET_FILE=$TARGET_HOME/$file
     log "target file: $TARGET_FILE"
-    SOURCE_FILE=$HOME/debian-backup-files/backup-files$HOME/$file
+    SOURCE_FILE=$HOME/debian-backup-files/backup-files/home/serhiy/$file
     log "source file: $SOURCE_FILE"
     sudo cp -r $SOURCE_FILE $TARGET_FILE
 
     METADATA_FILE=$(basename $file)
-    sudo $HOME/.bin/restore-metadata.sh $HOME $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
+    sudo ./restore-metadata.sh $HOME $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
 done

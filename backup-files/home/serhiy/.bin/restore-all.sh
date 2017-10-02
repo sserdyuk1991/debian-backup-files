@@ -35,5 +35,5 @@ sudo cp -r "$BACKUP_FILES_DIR/." "$DST"
 
 # Restore metadata for all backup files
 for METADATA_FILE in $METADATA_DIR/{.[!.],}*; do
-    sudo $HOME/.bin/restore-metadata.sh "$SRC" "$(basename "$METADATA_FILE")"
+    sudo ./restore-metadata.sh "$SRC" "$(basename "$METADATA_FILE")"
 done

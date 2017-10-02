@@ -25,7 +25,7 @@ METADATA_FILE="$1/debian-backup-files/metadata/$2"
 
 read -r PERMISSIONS OWNER GROUP TARGET_FILE <<< $(cat "$METADATA_FILE")
 
-OPTIND=2
+OPTIND=3
 
 while getopts "u:t:" opt; do
     case $opt in
