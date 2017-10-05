@@ -39,7 +39,7 @@ do
 
     TARGET_FILE=$TARGET_HOME/$file
     log "target file: $TARGET_FILE"
-    SOURCE_FILE=$HOME/debian-backup-files/backup-files/home/serhiy/$file
+    SOURCE_FILE=$HOME/Workspace/debian-backup-files/backup-files/home/serhiy/$file
     log "source file: $SOURCE_FILE"
     sudo cp -r $SOURCE_FILE $TARGET_FILE
 

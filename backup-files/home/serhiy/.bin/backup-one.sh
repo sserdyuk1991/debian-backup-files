@@ -29,7 +29,7 @@ if [[ ! -e $TARGET ]]; then
 fi
 
 # Root directory for backups
-BACKUP_DIR=$HOME/debian-backup-files/backup-files
+BACKUP_DIR=$HOME/Workspace/debian-backup-files/backup-files
 # Location of target file in system's rootfs
 SOURCE_DIR=$(dirname "$TARGET")
 # Target filename

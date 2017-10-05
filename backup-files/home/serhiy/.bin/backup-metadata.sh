@@ -24,7 +24,7 @@ ACTION=$2
 NAME=$3
 
 # Directory where backup will be placed
-DEST_DIR=$HOME/debian-backup-files/metadata
+DEST_DIR=$HOME/Workspace/debian-backup-files/metadata
 
 # Metadata of target file
 METADATA=$DEST_DIR
