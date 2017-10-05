@@ -19,5 +19,6 @@
 /etc/lightdm/lightdm.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/ssh/sshd_config IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/samba/smb.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
+/etc/xdg/user-dirs.defaults IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /usr/lib/keepass2/plugins/KeePassRPC.plgx IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /usr/share/xsessions/awesome.desktop IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
