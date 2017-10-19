@@ -44,5 +44,5 @@ do
     sudo cp -r $SOURCE_FILE $TARGET_FILE
 
     METADATA_FILE=$(basename $file)
-    sudo ./restore-metadata.sh $HOME $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
+    sudo ./restore-metadata.sh $HOME/Workspace $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
 done
