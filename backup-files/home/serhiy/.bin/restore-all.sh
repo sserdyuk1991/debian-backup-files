@@ -33,7 +33,10 @@ log "destination: $DST"
 # Restore backup files
 sudo cp -r "$BACKUP_FILES_DIR/." "$DST"
 
+# Set ownership to current user for all $HOME content
+sudo chown -R $USER:$USER $HOME/{.[!.],}*
+
 # Restore metadata for all backup files
 for METADATA_FILE in $METADATA_DIR/{.[!.],}*; do
-    sudo ./restore-metadata.sh "$SRC" "$(basename "$METADATA_FILE")"
+    ./restore-metadata.sh "$SRC" "$(basename "$METADATA_FILE")"
 done

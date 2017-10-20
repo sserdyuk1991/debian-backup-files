@@ -44,5 +44,8 @@ do
     sudo cp -r $SOURCE_FILE $TARGET_FILE
 
     METADATA_FILE=$(basename $file)
-    sudo ./restore-metadata.sh $HOME/Workspace $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
+    ./restore-metadata.sh $HOME/Workspace $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
 done
+
+# Set ownership to target user for all content of home directory
+sudo chown -R $TARGET_USER:$TARGET_USER $TARGET_HOME/{.[!.],}*
