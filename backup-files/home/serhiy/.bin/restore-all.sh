@@ -38,5 +38,5 @@ sudo chown -R $USER:$USER $HOME/{.[!.],}*
 
 # Restore metadata for all backup files
 for METADATA_FILE in $METADATA_DIR/{.[!.],}*; do
-    ./restore-metadata.sh "$SRC" "$(basename "$METADATA_FILE")"
+    "$(dirname "$0")/restore-metadata.sh" "$SRC" "$(basename "$METADATA_FILE")"
 done
