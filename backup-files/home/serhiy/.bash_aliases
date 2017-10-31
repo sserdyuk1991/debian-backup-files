@@ -44,3 +44,6 @@ alias cal='ncal -b -M'
 
 # Alias for calculator
 alias bc='bc -q'
+
+# Alias for emacs
+alias emacs='emacs -nw'
