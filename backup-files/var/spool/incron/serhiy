@@ -16,6 +16,7 @@
 /home/serhiy/.bin/utils.sh IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.config/awesome/rc.lua IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.config/ranger/rc.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
+/home/serhiy/.emacs IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.gitconfig IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.mozilla/firefox/npm6t8vy.default/prefs.js IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.mozilla/firefox/profiles.ini IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
