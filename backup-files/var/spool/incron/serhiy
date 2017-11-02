@@ -1,5 +1,6 @@
 /etc/apt/sources.list IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/incron.allow IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
+/etc/inputrc IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/lightdm/lightdm.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/samba/smb.conf IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /etc/ssh/sshd_config IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
