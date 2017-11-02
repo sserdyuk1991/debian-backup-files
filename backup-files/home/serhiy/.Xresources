@@ -63,6 +63,6 @@ urxvt.colorUL: #00e089
 
 ! clipboard configuring
 !urxvt.keysym.C-c: perl:clipboard:copy
-urxvt.keysym.C-v: perl:clipboard:paste
-urxvt.keysym.C-M-v: perl:clipboard:paste_escaped
+!urxvt.keysym.C-v: perl:clipboard:paste
+!urxvt.keysym.C-M-v: perl:clipboard:paste_escaped
 urxvt.clipboard.autocopy: true

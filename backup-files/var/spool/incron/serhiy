@@ -21,6 +21,7 @@
 /home/serhiy/.mozilla/firefox/npm6t8vy.default/prefs.js IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.mozilla/firefox/profiles.ini IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /home/serhiy/.vimrc IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
+/home/serhiy/.Xresources IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /usr/lib/keepass2/plugins/KeePassRPC.plgx IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /usr/share/xsessions/awesome.desktop IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
 /var/spool/incron/serhiy IN_MODIFY,IN_ATTRIB /home/serhiy/.bin/backup-one.sh $@ $%
