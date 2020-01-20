@@ -39,12 +39,13 @@ do
 
     TARGET_FILE=$TARGET_HOME/$file
     log "target file: $TARGET_FILE"
-    SOURCE_FILE=$HOME/Workspace/debian-backup-files/backup-files/home/serhiy/$file
+    PARENT_REPO=$HOME/Workspace/Projects/gnulinux-post-install
+    SOURCE_FILE=$PARENT_REPO/gnulinux-backup/files/home/serhiy/$file
     log "source file: $SOURCE_FILE"
     sudo cp -r $SOURCE_FILE $TARGET_FILE
 
     METADATA_FILE=$(basename $file)
-    ./restore-metadata.sh $HOME/Workspace $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
+    ./restore-metadata.sh $PARENT_REPO $METADATA_FILE -u $TARGET_USER -t $TARGET_FILE
 done
 
 # Set ownership to target user for all content of home directory

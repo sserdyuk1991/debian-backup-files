@@ -7,7 +7,7 @@ set -e
 # Initialize log file
 init_log "$0"
 
-SRC=$HOME/Workspace
+SRC=$HOME/Workspace/Projects/gnulinux-post-install
 DST=/
 
 OPTIND=1
@@ -23,15 +23,15 @@ done
 
 shift $((OPTIND-1))
 
-REPO_DIR="$SRC/debian-backup-files"
-BACKUP_FILES_DIR="$REPO_DIR/backup-files"
+REPO_DIR="$SRC/gnulinux-backup"
+FILES_DIR="$REPO_DIR/files"
 METADATA_DIR="$REPO_DIR/metadata"
 
-log "source: $BACKUP_FILES_DIR"
+log "source: $FILES_DIR"
 log "destination: $DST"
 
 # Restore backup files
-sudo cp -r "$BACKUP_FILES_DIR/." "$DST"
+sudo cp -r "$FILES_DIR/." "$DST"
 
 # Set ownership to current user for all $HOME content
 sudo chown -R $USER:$USER $HOME/{.[!.],}*

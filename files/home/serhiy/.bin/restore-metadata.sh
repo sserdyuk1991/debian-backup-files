@@ -21,7 +21,7 @@ elif [[ -z "${2// }" ]]; then
     exit 1
 fi
 
-METADATA_FILE="$1/debian-backup-files/metadata/$2"
+METADATA_FILE="$1/gnulinux-backup/metadata/$2"
 
 read -r PERMISSIONS OWNER GROUP TARGET_FILE <<< $(cat "$METADATA_FILE")
 
